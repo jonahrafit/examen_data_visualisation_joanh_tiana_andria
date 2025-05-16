@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Retards par ligne - TransMada</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    svg { background: #f8f8f8; }
+    .bar { fill: steelblue; }
+    .bar:hover { fill: orange; }
+    .axis-label { font-size: 14px; font-weight: bold; }
+    .tooltip {
+      position: absolute;
+      background: #eee;
+      padding: 5px 8px;
+      border: 1px solid #999;
+      border-radius: 4px;
+      pointer-events: none;
+      font-size: 13px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Nombre de retards par ligne (TransMada)</h2>
+<svg width="800" height="400"></svg>
+
+<div class="tooltip"></div>
+
+<script>
+  const svg = d3.select("svg");
+  const margin = {top: 40, right: 20, bottom: 70, left: 60};
+  const width = +svg.attr("width") - margin.left - margin.right;
+  const height = +svg.attr("height") - margin.top - margin.bottom;
+
+  const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+  const tooltip = d3.select(".tooltip");
+
+  d3.csv("transmada_data_500_with_date.csv").then(data => {
+    // Filtrer et compter les retards par ligne
+    const retardsParLigne = d3.rollup(
+      data,
+      v => v.filter(d => d.Retard === "Oui").length,
+      d => d.Ligne
+    );
+
+    const lignes = Array.from(retardsParLigne.keys());
+    const counts = Array.from(retardsParLigne.values());
+
+    // Échelles
+    const x = d3.scaleBand()
+      .domain(lignes)
+      .range([0, width])
+      .padding(0.2);
+
+    const y = d3.scaleLinear()
+      .domain([0, d3.max(counts)])
+      .nice()
+      .range([height, 0]);
+
+    // Axes
+    g.append("g")
+      .attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(x))
+      .selectAll("text")
+      .attr("transform", "rotate(-30)")
+      .style("text-anchor", "end");
+
+    g.append("g")
+      .call(d3.axisLeft(y));
+
+    // Barres
+    g.selectAll(".bar")
+      .data(Array.from(retardsParLigne))
+      .enter()
+      .append("rect")
+      .attr("class", "bar")
+      .attr("x", d => x(d[0]))
+      .attr("y", d => y(d[1]))
+      .attr("width", x.bandwidth())
+      .attr("height", d => height - y(d[1]))
+      .on("mousemove", (event, d) => {
+        tooltip.style("opacity", 1)
+          .style("left", (event.pageX + 10) + "px")
+          .style("top", (event.pageY - 25) + "px")
+          .html(`<strong>${d[0]}</strong><br/>Retards: ${d[1]}`);
+      })
+      .on("mouseout", () => {
+        tooltip.style("opacity", 0);
+      });
+
+    // Labels axes
+    g.append("text")
+      .attr("class", "axis-label")
+      .attr("x", width/2)
+      .attr("y", height + 50)
+      .attr("text-anchor", "middle")
+      .text("Lignes de bus");
+
+    g.append("text")
+      .attr("class", "axis-label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", -45)
+      .attr("x", -height/2)
+      .attr("text-anchor", "middle")
+      .text("Nombre de retards");
+  });
+</script>
+
+</body>
+</html>
