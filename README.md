@@ -90,3 +90,14 @@ Volume de carburant utilisé × coefficient CO₂
 - Données de consommation (voir #2)  
 📋 Comment les obtenir ? - Utiliser la formule : 1L essence ≈ 2,68 kg CO₂ 1L gasoil ≈ 2,64 kg CO₂  
 💡 Astuce Tu n’as besoin que de la consommation pour estimer les émissions  
+
+# Proposition de graphiques modernes adaptés à vos 7 problèmes
+| Problème                  | Graphique moderne / interactif      | Pourquoi / usage principal                                  |
+|---------------------------|-----------------------------------|------------------------------------------------------------|
+| 1. Retards fréquents      | Calendar Heatmap                  | Voir la fréquence des retards jour par jour sur un calendrier |
+| 2. Coûts de carburant élevés | Multi-line Chart                | Comparer l’évolution du carburant par ligne dans le temps   |
+| 3. Taux d’occupation faible | Stacked Bar Chart               | Visualiser proportions des niveaux de remplissage par ligne |
+| 4. Maintenance imprévisible | Timeline + Force-Directed Graph | Visualiser pannes dans le temps + relations entre types de pannes |
+| 5. Insatisfaction client  | Word Cloud                       | Visualiser mots clés / types de plaintes fréquentes         |
+| 6. Itinéraires sous-optimaux | Sankey Diagram                | Visualiser flux des trajets et alternatives entre arrêts    |
+| 7. Émissions CO₂ élevées  | Treemap ou Radial Bar Chart      | Montrer les émissions par ligne ou bus avec tailles relatives |
