@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pannes dans le temps - TransMada</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    svg { background: #fafafa; }
+    .axis-label {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .tooltip {
+      position: absolute;
+      background: #eee;
+      padding: 6px 10px;
+      border: 1px solid #999;
+      border-radius: 4px;
+      pointer-events: none;
+      font-size: 13px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .dot {
+      stroke: #333;
+      stroke-width: 1px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Timeline des pannes (01/04/2025 - 30/04/2025) par ligne</h2>
+
+<svg width="1000" height="400"></svg>
+
+<div class="tooltip"></div>
+
+<script>
+  const svg = d3.select("svg"),
+        margin = {top: 50, right: 150, bottom: 60, left: 80},
+        width = +svg.attr("width") - margin.left - margin.right,
+        height = +svg.attr("height") - margin.top - margin.bottom;
+
+  const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+  const tooltip = d3.select(".tooltip");
+
+  d3.csv("transmada_data_500_with_date.csv").then(data => {
+    data.forEach(d => {
+      d.Date = d3.timeParse("%Y-%m-%d")(d.Date);
+      d.Panne = d.Panne === "Oui";
+      d.Ligne = d.Ligne;
+    });
+
+    // Filtrer les pannes uniquement
+    const pannes = data.filter(d => d.Panne);
+
+    // Extraire lignes distinctes
+    const lignes = Array.from(new Set(data.map(d => d.Ligne)));
+
+    // Échelles
+    const x = d3.scaleTime()
+      .domain(d3.extent(data, d => d.Date))
+      .range([0, width]);
+
+    const y = d3.scaleBand()
+      .domain(lignes)
+      .range([0, height])
+      .padding(0.3);
+
+    // Axe X
+    g.append("g")
+      .attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(x).tickFormat(d3.timeFormat("%d/%m")));
+
+    // Axe Y
+    g.append("g")
+      .call(d3.axisLeft(y));
+
+    // Couleurs par ligne
+    const color = d3.scaleOrdinal(d3.schemeCategory10)
+      .domain(lignes);
+
+    // Points (pannes)
+    g.selectAll(".dot")
+      .data(pannes)
+      .enter()
+      .append("circle")
+      .attr("class", "dot")
+      .attr("cx", d => x(d.Date))
+      .attr("cy", d => y(d.Ligne) + y.bandwidth()/2)
+      .attr("r", 6)
+      .attr("fill", d => color(d.Ligne))
+      .on("mousemove", (event, d) => {
+        tooltip.style("opacity", 1)
+          .style("left", (event.pageX + 15) + "px")
+          .style("top", (event.pageY - 30) + "px")
+          .html(`<strong>Ligne :</strong> ${d.Ligne}<br/><strong>Date :</strong> ${d3.timeFormat("%d/%m/%Y")(d.Date)}`);
+      })
+      .on("mouseout", () => tooltip.style("opacity", 0));
+
+    // Labels axes
+    g.append("text")
+      .attr("class", "axis-label")
+      .attr("x", width / 2)
+      .attr("y", height + 50)
+      .attr("text-anchor", "middle")
+      .text("Date");
+
+    g.append("text")
+      .attr("class", "axis-label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", -60)
+      .attr("x", -height / 2)
+      .attr("text-anchor", "middle")
+      .text("Lignes de bus");
+
+    // Légende
+    const legend = svg.append("g")
+      .attr("transform", `translate(${width + margin.left + 20}, ${margin.top})`);
+
+    lignes.forEach((ligne, i) => {
+      legend.append("rect")
+        .attr("x", 0)
+        .attr("y", i * 25)
+        .attr("width", 18)
+        .attr("height", 18)
+        .attr("fill", color(ligne));
+
+      legend.append("text")
+        .attr("x", 25)
+        .attr("y", i * 25 + 14)
+        .text(ligne);
+    });
+  });
+</script>
+
+</body>
+</html>

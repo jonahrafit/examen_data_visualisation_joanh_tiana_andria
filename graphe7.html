@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Treemap Émissions CO₂ - TransMada</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    svg { background: #fafafa; }
+    .node {
+      box-sizing: border-box;
+      border: 1px solid white;
+      font-size: 14px;
+      overflow: hidden;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      user-select: none;
+    }
+    .tooltip {
+      position: absolute;
+      background: #eee;
+      padding: 6px 10px;
+      border: 1px solid #999;
+      border-radius: 4px;
+      pointer-events: none;
+      font-size: 13px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Treemap des émissions CO₂ par ligne (kg) - TransMada</h2>
+
+<svg width="900" height="500"></svg>
+
+<div class="tooltip"></div>
+
+<script>
+  const svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height");
+
+  const tooltip = d3.select(".tooltip");
+
+  d3.csv("transmada_data_500_with_date.csv").then(data => {
+    data.forEach(d => {
+      d.Ligne = d.Ligne;
+      d.Emissions_CO2_kg = +d.Emissions_CO2_kg;
+    });
+
+    // Calculer émissions totales par ligne
+    const emissionsParLigne = d3.rollups(
+      data,
+      v => d3.sum(v, d => d.Emissions_CO2_kg),
+      d => d.Ligne
+    );
+
+    // Construire la hiérarchie attendue par d3.treemap
+    const root = d3.hierarchy({values: emissionsParLigne}, d => d.values)
+      .sum(d => d[1])
+      .sort((a,b) => b.value - a.value);
+
+    // Treemap layout
+    d3.treemap()
+      .size([width, height])
+      .padding(3)
+      (root);
+
+    // Couleurs
+    const color = d3.scaleOrdinal(d3.schemeSet3);
+
+    // Créer les groupes noeuds
+    const node = svg.selectAll("g")
+      .data(root.leaves())
+      .join("g")
+      .attr("transform", d => `translate(${d.x0},${d.y0})`);
+
+    // Dessiner rectangles
+    node.append("rect")
+      .attr("id", d => d.data[0])
+      .attr("width", d => d.x1 - d.x0)
+      .attr("height", d => d.y1 - d.y0)
+      .attr("fill", (d,i) => color(i))
+      .attr("stroke", "white")
+      .on("mousemove", (event, d) => {
+        tooltip.style("opacity", 1)
+          .style("left", (event.pageX + 15) + "px")
+          .style("top", (event.pageY - 30) + "px")
+          .html(`<strong>${d.data[0]}</strong><br/>Émissions totales : <strong>${d.value.toFixed(1)} kg CO₂</strong>`);
+      })
+      .on("mouseout", () => tooltip.style("opacity", 0));
+
+    // Texte à l’intérieur
+    node.append("text")
+      .attr("x", 5)
+      .attr("y", 20)
+      .attr("fill", "black")
+      .style("font-weight", "bold")
+      .text(d => d.data[0]);
+
+    node.append("text")
+      .attr("x", 5)
+      .attr("y", 40)
+      .attr("fill", "black")
+      .text(d => `${d.value.toFixed(1)} kg CO₂`);
+  });
+</script>
+
+</body>
+</html>
