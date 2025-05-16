@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Évolution carburant par ligne - TransMada</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    svg { background: #f9f9f9; }
+    .line {
+      fill: none;
+      stroke-width: 2.5px;
+    }
+    .axis-label {
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .tooltip {
+      position: absolute;
+      background: #eee;
+      padding: 6px 10px;
+      border: 1px solid #999;
+      border-radius: 4px;
+      pointer-events: none;
+      font-size: 13px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .legend {
+      font-size: 13px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Évolution quotidienne moyenne du carburant consommé par ligne (01/04/2025 - 30/04/2025)</h2>
+
+<svg width="1000" height="500"></svg>
+
+<div class="tooltip"></div>
+
+<script>
+  const svg = d3.select("svg"),
+        margin = {top: 50, right: 150, bottom: 60, left: 70},
+        width = +svg.attr("width") - margin.left - margin.right,
+        height = +svg.attr("height") - margin.top - margin.bottom;
+
+  const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+  const tooltip = d3.select(".tooltip");
+
+  // Couleurs pour les lignes
+  const color = d3.scaleOrdinal(d3.schemeCategory10);
+
+  d3.csv("transmada_data_500_with_date.csv").then(data => {
+    data.forEach(d => {
+      d.Date = d3.timeParse("%Y-%m-%d")(d.Date);
+      d.Carburant_L = +d.Carburant_L;
+      d.Ligne = d.Ligne;
+    });
+
+    // Group by Ligne and Date, compute average carburant
+    const nested = d3.rollups(
+      data,
+      v => d3.mean(v, d => d.Carburant_L),
+      d => d.Ligne,
+      d => d.Date
+    );
+
+    // Transform into array of {ligne, values: [{date, val}]}
+    const linesData = nested.map(([ligne, values]) => ({
+      ligne,
+      values: values.map(([date, val]) => ({date, val})).sort((a,b) => a.date - b.date)
+    }));
+
+    // Définir domaines
+    const allDates = Array.from(new Set(data.map(d => d.Date))).sort((a,b) => a - b);
+    const x = d3.scaleTime()
+      .domain(d3.extent(allDates))
+      .range([0, width]);
+
+    const y = d3.scaleLinear()
+      .domain([0, d3.max(linesData, l => d3.max(l.values, v => v.val))])
+      .nice()
+      .range([height, 0]);
+
+    // Axes
+    g.append("g")
+      .attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(x).tickFormat(d3.timeFormat("%d/%m")));
+
+    g.append("g")
+      .call(d3.axisLeft(y));
+
+    // Ligne generator
+    const lineGen = d3.line()
+      .x(d => x(d.date))
+      .y(d => y(d.val));
+
+    // Dessiner les lignes
+    const lines = g.selectAll(".line-group")
+      .data(linesData)
+      .enter()
+      .append("g")
+      .attr("class", "line-group");
+
+    lines.append("path")
+      .attr("class", "line")
+      .attr("d", d => lineGen(d.values))
+      .attr("stroke", d => color(d.ligne));
+
+    // Tooltip circles
+    lines.selectAll(".circle")
+      .data(d => d.values.map(v => ({...v, ligne: d.ligne})))
+      .enter()
+      .append("circle")
+      .attr("cx", d => x(d.date))
+      .attr("cy", d => y(d.val))
+      .attr("r", 4)
+      .attr("fill", d => color(d.ligne))
+      .on("mousemove", (event, d) => {
+        tooltip.style("opacity", 1)
+          .style("left", (event.pageX + 15) + "px")
+          .style("top", (event.pageY - 30) + "px")
+          .html(`<strong>${d.ligne}</strong><br/>Date: ${d3.timeFormat("%d/%m/%Y")(d.date)}<br/>Carburant moyen: ${d.val.toFixed(2)} L`);
+      })
+      .on("mouseout", () => tooltip.style("opacity", 0));
+
+    // Labels axes
+    g.append("text")
+      .attr("class", "axis-label")
+      .attr("x", width / 2)
+      .attr("y", height + 50)
+      .attr("text-anchor", "middle")
+      .text("Date");
+
+    g.append("text")
+      .attr("class", "axis-label")
+      .attr("transform", "rotate(-90)")
+      .attr("y", -50)
+      .attr("x", -height / 2)
+      .attr("text-anchor", "middle")
+      .text("Carburant consommé (litres)");
+
+    // Légende interactive
+    const legend = svg.append("g")
+      .attr("transform", `translate(${width + margin.left + 20}, ${margin.top})`);
+
+    legend.selectAll("rect")
+      .data(linesData)
+      .enter()
+      .append("rect")
+      .attr("x", 0)
+      .attr("y", (d,i) => i * 30)
+      .attr("width", 18)
+      .attr("height", 18)
+      .attr("fill", d => color(d.ligne))
+      .style("cursor", "pointer")
+      .on("click", (event, d) => {
+        // Toggle visibility
+        const currentOpacity = d3.selectAll(`path.line[stroke='${color(d.ligne)}']`).style("opacity");
+        d3.selectAll(`path.line[stroke='${color(d.ligne)}']`).transition().style("opacity", currentOpacity == 1 ? 0 : 1);
+        d3.selectAll(`circle[fill='${color(d.ligne)}']`).transition().style("opacity", currentOpacity == 1 ? 0 : 1);
+      });
+
+    legend.selectAll("text")
+      .data(linesData)
+      .enter()
+      .append("text")
+      .attr("x", 25)
+      .attr("y", (d,i) => i * 30 + 14)
+      .text(d => d.ligne)
+      .style("cursor", "pointer")
+      .on("click", (event, d) => {
+        const currentOpacity = d3.selectAll(`path.line[stroke='${color(d.ligne)}']`).style("opacity");
+        d3.selectAll(`path.line[stroke='${color(d.ligne)}']`).transition().style("opacity", currentOpacity == 1 ? 0 : 1);
+        d3.selectAll(`circle[fill='${color(d.ligne)}']`).transition().style("opacity", currentOpacity == 1 ? 0 : 1);
+      });
+
+  });
+</script>
+
+</body>
+</html>

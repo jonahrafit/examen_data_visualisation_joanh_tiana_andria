@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sankey Diagram - TransMada Itinéraires</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    svg { background: #fafafa; }
+    .node rect {
+      cursor: move;
+      fill-opacity: 0.9;
+      shape-rendering: crispEdges;
+      stroke: #000;
+      stroke-width: 1px;
+    }
+    .node text {
+      pointer-events: none;
+      text-shadow: 0 1px 0 #fff;
+      font-size: 12px;
+    }
+    .link {
+      fill: none;
+      stroke-opacity: 0.4;
+    }
+    .link:hover {
+      stroke-opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Sankey Diagram : Flux des itinéraires entre quartiers - TransMada</h2>
+
+<svg width="1000" height="600"></svg>
+
+<script>
+  const svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height");
+
+  const sankey = d3.sankey()
+    .nodeWidth(20)
+    .nodePadding(15)
+    .extent([[1, 1], [width - 1, height - 6]]);
+
+  // Simuler des noeuds (zones/quartiers)
+  const graph = {
+    nodes: [
+      {node:0, name:"Analakely"},
+      {node:1, name:"Ankatso"},
+      {node:2, name:"Ambohijatovo"},
+      {node:3, name:"Anosizato"},
+      {node:4, name:"Ankorondrano"},
+      {node:5, name:"Itaosy"},
+      {node:6, name:"Mahamasina"},
+      {node:7, name:"67Ha"},
+      {node:8, name:"Andavamamba"},
+      {node:9, name:"Ivato"}
+    ],
+    links: [
+      // L1: Analakely -> Ankatso
+      {source:0, target:1, value:120},
+      // L2: Ambohijatovo -> Anosizato
+      {source:2, target:3, value:90},
+      // L3: Ankorondrano -> Itaosy
+      {source:4, target:5, value:60},
+      // L4: Mahamasina -> 67Ha
+      {source:6, target:7, value:100},
+      // L5: Andavamamba -> Ivato
+      {source:8, target:9, value:80},
+
+      // Alternatives sous-optimales / détours
+      {source:0, target:3, value:20}, // Analakely -> Anosizato (détour)
+      {source:2, target:5, value:10}, // Ambohijatovo -> Itaosy (détour)
+      {source:4, target:7, value:15}, // Ankorondrano -> 67Ha (détour)
+    ]
+  };
+
+  sankey(graph);
+
+  const color = d3.scaleOrdinal(d3.schemeCategory10);
+
+  // Draw links
+  svg.append("g")
+    .attr("fill", "none")
+    .attr("stroke-opacity", 0.4)
+    .selectAll("path")
+    .data(graph.links)
+    .join("path")
+    .attr("class", "link")
+    .attr("d", d3.sankeyLinkHorizontal())
+    .attr("stroke", d => color(d.source.name))
+    .attr("stroke-width", d => Math.max(1, d.width))
+    .on("mouseover", (event, d) => {
+      tooltip.style("opacity", 1)
+        .style("left", (event.pageX + 15) + "px")
+        .style("top", (event.pageY - 30) + "px")
+        .html(`De <strong>${d.source.name}</strong> à <strong>${d.target.name}</strong><br/>Flux : <strong>${d.value}</strong> trajets`);
+    })
+    .on("mouseout", () => tooltip.style("opacity", 0));
+
+  // Draw nodes
+  const node = svg.append("g")
+    .attr("stroke", "#000")
+    .selectAll("g")
+    .data(graph.nodes)
+    .join("g")
+    .attr("class", "node")
+    .attr("transform", d => `translate(${d.x0},${d.y0})`);
+
+  node.append("rect")
+    .attr("height", d => d.y1 - d.y0)
+    .attr("width", sankey.nodeWidth())
+    .attr("fill", d => color(d.name))
+    .attr("stroke-width", 1);
+
+  node.append("text")
+    .attr("x", -6)
+    .attr("y", d => (d.y1 - d.y0) / 2)
+    .attr("dy", "0.35em")
+    .attr("text-anchor", "end")
+    .text(d => d.name)
+    .filter(d => d.x0 < width / 2)
+    .attr("x", 6 + sankey.nodeWidth())
+    .attr("text-anchor", "start");
+
+  // Tooltip div
+  const tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0);
+
+</script>
+
+</body>
+</html>

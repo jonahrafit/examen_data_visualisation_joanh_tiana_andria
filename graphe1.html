@@ -2,22 +2,26 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Retards par ligne - TransMada</title>
+  <title>Calendar Heatmap des Retards - TransMada</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     body { font-family: Arial, sans-serif; margin: 30px; }
-    svg { background: #f8f8f8; }
-    .bar { fill: steelblue; }
-    .bar:hover { fill: orange; }
-    .axis-label { font-size: 14px; font-weight: bold; }
+    .day {
+      stroke: #ccc;
+      cursor: pointer;
+    }
+    .month-label {
+      font-size: 18px;
+      font-weight: bold;
+    }
     .tooltip {
       position: absolute;
       background: #eee;
-      padding: 5px 8px;
+      padding: 6px 10px;
       border: 1px solid #999;
       border-radius: 4px;
       pointer-events: none;
-      font-size: 13px;
+      font-size: 14px;
       opacity: 0;
       transition: opacity 0.3s;
     }
@@ -25,89 +29,90 @@
 </head>
 <body>
 
-<h2>Nombre de retards par ligne (TransMada)</h2>
-<svg width="800" height="400"></svg>
+<h2>Calendar Heatmap : Retards quotidiens (01/04/2025 - 30/04/2025)</h2>
+<svg width="1100" height="250"></svg>
 
 <div class="tooltip"></div>
 
 <script>
-  const svg = d3.select("svg");
-  const margin = {top: 40, right: 20, bottom: 70, left: 60};
-  const width = +svg.attr("width") - margin.left - margin.right;
-  const height = +svg.attr("height") - margin.top - margin.bottom;
-
-  const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+  const svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height"),
+        cellSize = 35;  // Plus grand que 25
 
   const tooltip = d3.select(".tooltip");
 
   d3.csv("transmada_data_500_with_date.csv").then(data => {
-    // Filtrer et compter les retards par ligne
-    const retardsParLigne = d3.rollup(
-      data,
-      v => v.filter(d => d.Retard === "Oui").length,
-      d => d.Ligne
+    // Parse dates et filtre du mois d'avril 2025
+    data.forEach(d => {
+      d.Date = d3.timeParse("%Y-%m-%d")(d.Date);
+      d.Retard = d.Retard === "Oui" ? 1 : 0;
+    });
+    const startDate = new Date(2025, 3, 1); // Avril (mois 3 en JS)
+    const endDate = new Date(2025, 3, 30);
+
+    // Aggrégation du nombre de retards par jour
+    const retardsParJour = d3.rollups(
+      data.filter(d => d.Date >= startDate && d.Date <= endDate),
+      v => d3.sum(v, d => d.Retard),
+      d => d.Date
     );
 
-    const lignes = Array.from(retardsParLigne.keys());
-    const counts = Array.from(retardsParLigne.values());
+    // Compléter les dates manquantes à 0 retard
+    const dateMap = new Map(retardsParJour);
+    for(let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() +1)) {
+      if(!dateMap.has(new Date(d).getTime())) {
+        dateMap.set(new Date(d).getTime(), 0);
+      }
+    }
 
-    // Échelles
-    const x = d3.scaleBand()
-      .domain(lignes)
-      .range([0, width])
-      .padding(0.2);
+    // Trier
+    const dataReady = Array.from(dateMap).map(d => [new Date(d[0]), d[1]])
+      .sort((a,b) => a[0] - b[0]);
 
-    const y = d3.scaleLinear()
-      .domain([0, d3.max(counts)])
-      .nice()
-      .range([height, 0]);
+    // Couleurs
+    const color = d3.scaleSequential(d3.interpolateReds)
+      .domain([0, d3.max(dataReady, d => d[1])]);
 
-    // Axes
-    g.append("g")
-      .attr("transform", `translate(0,${height})`)
-      .call(d3.axisBottom(x))
-      .selectAll("text")
-      .attr("transform", "rotate(-30)")
-      .style("text-anchor", "end");
-
-    g.append("g")
-      .call(d3.axisLeft(y));
-
-    // Barres
-    g.selectAll(".bar")
-      .data(Array.from(retardsParLigne))
+    // Dessiner les jours
+    const dayRects = svg.selectAll(".day")
+      .data(dataReady)
       .enter()
       .append("rect")
-      .attr("class", "bar")
-      .attr("x", d => x(d[0]))
-      .attr("y", d => y(d[1]))
-      .attr("width", x.bandwidth())
-      .attr("height", d => height - y(d[1]))
+      .attr("class", "day")
+      .attr("width", cellSize)
+      .attr("height", cellSize)
+      .attr("x", (d, i) => (i % 7) * cellSize + 70)  // Décalage horizontal augmenté
+      .attr("y", d => (Math.floor(d[0].getDate() / 7)) * cellSize + 50) // Décalage vertical augmenté
+      .attr("fill", d => color(d[1]))
+      .attr("stroke", "#aaa")
       .on("mousemove", (event, d) => {
         tooltip.style("opacity", 1)
           .style("left", (event.pageX + 10) + "px")
-          .style("top", (event.pageY - 25) + "px")
-          .html(`<strong>${d[0]}</strong><br/>Retards: ${d[1]}`);
+          .style("top", (event.pageY - 30) + "px")
+          .html(`Date : <strong>${d3.timeFormat("%d/%m/%Y")(d[0])}</strong><br/>Retards : <strong>${d[1]}</strong>`);
       })
-      .on("mouseout", () => {
-        tooltip.style("opacity", 0);
-      });
+      .on("mouseout", () => tooltip.style("opacity", 0));
 
-    // Labels axes
-    g.append("text")
-      .attr("class", "axis-label")
-      .attr("x", width/2)
-      .attr("y", height + 50)
+    // Ajouter label jours (lun à dim)
+    const days = ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"];
+    svg.selectAll(".day-label")
+      .data(days)
+      .enter()
+      .append("text")
+      .attr("class", "day-label")
+      .attr("x", (d,i) => i * cellSize + 70 + cellSize/2)
+      .attr("y", 40)
       .attr("text-anchor", "middle")
-      .text("Lignes de bus");
+      .style("font-size", "16px")
+      .text(d => d);
 
-    g.append("text")
-      .attr("class", "axis-label")
-      .attr("transform", "rotate(-90)")
-      .attr("y", -45)
-      .attr("x", -height/2)
-      .attr("text-anchor", "middle")
-      .text("Nombre de retards");
+    // Ajouter label du mois
+    svg.append("text")
+      .attr("x", 70)
+      .attr("y", 25)
+      .attr("class", "month-label")
+      .text("Avril 2025");
   });
 </script>
 
