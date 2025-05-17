@@ -17,10 +17,9 @@ Problème	Type de graphique (D3.js)	Description
 1. Retards fréquents	Bar chart ou heatmap temporelle	Retards par heure, jour ou ligne
 2. Coûts de carburant élevés	Line chart ou area chart	Évolution du coût par mois/trajet
 3. Taux d’occupation faible	Donut chart ou histogramme	Répartition du taux par ligne ou bus
-4. Maintenance imprévisible	Timeline + scatter plot	Fréquence des pannes vs calendrier
-5. Insatisfaction client	Word cloud ou gauge chart	Analyse des retours clients
-6. Itinéraires sous-optimaux	Carte interactive avec flux (geoJSON)	Visualisation des trajets + alternatives
-7. Émissions CO₂ élevées	Bubble chart ou diagramme radar	Émissions par véhicule/type de ligne
+4. Insatisfaction client	Word cloud ou gauge chart	Analyse des retours clients
+5. Analyse des pannes par météo
+6. Analyse de la demande par type de véhicule
 
 # Comment obtenir les données réelles dans un cas concret ?
 ## Retards fréquents
@@ -51,16 +50,7 @@ Nombre de passagers vs capacité
 Utiliser un formulaire Google simple sur smartphone pour noter à chaque arrêt
 💡 Astuce
 
-## Maintenance imprévisible
-🔍 Ce qu’il faut  
-✅ Source
-Nombre de pannes, historique des réparations
-- Cahier de maintenance - Atelier mécanique interne  
-📋 Comment les obtenir
-- Demander au responsable technique les rapports de panne ou entretien ?  
-💡 Astuce
-Suggérer à l’entreprise de tenir un tableau Excel à remplir chaque semaine (bon
-pour eux aussi)
+
 
 ## Insatisfaction des clients
 🔍 Ce qu’il faut  
@@ -73,31 +63,70 @@ Nombre de plaintes, motifs, évaluations
 Demander des évaluations de 1 à 5 sur : ponctualité, confort, comportement
 chauffeur, propreté  
 
-## Itinéraires sous-optimaux🔍 Ce qu’il faut
-✅ Source  
-Distance réelle vs distance optimale  
-- Cartographie des trajets (Google Maps, OpenStreetMap) - Tracés GPS si
-disponibles  
-📋 Comment les obtenir - Comparer les itinéraires parcourus à la carte - Observer si des détours inutiles ? sont faits
-💡 Astuce  
-Utiliser Google Maps pour simuler le chemin le plus court et comparer avec le trajet
-réel observé  
+## 🚧 Analyse des pannes par météo
+🔍 Ce qu’il faut
+Pannes signalées (Oui / Non)
 
-## Émissions CO₂ élevées
-🔍 Ce qu’il faut  
-✅ Source  
-Volume de carburant utilisé × coefficient CO₂
-- Données de consommation (voir #2)  
-📋 Comment les obtenir ? - Utiliser la formule : 1L essence ≈ 2,68 kg CO₂ 1L gasoil ≈ 2,64 kg CO₂  
-💡 Astuce Tu n’as besoin que de la consommation pour estimer les émissions  
+Conditions météo (pluie, ensoleillé, orage, température…)
 
-# Proposition de graphiques modernes adaptés à vos 7 problèmes
+Date des trajets
+
+✅ Source
+Historique des pannes (rapports de maintenance)
+
+Données météo journalières (API météo comme OpenWeather, WeatherAPI, ou relevés locaux)
+
+Planning des trajets (pour croiser les dates)
+
+📋 Comment les obtenir ?
+Associer chaque trajet à la météo du jour (via une API météo par date et localisation)
+
+Ajouter une colonne Météo (pluie, soleil, etc.) et Température dans les données
+
+Filtrer tous les trajets avec Panne = Oui puis analyser par météo
+
+💡 Astuce
+Pour une première analyse, utilisez simplement la date et une ville centrale (ex: Tana) pour récupérer la météo quotidienne.
+
+Si plusieurs lignes couvrent des zones éloignées, affinez par localisation GPS (si disponible).
+
+## 🚐 Analyse de la demande par type de véhicule
+🔍 Ce qu’il faut
+Nombre de passagers par trajet
+
+Capacité du véhicule
+
+Type de véhicule (catégorie : 5, 7, 9, +9 places)
+
+Taux de remplissage (%)
+
+✅ Source
+Fiches journalières de trajets
+
+Base de données des véhicules (modèle, capacité)
+
+Historique de location ou de réservation si disponible
+
+📋 Comment les obtenir ?
+Ajouter une colonne Catégorie_Véhicule selon la capacité (ex: 5 places → “petit”, >9 → “grand”)
+
+Regrouper les trajets par Catégorie_Véhicule et calculer la demande (passagers, trajets, taux de remplissage)
+
+Croiser avec les jours de la semaine ou les lignes pour détecter des préférences
+
+💡 Astuce
+Utilisez des couleurs ou des formes différentes pour visualiser les préférences par catégorie dans un bar chart groupé
+
+Si certaines catégories sont très peu utilisées, envisagez de les redéployer ou de les vendre
+
+
+
+# Proposition de graphiques modernes adaptés à vos 6 problèmes
 | Problème                  | Graphique moderne / interactif      | Pourquoi / usage principal                                  |
 |---------------------------|-----------------------------------|------------------------------------------------------------|
 | 1. Retards fréquents      | Calendar Heatmap                  | Voir la fréquence des retards jour par jour sur un calendrier |
 | 2. Coûts de carburant élevés | Multi-line Chart                | Comparer l’évolution du carburant par ligne dans le temps   |
-| 3. Taux d’occupation faible | Stacked Bar Chart               | Visualiser proportions des niveaux de remplissage par ligne |
-| 4. Maintenance imprévisible | Timeline + Force-Directed Graph | Visualiser pannes dans le temps + relations entre types de pannes |
-| 5. Insatisfaction client  | Word Cloud                       | Visualiser mots clés / types de plaintes fréquentes         |
-| 6. Itinéraires sous-optimaux | Sankey Diagram                | Visualiser flux des trajets et alternatives entre arrêts    |
-| 7. Émissions CO₂ élevées  | Treemap ou Radial Bar Chart      | Montrer les émissions par ligne ou bus avec tailles relatives |
+| 3. Taux d’occupation faible | Stacked Bar Chart               | Visualiser proportions des niveaux de remplissage par ligne ||
+| 4. Insatisfaction client  | Word Cloud                       | Visualiser mots clés / types de plaintes fréquentes         |
+|5. Analyse des pannes par météo | 	Scatter Plot + Color Map          | Étudier la corrélation entre météo (pluie, chaleur...) et pannes par véhicule ou par ligne     |
+| 6. Analyse de la demande par type de véhicule | Grouped Bar Chart     | Comparer la demande client selon les types de véhicules (5, 7, 9, +9 places) |
