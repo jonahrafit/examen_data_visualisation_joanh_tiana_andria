@@ -1,0 +1,1009 @@
+Date,Ligne,Heure_Départ,Heure_Arrivée,Passagers,Capacité,Carburant_L,Distance_km,Panne,Retard,Plaintes,Remplissage (%),Consommation_par_km,Emissions_CO2_kg,Météo,Type_Voiture,Vacances,Week-end,Heure_Pointe,Dépenses_Maintenance,Satisfaction_Client
+2024-01-01,Ankorondrano – Itaosy,07:45,08:31,30,35,11.1,18,Oui,Non,5,85.7,0.62,29.7,Pluie,5 places,Non,Oui,Non,49870.6,2
+2024-01-02,Ankorondrano – Itaosy,09:15,10:37,23,30,9.4,10,Non,Non,0,76.7,0.94,25.2,Orage,9 places,Oui,Non,Oui,18124.82,2
+2024-01-03,Ankorondrano – Itaosy,11:30,12:47,11,25,11.6,10,Non,Oui,2,44.0,1.16,31.1,Pluie,9 places,Non,Non,Oui,48807.0,1
+2024-01-04,Mahamasina – 67Ha,15:30,16:17,19,30,12.4,10,Non,Non,1,63.3,1.24,33.2,Soleil,5 places,Non,Non,Oui,43850.01,3
+2024-01-05,Andavamamba – Ivato,11:30,12:47,9,25,11.6,19,Non,Non,0,36.0,0.61,31.1,Soleil,5 places,Non,Non,Non,49278.99,3
+2024-01-06,Andavamamba – Ivato,08:15,09:02,32,35,10.5,12,Non,Non,0,91.4,0.88,28.1,Vent fort,5 places,Non,Non,Non,5439.69,5
+2024-01-07,Andavamamba – Ivato,14:00,15:01,7,40,15.8,20,Non,Non,1,17.5,0.79,42.3,Brouillard,7 places,Non,Non,Oui,35850.44,4
+2024-01-08,Analakely – Ankatso,20:15,21:34,24,25,11.5,15,Non,Non,1,96.0,0.77,30.8,Soleil,12 places,Oui,Non,Oui,22662.21,5
+2024-01-09,Andavamamba – Ivato,08:00,09:11,25,30,8.9,18,Non,Non,0,83.3,0.49,23.9,Soleil,5 places,Oui,Non,Oui,42793.76,2
+2024-01-10,Andavamamba – Ivato,08:30,09:43,27,30,16.9,17,Oui,Non,0,90.0,0.99,45.3,Soleil,5 places,Oui,Oui,Non,14705.38,3
+2024-01-11,Andavamamba – Ivato,16:15,16:59,20,35,11.5,16,Non,Oui,2,57.1,0.72,30.8,Brouillard,12 places,Non,Non,Non,46941.26,1
+2024-01-12,Mahamasina – 67Ha,09:30,10:05,27,40,17.9,16,Non,Oui,2,67.5,1.12,48.0,Brouillard,5 places,Non,Non,Oui,22590.77,4
+2024-01-13,Mahamasina – 67Ha,15:00,15:39,11,40,9.4,15,Non,Non,0,27.5,0.63,25.2,Pluie,5 places,Non,Non,Oui,29357.0,3
+2024-01-14,Ambohijatovo – Anosizato,07:15,08:08,12,40,12.0,18,Oui,Non,2,30.0,0.67,32.2,Brouillard,7 places,Non,Oui,Oui,47788.86,4
+2024-01-15,Mahamasina – 67Ha,10:00,10:43,21,30,13.4,12,Oui,Oui,0,70.0,1.12,35.9,Pluie,9 places,Non,Oui,Oui,41808.52,2
+2024-01-16,Andavamamba – Ivato,05:30,06:50,7,25,13.6,14,Non,Non,0,28.0,0.97,36.4,Orage,12 places,Non,Non,Non,48646.04,1
+2024-01-17,Ambohijatovo – Anosizato,18:30,19:57,34,40,11.0,17,Non,Non,1,85.0,0.65,29.5,Soleil,7 places,Non,Non,Non,39302.83,3
+2024-01-18,Andavamamba – Ivato,13:30,14:09,5,40,9.5,12,Non,Non,1,12.5,0.79,25.5,Orage,5 places,Oui,Oui,Non,47831.53,3
+2024-01-19,Analakely – Ankatso,13:45,14:28,13,25,16.9,13,Non,Non,0,52.0,1.3,45.3,Orage,9 places,Non,Non,Non,7889.4,4
+2024-01-20,Andavamamba – Ivato,11:45,12:41,9,30,11.0,13,Non,Oui,2,30.0,0.85,29.5,Orage,7 places,Non,Non,Oui,28688.12,1
+2024-01-21,Ankorondrano – Itaosy,18:30,19:24,17,30,15.9,13,Oui,Non,0,56.7,1.22,42.6,Pluie,9 places,Non,Non,Oui,14753.29,3
+2024-01-22,Andavamamba – Ivato,13:45,14:33,39,40,10.1,10,Non,Non,1,97.5,1.01,27.1,Orage,12 places,Oui,Non,Oui,9721.86,5
+2024-01-23,Ankorondrano – Itaosy,18:15,19:26,8,35,16.3,20,Non,Non,0,22.9,0.82,43.7,Brouillard,7 places,Non,Non,Non,36168.17,5
+2024-01-24,Ankorondrano – Itaosy,09:45,10:30,24,25,12.1,15,Non,Non,0,96.0,0.81,32.4,Brouillard,9 places,Non,Non,Non,12179.51,2
+2024-01-25,Andavamamba – Ivato,19:30,20:10,11,25,16.7,20,Non,Non,1,44.0,0.83,44.8,Vent fort,7 places,Non,Non,Oui,10853.88,4
+2024-01-26,Analakely – Ankatso,19:00,19:42,11,25,9.2,16,Non,Non,1,44.0,0.57,24.7,Orage,5 places,Oui,Non,Oui,25463.29,4
+2024-01-27,Ankorondrano – Itaosy,17:45,18:34,18,35,8.4,15,Non,Non,1,51.4,0.56,22.5,Pluie,5 places,Oui,Non,Non,42891.5,1
+2024-01-28,Ambohijatovo – Anosizato,16:00,17:28,24,25,16.6,19,Non,Oui,4,96.0,0.87,44.5,Brouillard,5 places,Oui,Non,Non,31040.39,4
+2024-01-29,Ambohijatovo – Anosizato,16:30,17:41,6,25,11.7,14,Oui,Non,1,24.0,0.84,31.4,Pluie,12 places,Oui,Non,Non,23186.31,1
+2024-01-30,Ankorondrano – Itaosy,12:15,12:51,28,35,10.7,15,Non,Oui,4,80.0,0.71,28.7,Soleil,5 places,Oui,Non,Oui,15263.59,5
+2024-01-31,Mahamasina – 67Ha,18:15,18:50,15,30,17.3,13,Non,Non,1,50.0,1.33,46.4,Orage,9 places,Oui,Non,Non,46716.55,4
+2024-02-01,Ambohijatovo – Anosizato,17:30,18:29,8,40,13.1,18,Non,Oui,4,20.0,0.73,35.1,Soleil,5 places,Non,Non,Oui,44193.61,4
+2024-02-02,Ambohijatovo – Anosizato,11:00,12:21,11,40,17.5,14,Non,Non,1,27.5,1.25,46.9,Soleil,12 places,Oui,Non,Oui,6379.36,5
+2024-02-03,Mahamasina – 67Ha,12:30,13:57,11,35,14.9,18,Non,Non,1,31.4,0.83,39.9,Orage,7 places,Oui,Oui,Non,39246.08,1
+2024-02-04,Andavamamba – Ivato,16:15,16:51,30,35,14.3,13,Non,Non,1,85.7,1.1,38.3,Orage,7 places,Oui,Oui,Non,49835.03,5
+2024-02-05,Andavamamba – Ivato,12:45,14:13,7,40,14.4,12,Non,Non,0,17.5,1.2,38.6,Soleil,5 places,Oui,Non,Oui,36804.97,4
+2024-02-06,Analakely – Ankatso,14:00,14:59,8,25,13.7,15,Non,Non,1,32.0,0.91,36.7,Vent fort,9 places,Non,Non,Non,19985.09,5
+2024-02-07,Mahamasina – 67Ha,19:00,20:10,13,30,13.3,14,Non,Oui,4,43.3,0.95,35.6,Soleil,5 places,Oui,Oui,Oui,48641.95,3
+2024-02-08,Analakely – Ankatso,14:30,15:11,33,35,15.8,19,Non,Oui,2,94.3,0.83,42.3,Vent fort,5 places,Non,Non,Non,44016.42,2
+2024-02-09,Ankorondrano – Itaosy,17:00,18:24,26,30,16.0,14,Non,Oui,0,86.7,1.14,42.9,Vent fort,9 places,Non,Non,Oui,47507.64,1
+2024-02-10,Andavamamba – Ivato,17:00,17:48,15,25,13.2,18,Non,Oui,4,60.0,0.73,35.4,Vent fort,7 places,Non,Non,Non,19227.02,5
+2024-02-11,Analakely – Ankatso,20:15,21:34,24,25,11.5,15,Non,Non,1,96.0,0.77,30.8,Soleil,12 places,Oui,Non,Oui,22662.21,5
+2024-02-01,Andavamamba – Ivato,14:00,15:00,21,30,8.1,15,Non,Non,1,70.0,0.54,21.7,Pluie,5 places,Oui,Non,Oui,32000.92,5
+2024-02-02,Ambohijatovo – Anosizato,10:45,11:20,34,35,10.0,15,Non,Non,0,97.1,0.67,26.8,Vent fort,5 places,Oui,Oui,Oui,26622.81,2
+2024-02-03,Mahamasina – 67Ha,17:30,18:34,34,40,10.0,19,Oui,Oui,4,85.0,0.53,26.8,Orage,12 places,Non,Non,Oui,37291.9,4
+2024-02-04,Mahamasina – 67Ha,15:30,16:17,19,30,12.4,10,Non,Non,1,63.3,1.24,33.2,Soleil,5 places,Non,Non,Oui,43850.01,3
+2024-02-05,Mahamasina – 67Ha,17:45,18:43,5,40,8.4,11,Non,Oui,1,12.5,0.76,22.5,Brouillard,9 places,Oui,Oui,Non,44183.75,1
+2024-02-06,Analakely – Ankatso,09:00,09:33,21,35,8.9,12,Non,Non,0,60.0,0.74,23.9,Brouillard,12 places,Non,Oui,Oui,13195.31,4
+2024-02-07,Ankorondrano – Itaosy,13:15,14:21,23,30,8.0,13,Non,Non,1,76.7,0.62,21.4,Vent fort,12 places,Non,Oui,Oui,29112.25,1
+2024-02-08,Andavamamba – Ivato,14:45,15:15,15,35,13.4,19,Non,Oui,0,42.9,0.71,35.9,Orage,7 places,Oui,Oui,Oui,49444.23,4
+2024-02-09,Mahamasina – 67Ha,08:15,08:49,25,25,17.0,10,Non,Non,1,100.0,1.7,45.6,Vent fort,5 places,Non,Non,Oui,25354.32,1
+2024-02-10,Mahamasina – 67Ha,10:45,11:58,20,35,12.1,16,Non,Oui,4,57.1,0.76,32.4,Brouillard,12 places,Non,Non,Non,42446.04,4
+2024-02-11,Ambohijatovo – Anosizato,10:00,11:21,30,35,11.8,15,Non,Oui,3,85.7,0.79,31.6,Pluie,5 places,Non,Non,Oui,48972.84,2
+2024-02-12,Mahamasina – 67Ha,07:00,07:53,22,35,17.2,17,Non,Non,0,62.9,1.01,46.1,Orage,7 places,Oui,Oui,Oui,31027.41,5
+2024-02-13,Ankorondrano – Itaosy,17:15,18:05,6,25,16.4,17,Non,Non,0,24.0,0.96,44.0,Brouillard,5 places,Oui,Non,Oui,49450.35,1
+2024-02-14,Andavamamba – Ivato,17:00,17:48,15,25,13.2,18,Non,Oui,4,60.0,0.73,35.4,Vent fort,7 places,Non,Non,Non,19227.02,5
+2024-02-15,Ankorondrano – Itaosy,05:45,06:55,24,30,10.9,13,Non,Oui,0,80.0,0.84,29.2,Brouillard,12 places,Oui,Non,Non,34553.15,5
+2024-02-16,Andavamamba – Ivato,15:30,17:00,5,30,17.1,11,Non,Non,1,16.7,1.55,45.8,Orage,12 places,Oui,Oui,Oui,34641.85,2
+2024-02-17,Andavamamba – Ivato,09:45,10:30,27,30,10.9,11,Oui,Oui,2,90.0,0.99,29.2,Vent fort,9 places,Oui,Non,Non,47462.72,4
+2024-02-18,Andavamamba – Ivato,19:15,19:56,5,40,17.6,12,Oui,Non,1,12.5,1.47,47.2,Brouillard,9 places,Oui,Oui,Non,14479.8,5
+2024-02-19,Andavamamba – Ivato,09:15,10:44,32,35,12.2,10,Oui,Non,1,91.4,1.22,32.7,Soleil,7 places,Oui,Non,Oui,16595.73,1
+2024-02-20,Mahamasina – 67Ha,13:15,14:22,15,30,12.1,19,Non,Non,1,50.0,0.64,32.4,Brouillard,5 places,Oui,Non,Oui,15689.45,3
+2024-02-21,Mahamasina – 67Ha,13:45,14:18,14,30,9.1,13,Non,Non,0,46.7,0.7,24.4,Pluie,9 places,Oui,Oui,Oui,24363.77,5
+2024-02-22,Andavamamba – Ivato,09:00,10:07,17,25,12.8,14,Non,Oui,4,68.0,0.91,34.3,Brouillard,9 places,Non,Non,Non,5995.56,4
+2024-02-23,Andavamamba – Ivato,12:45,14:12,14,25,13.6,16,Non,Non,0,56.0,0.85,36.4,Vent fort,7 places,Oui,Oui,Oui,24601.25,2
+2024-02-24,Ankorondrano – Itaosy,17:15,18:07,21,35,13.1,15,Non,Non,0,60.0,0.87,35.1,Vent fort,5 places,Oui,Non,Non,36215.7,4
+2024-02-25,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2024-02-26,Ankorondrano – Itaosy,19:45,20:23,33,35,16.5,14,Non,Non,0,94.3,1.18,44.2,Brouillard,9 places,Non,Non,Oui,19633.55,5
+2024-02-27,Analakely – Ankatso,16:15,16:46,13,40,13.0,10,Oui,Non,1,32.5,1.3,34.8,Orage,12 places,Non,Non,Oui,29012.11,4
+2024-02-28,Ankorondrano – Itaosy,17:15,18:25,22,30,10.3,15,Non,Non,1,73.3,0.69,27.6,Pluie,5 places,Non,Non,Oui,6421.38,4
+2024-02-29,Ambohijatovo – Anosizato,20:15,21:41,9,30,17.1,10,Non,Oui,3,30.0,1.71,45.8,Soleil,5 places,Oui,Non,Oui,37364.08,1
+2024-03-01,Andavamamba – Ivato,17:00,17:48,15,25,13.2,18,Non,Oui,4,60.0,0.73,35.4,Vent fort,7 places,Non,Non,Non,19227.02,5
+2024-03-02,Andavamamba – Ivato,14:00,15:01,7,40,15.8,20,Non,Non,1,17.5,0.79,42.3,Brouillard,7 places,Non,Non,Oui,35850.44,4
+2024-03-03,Analakely – Ankatso,09:00,10:24,9,35,17.3,17,Non,Non,1,25.7,1.02,46.4,Pluie,7 places,Non,Non,Non,41802.54,4
+2024-03-04,Mahamasina – 67Ha,10:30,11:18,15,30,8.5,17,Oui,Oui,5,50.0,0.5,22.8,Soleil,5 places,Oui,Oui,Oui,30539.34,3
+2024-03-05,Andavamamba – Ivato,14:00,15:03,16,25,16.8,14,Non,Non,1,64.0,1.2,45.0,Orage,12 places,Non,Non,Oui,23977.44,3
+2024-03-06,Andavamamba – Ivato,15:45,16:26,14,35,15.5,13,Non,Oui,5,40.0,1.19,41.5,Pluie,5 places,Oui,Oui,Oui,48623.55,3
+2024-03-07,Andavamamba – Ivato,09:00,10:07,17,25,12.8,14,Non,Oui,4,68.0,0.91,34.3,Brouillard,9 places,Non,Non,Non,5995.56,4
+2024-03-08,Ankorondrano – Itaosy,08:00,08:34,26,40,9.4,15,Non,Non,0,65.0,0.63,25.2,Brouillard,7 places,Non,Non,Non,20974.83,2
+2024-03-09,Ambohijatovo – Anosizato,12:15,13:07,31,40,14.2,12,Oui,Non,3,77.5,1.18,38.1,Vent fort,9 places,Oui,Non,Non,36050.22,2
+2024-03-10,Mahamasina – 67Ha,09:00,10:00,17,30,11.6,16,Oui,Non,0,56.7,0.72,31.1,Brouillard,7 places,Oui,Oui,Oui,24068.22,4
+2024-03-11,Ankorondrano – Itaosy,16:30,17:06,17,25,17.0,20,Oui,Non,1,68.0,0.85,45.6,Brouillard,12 places,Oui,Non,Oui,8673.35,4
+2024-03-12,Mahamasina – 67Ha,07:45,09:01,20,30,11.3,13,Oui,Oui,5,66.7,0.87,30.3,Pluie,5 places,Oui,Non,Non,20356.15,4
+2024-03-13,Ankorondrano – Itaosy,14:00,14:37,8,30,13.2,17,Oui,Oui,4,26.7,0.78,35.4,Orage,5 places,Non,Non,Oui,12358.57,4
+2024-03-01,Andavamamba – Ivato,12:00,12:41,27,35,16.8,20,Non,Oui,5,77.1,0.84,45.0,Vent fort,12 places,Oui,Oui,Non,15689.49,2
+2024-03-02,Andavamamba – Ivato,14:15,15:37,9,35,10.8,19,Non,Non,0,25.7,0.57,28.9,Vent fort,7 places,Non,Oui,Oui,23887.73,5
+2024-03-03,Analakely – Ankatso,11:30,12:17,9,40,8.1,12,Non,Oui,4,22.5,0.67,21.7,Brouillard,12 places,Non,Oui,Non,17313.2,5
+2024-03-04,Andavamamba – Ivato,07:30,08:23,14,35,10.1,14,Non,Non,0,40.0,0.72,27.1,Vent fort,5 places,Oui,Non,Oui,6953.56,5
+2024-03-05,Ankorondrano – Itaosy,18:45,19:50,22,35,10.4,19,Non,Non,1,62.9,0.55,27.9,Soleil,9 places,Non,Non,Oui,26668.51,1
+2024-03-06,Analakely – Ankatso,09:30,10:47,31,35,12.1,20,Non,Non,1,88.6,0.6,32.4,Brouillard,7 places,Oui,Oui,Non,8293.82,1
+2024-03-07,Mahamasina – 67Ha,13:30,14:46,18,25,8.3,20,Non,Oui,4,72.0,0.42,22.2,Pluie,7 places,Oui,Non,Non,33733.67,3
+2024-03-08,Analakely – Ankatso,11:00,12:10,31,40,11.4,13,Non,Non,1,77.5,0.88,30.6,Vent fort,7 places,Non,Non,Oui,27121.75,4
+2024-03-09,Analakely – Ankatso,08:30,09:30,8,30,9.3,10,Non,Non,0,26.7,0.93,24.9,Pluie,12 places,Non,Non,Oui,28358.68,5
+2024-03-10,Mahamasina – 67Ha,11:45,12:52,20,35,16.2,20,Non,Non,1,57.1,0.81,43.4,Brouillard,9 places,Non,Non,Non,7706.41,5
+2024-03-11,Mahamasina – 67Ha,06:00,07:11,15,25,8.0,12,Oui,Non,1,60.0,0.67,21.4,Soleil,9 places,Oui,Non,Non,34921.03,4
+2024-03-12,Andavamamba – Ivato,15:45,16:39,16,35,13.7,19,Non,Non,0,45.7,0.72,36.7,Soleil,7 places,Oui,Oui,Non,32761.71,4
+2024-03-13,Mahamasina – 67Ha,09:15,10:31,7,30,15.0,17,Non,Oui,3,23.3,0.88,40.2,Pluie,12 places,Oui,Non,Non,35126.91,2
+2024-03-14,Ankorondrano – Itaosy,17:30,18:33,7,25,16.3,11,Non,Non,0,28.0,1.48,43.7,Pluie,12 places,Oui,Non,Non,34264.66,5
+2024-03-15,Analakely – Ankatso,18:15,19:03,20,40,9.3,18,Oui,Non,3,50.0,0.52,24.9,Vent fort,5 places,Oui,Non,Non,34325.01,1
+2024-03-16,Ankorondrano – Itaosy,20:00,21:01,27,35,12.9,14,Non,Oui,4,77.1,0.92,34.6,Pluie,9 places,Oui,Non,Oui,8707.15,4
+2024-03-17,Ankorondrano – Itaosy,09:45,10:39,31,40,12.8,20,Non,Non,1,77.5,0.64,34.3,Soleil,9 places,Non,Non,Non,13348.65,1
+2024-03-18,Ankorondrano – Itaosy,15:15,16:04,9,35,15.1,19,Non,Non,0,25.7,0.79,40.5,Soleil,5 places,Oui,Non,Non,8030.78,2
+2024-03-19,Mahamasina – 67Ha,07:00,07:53,22,35,17.2,17,Non,Non,0,62.9,1.01,46.1,Orage,7 places,Oui,Oui,Oui,31027.41,5
+2024-03-20,Andavamamba – Ivato,13:45,14:57,6,35,15.5,16,Non,Non,1,17.1,0.97,41.5,Brouillard,5 places,Oui,Oui,Non,10484.87,4
+2024-03-21,Mahamasina – 67Ha,15:30,16:17,19,30,12.4,10,Non,Non,1,63.3,1.24,33.2,Soleil,5 places,Non,Non,Oui,43850.01,3
+2024-03-22,Andavamamba – Ivato,09:15,10:12,7,40,15.4,16,Non,Non,1,17.5,0.96,41.3,Soleil,5 places,Non,Oui,Non,28166.78,2
+2024-03-23,Ankorondrano – Itaosy,13:15,14:01,11,40,9.8,20,Non,Non,1,27.5,0.49,26.3,Vent fort,5 places,Non,Oui,Oui,23496.28,3
+2024-03-24,Ambohijatovo – Anosizato,16:00,16:41,27,40,17.5,20,Non,Non,0,67.5,0.88,46.9,Soleil,12 places,Oui,Non,Oui,36893.51,3
+2024-03-25,Ankorondrano – Itaosy,06:45,07:37,23,25,17.7,19,Non,Oui,4,92.0,0.93,47.4,Soleil,5 places,Oui,Oui,Oui,16119.65,1
+2024-03-26,Ankorondrano – Itaosy,17:30,18:33,7,25,16.3,11,Non,Non,0,28.0,1.48,43.7,Pluie,12 places,Oui,Non,Non,34264.66,5
+2024-03-27,Andavamamba – Ivato,14:30,15:15,16,25,14.3,18,Oui,Oui,1,64.0,0.79,38.3,Soleil,5 places,Oui,Non,Non,7169.54,2
+2024-03-28,Ankorondrano – Itaosy,17:30,18:33,7,25,16.3,11,Non,Non,0,28.0,1.48,43.7,Pluie,12 places,Oui,Non,Non,34264.66,5
+2024-03-29,Analakely – Ankatso,12:45,14:09,17,30,11.7,19,Non,Non,1,56.7,0.62,31.4,Brouillard,5 places,Non,Non,Non,19562.46,3
+2024-03-30,Ambohijatovo – Anosizato,05:30,06:57,7,35,16.9,19,Non,Non,1,20.0,0.89,45.3,Orage,9 places,Oui,Non,Non,44232.96,3
+2024-03-31,Andavamamba – Ivato,10:30,11:50,13,30,9.3,12,Non,Oui,1,43.3,0.78,24.9,Soleil,9 places,Oui,Non,Oui,29358.34,1
+2024-04-01,Andavamamba – Ivato,09:45,11:06,5,25,9.3,19,Non,Non,0,20.0,0.49,24.9,Soleil,7 places,Oui,Oui,Non,28983.1,3
+2024-04-02,Mahamasina – 67Ha,05:00,05:32,17,35,14.2,14,Non,Oui,3,48.6,1.01,38.1,Brouillard,5 places,Oui,Non,Non,47998.57,5
+2024-04-03,Ankorondrano – Itaosy,13:45,14:22,9,30,8.1,12,Non,Non,1,30.0,0.67,21.7,Brouillard,9 places,Oui,Non,Non,34136.36,4
+2024-04-04,Mahamasina – 67Ha,16:30,17:14,25,30,17.1,18,Non,Non,0,83.3,0.95,45.8,Soleil,7 places,Oui,Oui,Non,48599.5,5
+2024-04-05,Analakely – Ankatso,13:30,14:16,12,35,11.8,12,Oui,Non,4,34.3,0.98,31.6,Orage,7 places,Non,Oui,Oui,35748.29,1
+2024-04-06,Andavamamba – Ivato,15:45,16:26,14,35,15.5,13,Non,Oui,5,40.0,1.19,41.5,Pluie,5 places,Oui,Oui,Oui,48623.55,3
+2024-04-07,Mahamasina – 67Ha,14:30,15:17,17,30,13.0,20,Non,Non,0,56.7,0.65,34.8,Orage,12 places,Non,Oui,Oui,30184.19,5
+2024-04-08,Mahamasina – 67Ha,17:00,17:52,15,40,11.2,17,Non,Non,0,37.5,0.66,30.0,Brouillard,7 places,Non,Non,Non,12536.72,2
+2024-04-09,Ankorondrano – Itaosy,13:30,14:01,31,35,9.5,17,Non,Non,1,88.6,0.56,25.5,Brouillard,12 places,Non,Oui,Oui,20384.25,3
+2024-04-10,Andavamamba – Ivato,09:45,10:57,24,25,16.6,14,Non,Non,0,96.0,1.19,44.5,Vent fort,9 places,Oui,Oui,Non,28357.69,1
+2024-04-11,Ambohijatovo – Anosizato,15:15,16:19,35,40,9.1,10,Oui,Non,0,87.5,0.91,24.4,Pluie,9 places,Oui,Non,Non,32877.07,1
+2024-04-01,Mahamasina – 67Ha,16:45,17:32,6,25,13.8,14,Non,Oui,1,24.0,0.99,37.0,Pluie,5 places,Non,Non,Oui,24268.98,2
+2024-04-02,Analakely – Ankatso,14:30,16:00,7,25,10.7,20,Non,Non,1,28.0,0.53,28.7,Soleil,12 places,Oui,Non,Oui,22969.22,1
+2024-04-03,Mahamasina – 67Ha,16:45,17:32,6,25,13.8,14,Non,Oui,1,24.0,0.99,37.0,Pluie,5 places,Non,Non,Oui,24268.98,2
+2024-04-04,Ankorondrano – Itaosy,19:00,20:07,26,30,15.4,14,Non,Oui,4,86.7,1.1,41.3,Brouillard,9 places,Non,Non,Oui,7712.03,1
+2024-04-05,Mahamasina – 67Ha,09:15,10:31,7,30,15.0,17,Non,Oui,3,23.3,0.88,40.2,Pluie,12 places,Oui,Non,Non,35126.91,2
+2024-04-06,Analakely – Ankatso,15:45,17:08,24,25,16.9,12,Non,Non,0,96.0,1.41,45.3,Brouillard,12 places,Oui,Non,Non,27449.97,2
+2024-04-07,Ankorondrano – Itaosy,19:15,20:25,28,40,13.7,17,Non,Non,1,70.0,0.81,36.7,Pluie,9 places,Oui,Non,Oui,10409.41,5
+2024-04-08,Ankorondrano – Itaosy,05:00,06:11,13,25,17.3,17,Non,Non,0,52.0,1.02,46.4,Pluie,9 places,Oui,Oui,Oui,10889.31,2
+2024-04-09,Ankorondrano – Itaosy,09:45,10:39,31,40,12.8,20,Non,Non,1,77.5,0.64,34.3,Soleil,9 places,Non,Non,Non,13348.65,1
+2024-04-10,Andavamamba – Ivato,07:00,08:09,25,30,15.8,13,Non,Oui,2,83.3,1.22,42.3,Vent fort,7 places,Oui,Non,Non,17337.23,4
+2024-04-11,Analakely – Ankatso,11:45,12:36,17,35,11.1,15,Non,Non,1,48.6,0.74,29.7,Pluie,12 places,Non,Non,Non,12363.07,4
+2024-04-12,Analakely – Ankatso,13:00,14:22,16,25,10.7,18,Non,Non,0,64.0,0.59,28.7,Pluie,7 places,Oui,Oui,Oui,40844.18,4
+2024-04-13,Ankorondrano – Itaosy,06:30,07:22,30,40,17.0,17,Non,Non,0,75.0,1.0,45.6,Pluie,12 places,Non,Non,Oui,31682.79,5
+2024-04-14,Ankorondrano – Itaosy,11:45,12:49,14,30,11.6,15,Non,Non,0,46.7,0.77,31.1,Soleil,5 places,Non,Non,Non,35039.75,1
+2024-04-15,Andavamamba – Ivato,12:45,14:12,14,25,13.6,16,Non,Non,0,56.0,0.85,36.4,Vent fort,7 places,Oui,Oui,Oui,24601.25,2
+2024-04-16,Mahamasina – 67Ha,20:30,21:32,7,25,11.7,15,Oui,Non,4,28.0,0.78,31.4,Brouillard,12 places,Oui,Non,Oui,6494.14,1
+2024-04-17,Ambohijatovo – Anosizato,16:00,17:22,15,35,17.6,20,Non,Oui,2,42.9,0.88,47.2,Pluie,9 places,Oui,Non,Non,44603.56,3
+2024-04-18,Andavamamba – Ivato,06:15,07:44,5,25,8.1,20,Non,Non,1,20.0,0.4,21.7,Soleil,5 places,Oui,Non,Non,49661.76,5
+2024-04-19,Ambohijatovo – Anosizato,05:30,06:57,7,35,16.9,19,Non,Non,1,20.0,0.89,45.3,Orage,9 places,Oui,Non,Non,44232.96,3
+2024-04-20,Ankorondrano – Itaosy,09:15,10:37,23,30,9.4,10,Non,Non,0,76.7,0.94,25.2,Orage,9 places,Oui,Non,Oui,18124.82,2
+2024-04-21,Ankorondrano – Itaosy,18:15,19:26,8,35,16.3,20,Non,Non,0,22.9,0.82,43.7,Brouillard,7 places,Non,Non,Non,36168.17,5
+2024-04-22,Andavamamba – Ivato,07:45,08:43,10,25,10.6,11,Non,Oui,2,40.0,0.96,28.4,Brouillard,12 places,Oui,Non,Oui,29298.07,2
+2024-04-23,Ambohijatovo – Anosizato,16:00,17:13,18,40,16.3,20,Non,Oui,5,45.0,0.82,43.7,Brouillard,9 places,Oui,Non,Non,48334.64,2
+2024-04-24,Analakely – Ankatso,20:00,20:50,10,35,12.2,13,Oui,Non,2,28.6,0.94,32.7,Vent fort,12 places,Non,Non,Non,9684.93,2
+2024-04-25,Ankorondrano – Itaosy,06:45,07:43,10,25,10.2,11,Non,Oui,0,40.0,0.93,27.3,Soleil,5 places,Oui,Non,Non,11284.31,5
+2024-04-26,Andavamamba – Ivato,12:00,13:28,17,25,15.7,18,Non,Non,0,68.0,0.87,42.1,Pluie,12 places,Oui,Non,Oui,48913.94,4
+2024-04-27,Ambohijatovo – Anosizato,17:45,19:01,27,30,10.4,11,Non,Non,0,90.0,0.95,27.9,Orage,5 places,Oui,Oui,Non,15199.54,2
+2024-04-28,Ankorondrano – Itaosy,15:15,16:04,9,35,15.1,19,Non,Non,0,25.7,0.79,40.5,Soleil,5 places,Oui,Non,Non,8030.78,2
+2024-04-29,Mahamasina – 67Ha,10:30,11:22,10,25,16.8,13,Non,Non,1,40.0,1.29,45.0,Soleil,5 places,Non,Non,Oui,10494.95,3
+2024-04-30,Andavamamba – Ivato,06:00,07:11,12,25,9.6,13,Non,Oui,2,48.0,0.74,25.7,Soleil,5 places,Non,Non,Oui,38987.17,5
+2024-05-01,Ambohijatovo – Anosizato,09:00,10:26,5,25,14.3,17,Oui,Non,0,20.0,0.84,38.3,Orage,12 places,Oui,Non,Oui,11139.79,4
+2024-05-02,Ankorondrano – Itaosy,19:15,20:25,28,40,13.7,17,Non,Non,1,70.0,0.81,36.7,Pluie,9 places,Oui,Non,Oui,10409.41,5
+2024-05-03,Mahamasina – 67Ha,10:45,11:59,22,25,16.7,20,Non,Oui,4,88.0,0.83,44.8,Vent fort,9 places,Non,Oui,Oui,15622.27,1
+2024-05-04,Mahamasina – 67Ha,11:45,13:15,17,40,16.8,13,Non,Non,1,42.5,1.29,45.0,Brouillard,12 places,Non,Oui,Oui,20160.31,5
+2024-05-05,Andavamamba – Ivato,16:45,17:38,34,40,8.3,17,Non,Oui,4,85.0,0.49,22.2,Soleil,7 places,Non,Oui,Non,22485.11,5
+2024-05-06,Ambohijatovo – Anosizato,11:15,12:13,19,25,16.6,13,Non,Non,1,76.0,1.28,44.5,Vent fort,5 places,Non,Non,Oui,35008.89,5
+2024-05-07,Ambohijatovo – Anosizato,10:00,11:21,30,35,11.8,15,Non,Oui,3,85.7,0.79,31.6,Pluie,5 places,Non,Non,Oui,48972.84,2
+2024-05-08,Ambohijatovo – Anosizato,15:30,16:43,22,25,11.3,16,Non,Oui,1,88.0,0.71,30.3,Orage,9 places,Oui,Oui,Non,7568.91,5
+2024-05-09,Andavamamba – Ivato,08:45,09:29,30,40,8.6,11,Non,Non,0,75.0,0.78,23.0,Vent fort,9 places,Non,Non,Oui,33760.4,2
+2024-05-10,Mahamasina – 67Ha,08:30,09:47,17,25,15.8,12,Non,Non,0,68.0,1.32,42.3,Soleil,9 places,Non,Non,Non,32319.23,1
+2024-05-11,Analakely – Ankatso,09:15,10:45,23,25,16.2,12,Non,Non,0,92.0,1.35,43.4,Pluie,12 places,Oui,Non,Oui,17296.68,5
+2024-05-12,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2024-05-01,Andavamamba – Ivato,12:30,13:50,23,35,13.6,13,Non,Non,0,65.7,1.05,36.4,Brouillard,5 places,Oui,Non,Non,36281.5,5
+2024-05-02,Analakely – Ankatso,18:00,19:25,8,30,9.8,19,Non,Oui,5,26.7,0.52,26.3,Pluie,9 places,Non,Non,Oui,38734.33,1
+2024-05-03,Ambohijatovo – Anosizato,16:30,17:41,6,25,11.7,14,Oui,Non,1,24.0,0.84,31.4,Pluie,12 places,Oui,Non,Non,23186.31,1
+2024-05-04,Ankorondrano – Itaosy,05:30,06:45,11,25,17.2,17,Oui,Non,5,44.0,1.01,46.1,Brouillard,7 places,Oui,Non,Non,46056.35,5
+2024-05-05,Andavamamba – Ivato,14:00,15:00,21,30,8.1,15,Non,Non,1,70.0,0.54,21.7,Pluie,5 places,Oui,Non,Oui,32000.92,5
+2024-05-06,Analakely – Ankatso,15:45,17:10,10,25,13.0,15,Oui,Non,0,40.0,0.87,34.8,Pluie,7 places,Oui,Non,Non,44219.16,2
+2024-05-07,Ankorondrano – Itaosy,20:00,21:11,15,40,14.9,20,Oui,Non,2,37.5,0.74,39.9,Vent fort,5 places,Non,Oui,Non,12234.2,4
+2024-05-08,Analakely – Ankatso,08:30,09:30,8,30,9.3,10,Non,Non,0,26.7,0.93,24.9,Pluie,12 places,Non,Non,Oui,28358.68,5
+2024-05-09,Mahamasina – 67Ha,20:30,21:34,25,25,13.2,18,Oui,Non,3,100.0,0.73,35.4,Brouillard,7 places,Non,Non,Non,9350.44,3
+2024-05-10,Analakely – Ankatso,08:15,09:45,20,30,9.2,17,Non,Non,0,66.7,0.54,24.7,Soleil,7 places,Oui,Oui,Non,42173.04,4
+2024-05-11,Ambohijatovo – Anosizato,10:45,11:20,34,35,10.0,15,Non,Non,0,97.1,0.67,26.8,Vent fort,5 places,Oui,Oui,Oui,26622.81,2
+2024-05-12,Ambohijatovo – Anosizato,14:00,14:39,18,30,9.2,11,Non,Oui,1,60.0,0.84,24.7,Brouillard,9 places,Oui,Oui,Oui,9010.6,5
+2024-05-13,Analakely – Ankatso,11:15,12:06,8,25,12.7,14,Non,Non,0,32.0,0.91,34.0,Vent fort,9 places,Oui,Non,Non,47049.62,1
+2024-05-14,Mahamasina – 67Ha,06:45,07:48,16,35,9.3,14,Non,Oui,2,45.7,0.66,24.9,Soleil,7 places,Oui,Non,Non,48712.78,1
+2024-05-15,Andavamamba – Ivato,15:45,17:09,9,35,15.7,10,Non,Non,0,25.7,1.57,42.1,Orage,9 places,Non,Non,Oui,38230.21,2
+2024-05-16,Mahamasina – 67Ha,06:15,07:07,15,40,17.4,11,Oui,Non,1,37.5,1.58,46.6,Soleil,7 places,Non,Non,Oui,18640.78,1
+2024-05-17,Analakely – Ankatso,14:30,15:11,33,35,15.8,19,Non,Oui,2,94.3,0.83,42.3,Vent fort,5 places,Non,Non,Non,44016.42,2
+2024-05-18,Mahamasina – 67Ha,05:30,06:29,39,40,11.7,10,Non,Oui,0,97.5,1.17,31.4,Brouillard,5 places,Non,Non,Oui,9705.55,4
+2024-05-19,Ankorondrano – Itaosy,19:45,20:15,13,30,16.4,12,Non,Non,1,43.3,1.37,44.0,Vent fort,5 places,Non,Oui,Non,20640.72,5
+2024-05-20,Andavamamba – Ivato,16:15,16:51,30,35,14.3,13,Non,Non,1,85.7,1.1,38.3,Orage,7 places,Oui,Oui,Non,49835.03,5
+2024-05-21,Ankorondrano – Itaosy,09:15,10:37,23,30,9.4,10,Non,Non,0,76.7,0.94,25.2,Orage,9 places,Oui,Non,Oui,18124.82,2
+2024-05-22,Mahamasina – 67Ha,11:30,12:15,13,25,16.5,17,Oui,Non,3,52.0,0.97,44.2,Vent fort,5 places,Oui,Non,Non,31397.38,4
+2024-05-23,Ambohijatovo – Anosizato,13:45,14:25,19,40,8.8,14,Non,Non,0,47.5,0.63,23.6,Vent fort,9 places,Oui,Non,Non,11412.3,5
+2024-05-24,Ambohijatovo – Anosizato,12:45,13:22,7,30,10.6,16,Non,Non,1,23.3,0.66,28.4,Soleil,12 places,Oui,Non,Non,27418.81,3
+2024-05-25,Analakely – Ankatso,08:45,09:50,10,30,12.5,13,Non,Non,0,33.3,0.96,33.5,Orage,12 places,Oui,Non,Non,8260.11,4
+2024-05-26,Mahamasina – 67Ha,11:30,12:08,25,30,16.7,13,Non,Non,0,83.3,1.28,44.8,Soleil,9 places,Non,Non,Oui,25266.69,3
+2024-05-27,Mahamasina – 67Ha,13:45,14:30,25,30,9.0,13,Non,Oui,2,83.3,0.69,24.1,Orage,5 places,Non,Non,Non,39246.26,5
+2024-05-28,Mahamasina – 67Ha,20:30,21:14,6,25,16.0,18,Non,Oui,2,24.0,0.89,42.9,Orage,5 places,Non,Non,Oui,11858.72,2
+2024-05-29,Analakely – Ankatso,15:45,16:37,29,35,12.4,16,Non,Non,1,82.9,0.78,33.2,Brouillard,7 places,Non,Oui,Oui,5820.47,4
+2024-05-30,Ambohijatovo – Anosizato,17:00,17:43,23,25,17.3,17,Oui,Non,3,92.0,1.02,46.4,Pluie,5 places,Non,Non,Non,36296.02,5
+2024-05-31,Mahamasina – 67Ha,10:00,10:43,21,30,13.4,12,Oui,Oui,0,70.0,1.12,35.9,Pluie,9 places,Non,Oui,Oui,41808.52,2
+2024-06-01,Ankorondrano – Itaosy,08:00,08:34,26,40,9.4,15,Non,Non,0,65.0,0.63,25.2,Brouillard,7 places,Non,Non,Non,20974.83,2
+2024-06-02,Ambohijatovo – Anosizato,15:30,16:00,26,30,8.9,15,Non,Oui,0,86.7,0.59,23.9,Vent fort,12 places,Oui,Non,Non,32465.02,5
+2024-06-03,Ankorondrano – Itaosy,19:00,19:51,12,30,16.4,19,Oui,Non,2,40.0,0.86,44.0,Soleil,7 places,Non,Non,Non,33961.0,1
+2024-06-04,Mahamasina – 67Ha,17:30,18:46,10,30,13.2,12,Non,Non,1,33.3,1.1,35.4,Vent fort,5 places,Oui,Non,Non,10972.21,4
+2024-06-05,Analakely – Ankatso,18:15,19:13,23,30,15.1,18,Oui,Non,1,76.7,0.84,40.5,Orage,9 places,Non,Non,Non,12542.86,5
+2024-06-06,Analakely – Ankatso,09:30,10:26,14,35,8.6,20,Non,Non,0,40.0,0.43,23.0,Soleil,9 places,Oui,Non,Oui,25934.25,2
+2024-06-07,Ankorondrano – Itaosy,12:15,13:20,16,35,12.8,16,Non,Non,0,45.7,0.8,34.3,Brouillard,12 places,Non,Non,Non,14006.76,5
+2024-06-08,Analakely – Ankatso,07:00,08:05,24,40,8.3,12,Oui,Non,5,60.0,0.69,22.2,Pluie,7 places,Non,Non,Oui,26998.1,3
+2024-06-09,Ambohijatovo – Anosizato,16:30,17:41,6,25,11.7,14,Oui,Non,1,24.0,0.84,31.4,Pluie,12 places,Oui,Non,Non,23186.31,1
+2024-06-10,Mahamasina – 67Ha,18:30,19:11,6,40,9.5,13,Non,Oui,2,15.0,0.73,25.5,Soleil,9 places,Non,Oui,Oui,17819.28,4
+2024-06-11,Ankorondrano – Itaosy,19:15,20:25,28,40,13.7,17,Non,Non,1,70.0,0.81,36.7,Pluie,9 places,Oui,Non,Oui,10409.41,5
+2024-06-01,Ambohijatovo – Anosizato,16:00,17:28,24,25,16.6,19,Non,Oui,4,96.0,0.87,44.5,Brouillard,5 places,Oui,Non,Non,31040.39,4
+2024-06-02,Ambohijatovo – Anosizato,20:30,21:37,22,30,14.2,16,Non,Non,1,73.3,0.89,38.1,Soleil,9 places,Oui,Non,Non,49606.52,4
+2024-06-03,Analakely – Ankatso,12:30,13:18,18,40,10.8,19,Non,Non,1,45.0,0.57,28.9,Vent fort,5 places,Oui,Non,Non,15437.62,4
+2024-06-04,Analakely – Ankatso,17:00,18:24,15,35,14.7,19,Non,Oui,3,42.9,0.77,39.4,Brouillard,5 places,Non,Non,Oui,41026.4,4
+2024-06-05,Ankorondrano – Itaosy,06:45,07:32,16,25,11.6,19,Non,Non,1,64.0,0.61,31.1,Soleil,5 places,Non,Non,Oui,6367.42,1
+2024-06-06,Ankorondrano – Itaosy,20:00,21:01,27,35,12.9,14,Non,Oui,4,77.1,0.92,34.6,Pluie,9 places,Oui,Non,Oui,8707.15,4
+2024-06-07,Ankorondrano – Itaosy,07:00,07:51,21,35,12.6,18,Oui,Oui,0,60.0,0.7,33.8,Orage,9 places,Oui,Non,Non,18543.36,2
+2024-06-08,Mahamasina – 67Ha,07:30,08:37,28,35,9.6,17,Non,Oui,4,80.0,0.56,25.7,Soleil,12 places,Non,Non,Non,26900.1,3
+2024-06-09,Mahamasina – 67Ha,07:45,09:01,20,30,11.3,13,Oui,Oui,5,66.7,0.87,30.3,Pluie,5 places,Oui,Non,Non,20356.15,4
+2024-06-10,Ankorondrano – Itaosy,17:30,18:33,7,25,16.3,11,Non,Non,0,28.0,1.48,43.7,Pluie,12 places,Oui,Non,Non,34264.66,5
+2024-06-11,Andavamamba – Ivato,08:00,09:11,25,30,8.9,18,Non,Non,0,83.3,0.49,23.9,Soleil,5 places,Oui,Non,Oui,42793.76,2
+2024-06-12,Mahamasina – 67Ha,07:00,07:53,22,35,17.2,17,Non,Non,0,62.9,1.01,46.1,Orage,7 places,Oui,Oui,Oui,31027.41,5
+2024-06-13,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2024-06-14,Ankorondrano – Itaosy,19:45,21:04,34,40,10.3,14,Oui,Oui,3,85.0,0.74,27.6,Brouillard,5 places,Oui,Non,Oui,22947.03,2
+2024-06-15,Analakely – Ankatso,19:30,20:26,16,25,10.0,19,Non,Oui,2,64.0,0.53,26.8,Orage,12 places,Non,Oui,Non,32837.51,2
+2024-06-16,Andavamamba – Ivato,15:45,17:09,9,35,15.7,10,Non,Non,0,25.7,1.57,42.1,Orage,9 places,Non,Non,Oui,38230.21,2
+2024-06-17,Analakely – Ankatso,14:45,15:41,18,25,12.0,17,Non,Non,0,72.0,0.71,32.2,Pluie,7 places,Non,Non,Oui,14934.63,5
+2024-06-18,Analakely – Ankatso,18:15,19:37,22,35,11.3,20,Non,Non,1,62.9,0.57,30.3,Soleil,12 places,Oui,Oui,Oui,15227.13,4
+2024-06-19,Ankorondrano – Itaosy,06:45,07:32,16,25,11.6,19,Non,Non,1,64.0,0.61,31.1,Soleil,5 places,Non,Non,Oui,6367.42,1
+2024-06-20,Mahamasina – 67Ha,06:45,07:48,16,35,9.3,14,Non,Oui,2,45.7,0.66,24.9,Soleil,7 places,Oui,Non,Non,48712.78,1
+2024-06-21,Analakely – Ankatso,13:00,14:22,16,25,10.7,18,Non,Non,0,64.0,0.59,28.7,Pluie,7 places,Oui,Oui,Oui,40844.18,4
+2024-06-22,Mahamasina – 67Ha,13:45,15:06,24,40,13.2,10,Non,Oui,1,60.0,1.32,35.4,Brouillard,12 places,Non,Non,Oui,45531.58,4
+2024-06-23,Mahamasina – 67Ha,08:15,08:49,25,25,17.0,10,Non,Non,1,100.0,1.7,45.6,Vent fort,5 places,Non,Non,Oui,25354.32,1
+2024-06-24,Ankorondrano – Itaosy,18:30,19:24,17,30,15.9,13,Oui,Non,0,56.7,1.22,42.6,Pluie,9 places,Non,Non,Oui,14753.29,3
+2024-06-25,Ambohijatovo – Anosizato,20:00,21:28,11,25,16.5,10,Non,Oui,2,44.0,1.65,44.2,Vent fort,12 places,Non,Non,Non,29991.36,1
+2024-06-26,Analakely – Ankatso,05:00,06:12,23,30,17.4,17,Non,Non,1,76.7,1.02,46.6,Soleil,7 places,Oui,Oui,Non,24455.07,5
+2024-06-27,Mahamasina – 67Ha,17:00,17:45,23,40,9.3,20,Non,Non,0,57.5,0.47,24.9,Vent fort,9 places,Oui,Non,Non,36025.92,5
+2024-06-28,Analakely – Ankatso,15:15,16:00,17,25,16.9,19,Non,Non,1,68.0,0.89,45.3,Brouillard,5 places,Non,Non,Oui,25348.96,1
+2024-06-29,Ankorondrano – Itaosy,17:45,18:28,33,40,15.8,17,Non,Non,0,82.5,0.93,42.3,Brouillard,9 places,Non,Non,Non,33639.36,2
+2024-06-30,Ankorondrano – Itaosy,10:45,12:03,8,30,12.9,12,Non,Oui,5,26.7,1.07,34.6,Vent fort,12 places,Oui,Oui,Oui,35606.33,5
+2024-07-01,Andavamamba – Ivato,13:45,14:33,39,40,10.1,10,Non,Non,1,97.5,1.01,27.1,Orage,12 places,Oui,Non,Oui,9721.86,5
+2024-07-02,Ankorondrano – Itaosy,15:30,16:53,24,25,13.6,14,Non,Oui,3,96.0,0.97,36.4,Brouillard,9 places,Non,Non,Oui,21796.33,4
+2024-07-03,Andavamamba – Ivato,16:45,17:18,34,40,15.3,15,Non,Non,1,85.0,1.02,41.0,Soleil,12 places,Oui,Oui,Oui,43896.12,3
+2024-07-04,Ambohijatovo – Anosizato,08:00,09:05,18,25,16.3,13,Non,Non,1,72.0,1.25,43.7,Vent fort,7 places,Oui,Oui,Oui,8124.07,3
+2024-07-05,Ankorondrano – Itaosy,17:15,18:29,12,35,13.1,10,Non,Oui,2,34.3,1.31,35.1,Brouillard,7 places,Non,Non,Oui,36386.22,2
+2024-07-06,Ankorondrano – Itaosy,20:30,21:20,29,40,12.6,19,Non,Non,0,72.5,0.66,33.8,Brouillard,9 places,Non,Non,Non,27825.57,5
+2024-07-07,Mahamasina – 67Ha,05:45,06:57,33,40,13.3,15,Non,Non,1,82.5,0.89,35.6,Soleil,7 places,Non,Non,Non,16616.0,2
+2024-07-08,Andavamamba – Ivato,14:00,15:03,16,25,16.8,14,Non,Non,1,64.0,1.2,45.0,Orage,12 places,Non,Non,Oui,23977.44,3
+2024-07-09,Ambohijatovo – Anosizato,13:00,13:48,5,25,9.3,13,Non,Non,0,20.0,0.72,24.9,Pluie,7 places,Oui,Oui,Oui,13979.41,4
+2024-07-10,Andavamamba – Ivato,10:30,11:41,32,35,16.6,18,Non,Non,0,91.4,0.92,44.5,Brouillard,9 places,Oui,Oui,Non,12516.89,4
+2024-07-11,Ambohijatovo – Anosizato,14:00,14:39,18,30,9.2,11,Non,Oui,1,60.0,0.84,24.7,Brouillard,9 places,Oui,Oui,Oui,9010.6,5
+2024-07-12,Analakely – Ankatso,09:00,10:29,16,30,9.9,16,Non,Non,1,53.3,0.62,26.5,Pluie,5 places,Oui,Non,Non,24737.69,3
+2024-07-01,Ankorondrano – Itaosy,17:15,18:05,6,25,16.4,17,Non,Non,0,24.0,0.96,44.0,Brouillard,5 places,Oui,Non,Oui,49450.35,1
+2024-07-02,Ankorondrano – Itaosy,09:15,10:03,24,35,11.1,11,Oui,Non,4,68.6,1.01,29.7,Soleil,5 places,Oui,Non,Oui,31340.95,1
+2024-07-03,Analakely – Ankatso,05:00,06:20,23,30,14.3,16,Non,Non,1,76.7,0.89,38.3,Pluie,12 places,Oui,Oui,Oui,19716.49,4
+2024-07-04,Andavamamba – Ivato,15:15,16:43,29,35,14.4,13,Oui,Non,2,82.9,1.11,38.6,Vent fort,7 places,Oui,Non,Oui,5340.33,5
+2024-07-05,Mahamasina – 67Ha,05:45,06:57,33,40,13.3,15,Non,Non,1,82.5,0.89,35.6,Soleil,7 places,Non,Non,Non,16616.0,2
+2024-07-06,Ankorondrano – Itaosy,20:30,21:58,27,30,16.9,14,Non,Oui,0,90.0,1.21,45.3,Soleil,7 places,Oui,Non,Non,8605.17,5
+2024-07-07,Mahamasina – 67Ha,18:45,19:19,30,40,12.9,12,Non,Non,1,75.0,1.07,34.6,Soleil,7 places,Oui,Non,Non,29299.34,1
+2024-07-08,Ambohijatovo – Anosizato,05:15,06:18,35,40,16.6,16,Oui,Oui,2,87.5,1.04,44.5,Vent fort,7 places,Oui,Non,Oui,48331.71,5
+2024-07-09,Ankorondrano – Itaosy,20:00,21:01,27,35,12.9,14,Non,Oui,4,77.1,0.92,34.6,Pluie,9 places,Oui,Non,Oui,8707.15,4
+2024-07-10,Ankorondrano – Itaosy,17:15,18:07,21,35,13.1,15,Non,Non,0,60.0,0.87,35.1,Vent fort,5 places,Oui,Non,Non,36215.7,4
+2024-07-11,Ankorondrano – Itaosy,07:00,07:44,25,30,17.7,15,Oui,Oui,2,83.3,1.18,47.4,Pluie,5 places,Non,Non,Non,40093.29,5
+2024-07-12,Andavamamba – Ivato,12:00,12:41,27,35,16.8,20,Non,Oui,5,77.1,0.84,45.0,Vent fort,12 places,Oui,Oui,Non,15689.49,2
+2024-07-13,Ambohijatovo – Anosizato,06:00,07:24,9,30,8.2,16,Oui,Non,4,30.0,0.51,22.0,Pluie,5 places,Oui,Non,Oui,49736.27,2
+2024-07-14,Analakely – Ankatso,17:45,18:51,26,30,12.0,13,Non,Non,1,86.7,0.92,32.2,Vent fort,12 places,Oui,Non,Oui,17268.08,1
+2024-07-15,Ankorondrano – Itaosy,19:30,20:28,30,30,16.5,15,Non,Non,1,100.0,1.1,44.2,Soleil,5 places,Non,Non,Non,25038.74,2
+2024-07-16,Mahamasina – 67Ha,16:45,17:32,6,25,13.8,14,Non,Oui,1,24.0,0.99,37.0,Pluie,5 places,Non,Non,Oui,24268.98,2
+2024-07-17,Ambohijatovo – Anosizato,20:30,21:39,17,25,10.9,20,Oui,Oui,0,68.0,0.55,29.2,Brouillard,12 places,Non,Non,Oui,15956.7,5
+2024-07-18,Andavamamba – Ivato,15:45,17:09,9,35,15.7,10,Non,Non,0,25.7,1.57,42.1,Orage,9 places,Non,Non,Oui,38230.21,2
+2024-07-19,Andavamamba – Ivato,09:45,10:57,24,25,16.6,14,Non,Non,0,96.0,1.19,44.5,Vent fort,9 places,Oui,Oui,Non,28357.69,1
+2024-07-20,Ambohijatovo – Anosizato,15:00,16:15,23,25,12.0,20,Non,Oui,0,92.0,0.6,32.2,Orage,12 places,Oui,Non,Oui,36791.41,4
+2024-07-21,Mahamasina – 67Ha,13:45,14:30,25,30,9.0,13,Non,Oui,2,83.3,0.69,24.1,Orage,5 places,Non,Non,Non,39246.26,5
+2024-07-22,Ambohijatovo – Anosizato,11:00,12:21,11,40,17.5,14,Non,Non,1,27.5,1.25,46.9,Soleil,12 places,Oui,Non,Oui,6379.36,5
+2024-07-23,Ankorondrano – Itaosy,17:00,18:24,26,30,16.0,14,Non,Oui,0,86.7,1.14,42.9,Vent fort,9 places,Non,Non,Oui,47507.64,1
+2024-07-24,Analakely – Ankatso,18:15,19:35,13,25,8.1,20,Non,Non,0,52.0,0.4,21.7,Vent fort,9 places,Oui,Non,Non,13151.72,3
+2024-07-25,Ambohijatovo – Anosizato,15:30,16:00,26,30,8.9,15,Non,Oui,0,86.7,0.59,23.9,Vent fort,12 places,Oui,Non,Non,32465.02,5
+2024-07-26,Mahamasina – 67Ha,05:00,05:32,17,35,14.2,14,Non,Oui,3,48.6,1.01,38.1,Brouillard,5 places,Oui,Non,Non,47998.57,5
+2024-07-27,Mahamasina – 67Ha,13:15,13:54,40,40,16.3,20,Non,Non,1,100.0,0.82,43.7,Pluie,9 places,Non,Non,Oui,19595.02,4
+2024-07-28,Analakely – Ankatso,16:15,16:46,13,40,13.0,10,Oui,Non,1,32.5,1.3,34.8,Orage,12 places,Non,Non,Oui,29012.11,4
+2024-07-29,Ambohijatovo – Anosizato,16:30,17:41,6,25,11.7,14,Oui,Non,1,24.0,0.84,31.4,Pluie,12 places,Oui,Non,Non,23186.31,1
+2024-07-30,Ankorondrano – Itaosy,06:45,08:08,21,30,17.0,10,Oui,Non,1,70.0,1.7,45.6,Pluie,9 places,Non,Non,Oui,14262.85,1
+2024-07-31,Ankorondrano – Itaosy,07:00,07:44,25,30,17.7,15,Oui,Oui,2,83.3,1.18,47.4,Pluie,5 places,Non,Non,Non,40093.29,5
+2024-08-01,Andavamamba – Ivato,12:45,13:26,34,40,16.5,14,Non,Non,0,85.0,1.18,44.2,Orage,12 places,Non,Oui,Oui,25818.03,3
+2024-08-02,Andavamamba – Ivato,12:00,12:41,27,35,16.8,20,Non,Oui,5,77.1,0.84,45.0,Vent fort,12 places,Oui,Oui,Non,15689.49,2
+2024-08-03,Mahamasina – 67Ha,16:30,17:15,23,25,8.6,20,Non,Non,0,92.0,0.43,23.0,Brouillard,5 places,Non,Non,Oui,44088.04,3
+2024-08-04,Analakely – Ankatso,09:30,10:26,14,35,8.6,20,Non,Non,0,40.0,0.43,23.0,Soleil,9 places,Oui,Non,Oui,25934.25,2
+2024-08-05,Ankorondrano – Itaosy,13:00,14:14,6,40,14.7,15,Non,Non,1,15.0,0.98,39.4,Vent fort,5 places,Non,Oui,Oui,32817.01,2
+2024-08-06,Analakely – Ankatso,11:30,12:17,9,40,8.1,12,Non,Oui,4,22.5,0.67,21.7,Brouillard,12 places,Non,Oui,Non,17313.2,5
+2024-08-07,Ankorondrano – Itaosy,11:45,12:49,14,30,11.6,15,Non,Non,0,46.7,0.77,31.1,Soleil,5 places,Non,Non,Non,35039.75,1
+2024-08-08,Andavamamba – Ivato,08:15,09:02,32,35,10.5,12,Non,Non,0,91.4,0.88,28.1,Vent fort,5 places,Non,Non,Non,5439.69,5
+2024-08-09,Ambohijatovo – Anosizato,18:30,19:57,34,40,11.0,17,Non,Non,1,85.0,0.65,29.5,Soleil,7 places,Non,Non,Non,39302.83,3
+2024-08-10,Ambohijatovo – Anosizato,13:15,14:07,28,30,17.6,19,Non,Non,1,93.3,0.93,47.2,Brouillard,7 places,Oui,Non,Non,7058.39,1
+2024-08-11,Andavamamba – Ivato,16:15,16:51,30,35,14.3,13,Non,Non,1,85.7,1.1,38.3,Orage,7 places,Oui,Oui,Non,49835.03,5
+2024-08-01,Analakely – Ankatso,12:45,14:10,8,40,12.5,18,Non,Non,0,20.0,0.69,33.5,Orage,5 places,Oui,Non,Oui,24389.94,2
+2024-08-02,Ankorondrano – Itaosy,13:15,13:58,14,25,11.8,10,Non,Non,0,56.0,1.18,31.6,Pluie,7 places,Oui,Non,Non,23310.86,2
+2024-08-03,Ambohijatovo – Anosizato,06:00,07:02,22,40,9.0,17,Non,Oui,3,55.0,0.53,24.1,Brouillard,7 places,Non,Non,Non,40795.25,1
+2024-08-04,Andavamamba – Ivato,12:45,14:12,14,25,13.6,16,Non,Non,0,56.0,0.85,36.4,Vent fort,7 places,Oui,Oui,Oui,24601.25,2
+2024-08-05,Mahamasina – 67Ha,14:30,15:42,33,40,13.1,15,Non,Non,1,82.5,0.87,35.1,Pluie,7 places,Oui,Non,Oui,30100.25,1
+2024-08-06,Andavamamba – Ivato,09:45,11:10,21,35,15.1,20,Non,Non,0,60.0,0.76,40.5,Orage,5 places,Non,Non,Non,44056.32,3
+2024-08-07,Ankorondrano – Itaosy,11:45,12:35,26,35,13.2,15,Non,Oui,0,74.3,0.88,35.4,Orage,9 places,Non,Non,Oui,7715.84,5
+2024-08-08,Analakely – Ankatso,11:45,12:20,17,30,9.0,13,Non,Non,1,56.7,0.69,24.1,Brouillard,7 places,Non,Non,Oui,35069.58,4
+2024-08-09,Andavamamba – Ivato,15:15,16:38,18,30,13.9,17,Non,Non,0,60.0,0.82,37.3,Brouillard,5 places,Oui,Non,Oui,38138.09,3
+2024-08-10,Analakely – Ankatso,07:00,08:05,24,40,8.3,12,Oui,Non,5,60.0,0.69,22.2,Pluie,7 places,Non,Non,Oui,26998.1,3
+2024-08-11,Analakely – Ankatso,20:15,21:23,11,35,13.6,19,Non,Oui,5,31.4,0.72,36.4,Pluie,9 places,Oui,Non,Oui,31197.67,4
+2024-08-12,Ambohijatovo – Anosizato,15:30,16:40,21,25,14.6,10,Non,Non,1,84.0,1.46,39.1,Orage,9 places,Oui,Non,Oui,29641.66,1
+2024-08-13,Analakely – Ankatso,08:45,09:50,10,30,12.5,13,Non,Non,0,33.3,0.96,33.5,Orage,12 places,Oui,Non,Non,8260.11,4
+2024-08-14,Ambohijatovo – Anosizato,11:00,12:21,11,40,17.5,14,Non,Non,1,27.5,1.25,46.9,Soleil,12 places,Oui,Non,Oui,6379.36,5
+2024-08-15,Ambohijatovo – Anosizato,12:45,13:22,7,30,10.6,16,Non,Non,1,23.3,0.66,28.4,Soleil,12 places,Oui,Non,Non,27418.81,3
+2024-08-16,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2024-08-17,Ankorondrano – Itaosy,19:15,20:02,9,25,10.5,19,Non,Non,0,36.0,0.55,28.1,Soleil,7 places,Non,Oui,Oui,41584.36,1
+2024-08-18,Andavamamba – Ivato,15:45,17:09,9,35,15.7,10,Non,Non,0,25.7,1.57,42.1,Orage,9 places,Non,Non,Oui,38230.21,2
+2024-08-19,Mahamasina – 67Ha,09:15,10:27,31,40,14.1,17,Non,Oui,1,77.5,0.83,37.8,Pluie,5 places,Non,Non,Non,38159.32,4
+2024-08-20,Ankorondrano – Itaosy,05:30,06:45,11,25,17.2,17,Oui,Non,5,44.0,1.01,46.1,Brouillard,7 places,Oui,Non,Non,46056.35,5
+2024-08-21,Mahamasina – 67Ha,17:45,18:43,5,40,8.4,11,Non,Oui,1,12.5,0.76,22.5,Brouillard,9 places,Oui,Oui,Non,44183.75,1
+2024-08-22,Ambohijatovo – Anosizato,20:00,21:28,11,25,16.5,10,Non,Oui,2,44.0,1.65,44.2,Vent fort,12 places,Non,Non,Non,29991.36,1
+2024-08-23,Andavamamba – Ivato,08:00,09:11,25,30,8.9,18,Non,Non,0,83.3,0.49,23.9,Soleil,5 places,Oui,Non,Oui,42793.76,2
+2024-08-24,Andavamamba – Ivato,07:15,08:06,29,40,14.8,13,Non,Oui,3,72.5,1.14,39.7,Brouillard,7 places,Oui,Oui,Non,22598.67,4
+2024-08-25,Analakely – Ankatso,15:45,16:37,29,35,12.4,16,Non,Non,1,82.9,0.78,33.2,Brouillard,7 places,Non,Oui,Oui,5820.47,4
+2024-08-26,Ankorondrano – Itaosy,12:15,13:26,8,25,11.8,12,Non,Non,0,32.0,0.98,31.6,Soleil,12 places,Non,Oui,Non,44230.26,2
+2024-08-27,Andavamamba – Ivato,09:15,10:44,32,35,12.2,10,Oui,Non,1,91.4,1.22,32.7,Soleil,7 places,Oui,Non,Oui,16595.73,1
+2024-08-28,Analakely – Ankatso,10:15,11:05,32,35,17.1,14,Non,Non,1,91.4,1.22,45.8,Brouillard,5 places,Non,Non,Non,31188.71,2
+2024-08-29,Andavamamba – Ivato,20:00,21:03,36,40,15.9,20,Oui,Oui,4,90.0,0.8,42.6,Soleil,9 places,Oui,Non,Oui,25065.62,5
+2024-08-30,Ambohijatovo – Anosizato,16:30,17:08,27,40,12.9,10,Non,Oui,0,67.5,1.29,34.6,Soleil,7 places,Oui,Non,Oui,35041.7,3
+2024-08-31,Ambohijatovo – Anosizato,16:30,17:41,6,25,11.7,14,Oui,Non,1,24.0,0.84,31.4,Pluie,12 places,Oui,Non,Non,23186.31,1
+2024-09-01,Andavamamba – Ivato,12:00,12:30,18,35,12.9,15,Non,Non,1,51.4,0.86,34.6,Brouillard,9 places,Non,Non,Non,9225.53,5
+2024-09-02,Ankorondrano – Itaosy,14:30,15:54,22,40,14.6,13,Non,Non,1,55.0,1.12,39.1,Vent fort,9 places,Oui,Non,Non,35304.46,4
+2024-09-03,Ankorondrano – Itaosy,15:15,16:04,9,35,15.1,19,Non,Non,0,25.7,0.79,40.5,Soleil,5 places,Oui,Non,Non,8030.78,2
+2024-09-04,Ambohijatovo – Anosizato,19:30,20:07,33,35,8.4,16,Non,Oui,0,94.3,0.53,22.5,Orage,9 places,Oui,Non,Oui,40191.26,2
+2024-09-05,Ankorondrano – Itaosy,09:45,10:39,31,40,12.8,20,Non,Non,1,77.5,0.64,34.3,Soleil,9 places,Non,Non,Non,13348.65,1
+2024-09-06,Mahamasina – 67Ha,13:45,14:18,14,30,9.1,13,Non,Non,0,46.7,0.7,24.4,Pluie,9 places,Oui,Oui,Oui,24363.77,5
+2024-09-07,Analakely – Ankatso,06:15,07:21,26,30,13.5,14,Oui,Non,2,86.7,0.96,36.2,Pluie,9 places,Oui,Non,Oui,37921.53,2
+2024-09-08,Ankorondrano – Itaosy,13:15,14:22,7,25,16.7,20,Non,Oui,4,28.0,0.83,44.8,Pluie,5 places,Oui,Oui,Oui,27836.05,2
+2024-09-09,Andavamamba – Ivato,20:00,21:03,36,40,15.9,20,Oui,Oui,4,90.0,0.8,42.6,Soleil,9 places,Oui,Non,Oui,25065.62,5
+2024-09-10,Ambohijatovo – Anosizato,17:15,18:32,16,35,14.5,11,Oui,Non,1,45.7,1.32,38.9,Orage,5 places,Non,Non,Oui,6870.78,2
+2024-09-11,Analakely – Ankatso,15:15,16:27,26,40,17.8,17,Non,Oui,0,65.0,1.05,47.7,Orage,9 places,Oui,Oui,Oui,21696.74,5
+2024-09-01,Ankorondrano – Itaosy,13:30,14:22,30,40,11.5,19,Non,Oui,3,75.0,0.61,30.8,Vent fort,5 places,Non,Non,Oui,38872.25,1
+2024-09-02,Analakely – Ankatso,11:30,12:17,9,40,8.1,12,Non,Oui,4,22.5,0.67,21.7,Brouillard,12 places,Non,Oui,Non,17313.2,5
+2024-09-03,Mahamasina – 67Ha,06:00,07:11,15,25,8.0,12,Oui,Non,1,60.0,0.67,21.4,Soleil,9 places,Oui,Non,Non,34921.03,4
+2024-09-04,Analakely – Ankatso,09:00,10:24,9,35,17.3,17,Non,Non,1,25.7,1.02,46.4,Pluie,7 places,Non,Non,Non,41802.54,4
+2024-09-05,Ambohijatovo – Anosizato,19:30,20:40,24,30,9.4,11,Non,Non,1,80.0,0.85,25.2,Orage,7 places,Oui,Non,Oui,16125.4,1
+2024-09-06,Ankorondrano – Itaosy,06:45,08:08,21,30,17.0,10,Oui,Non,1,70.0,1.7,45.6,Pluie,9 places,Non,Non,Oui,14262.85,1
+2024-09-07,Andavamamba – Ivato,05:00,06:30,17,25,12.3,19,Non,Non,1,68.0,0.65,33.0,Orage,7 places,Non,Non,Non,40890.16,4
+2024-09-08,Andavamamba – Ivato,14:15,15:25,13,25,10.9,14,Non,Oui,0,52.0,0.78,29.2,Pluie,7 places,Non,Non,Non,40536.43,3
+2024-09-09,Andavamamba – Ivato,05:00,05:44,21,25,15.4,14,Non,Non,0,84.0,1.1,41.3,Soleil,12 places,Non,Non,Non,36907.72,5
+2024-09-10,Ambohijatovo – Anosizato,11:15,12:13,19,25,16.6,13,Non,Non,1,76.0,1.28,44.5,Vent fort,5 places,Non,Non,Oui,35008.89,5
+2024-09-11,Analakely – Ankatso,18:15,19:13,23,30,15.1,18,Oui,Non,1,76.7,0.84,40.5,Orage,9 places,Non,Non,Non,12542.86,5
+2024-09-12,Analakely – Ankatso,20:15,21:34,24,25,11.5,15,Non,Non,1,96.0,0.77,30.8,Soleil,12 places,Oui,Non,Oui,22662.21,5
+2024-09-13,Analakely – Ankatso,15:45,17:14,18,40,13.4,11,Non,Oui,1,45.0,1.22,35.9,Pluie,5 places,Oui,Oui,Oui,34453.0,4
+2024-09-14,Mahamasina – 67Ha,06:15,07:07,25,30,8.0,20,Non,Non,1,83.3,0.4,21.4,Soleil,12 places,Oui,Non,Non,18856.85,3
+2024-09-15,Ankorondrano – Itaosy,11:00,11:47,6,35,17.6,10,Non,Non,0,17.1,1.76,47.2,Orage,12 places,Oui,Non,Oui,9814.13,2
+2024-09-16,Mahamasina – 67Ha,07:45,08:52,23,30,17.5,14,Oui,Non,2,76.7,1.25,46.9,Orage,7 places,Oui,Oui,Oui,40901.61,5
+2024-09-17,Ankorondrano – Itaosy,17:15,18:29,12,35,13.1,10,Non,Oui,2,34.3,1.31,35.1,Brouillard,7 places,Non,Non,Oui,36386.22,2
+2024-09-18,Mahamasina – 67Ha,14:15,15:41,22,40,9.7,14,Non,Non,0,55.0,0.69,26.0,Pluie,7 places,Oui,Non,Oui,32072.53,5
+2024-09-19,Ambohijatovo – Anosizato,10:00,11:21,30,35,11.8,15,Non,Oui,3,85.7,0.79,31.6,Pluie,5 places,Non,Non,Oui,48972.84,2
+2024-09-20,Andavamamba – Ivato,09:15,10:12,7,40,15.4,16,Non,Non,1,17.5,0.96,41.3,Soleil,5 places,Non,Oui,Non,28166.78,2
+2024-09-21,Mahamasina – 67Ha,11:30,12:08,25,30,16.7,13,Non,Non,0,83.3,1.28,44.8,Soleil,9 places,Non,Non,Oui,25266.69,3
+2024-09-22,Ankorondrano – Itaosy,12:45,14:01,25,25,10.5,17,Non,Oui,4,100.0,0.62,28.1,Vent fort,5 places,Oui,Non,Non,28902.63,5
+2024-09-23,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2024-09-24,Ankorondrano – Itaosy,19:30,20:53,10,25,11.0,10,Non,Oui,3,40.0,1.1,29.5,Brouillard,5 places,Oui,Oui,Non,6770.46,3
+2024-09-25,Analakely – Ankatso,05:15,06:01,12,25,9.0,14,Non,Non,1,48.0,0.64,24.1,Vent fort,7 places,Oui,Oui,Non,8248.93,5
+2024-09-26,Ambohijatovo – Anosizato,13:00,13:48,5,25,9.3,13,Non,Non,0,20.0,0.72,24.9,Pluie,7 places,Oui,Oui,Oui,13979.41,4
+2024-09-27,Andavamamba – Ivato,06:15,06:54,26,40,9.0,10,Non,Non,1,65.0,0.9,24.1,Soleil,12 places,Non,Non,Oui,43015.25,5
+2024-09-28,Ankorondrano – Itaosy,14:30,15:54,22,40,14.6,13,Non,Non,1,55.0,1.12,39.1,Vent fort,9 places,Oui,Non,Non,35304.46,4
+2024-09-29,Mahamasina – 67Ha,14:30,15:42,33,40,13.1,15,Non,Non,1,82.5,0.87,35.1,Pluie,7 places,Oui,Non,Oui,30100.25,1
+2024-09-30,Mahamasina – 67Ha,09:30,10:05,27,40,17.9,16,Non,Oui,2,67.5,1.12,48.0,Brouillard,5 places,Non,Non,Oui,22590.77,4
+2024-10-01,Ambohijatovo – Anosizato,19:00,20:17,25,40,17.3,14,Non,Oui,1,62.5,1.24,46.4,Orage,5 places,Oui,Non,Oui,31655.76,2
+2024-10-02,Andavamamba – Ivato,10:45,11:31,18,25,10.9,11,Oui,Oui,4,72.0,0.99,29.2,Pluie,7 places,Oui,Non,Non,34782.76,4
+2024-10-03,Andavamamba – Ivato,09:45,10:30,27,30,10.9,11,Oui,Oui,2,90.0,0.99,29.2,Vent fort,9 places,Oui,Non,Non,47462.72,4
+2024-10-04,Ambohijatovo – Anosizato,12:45,13:22,7,30,10.6,16,Non,Non,1,23.3,0.66,28.4,Soleil,12 places,Oui,Non,Non,27418.81,3
+2024-10-05,Ankorondrano – Itaosy,20:00,21:01,27,35,12.9,14,Non,Oui,4,77.1,0.92,34.6,Pluie,9 places,Oui,Non,Oui,8707.15,4
+2024-10-06,Ambohijatovo – Anosizato,16:45,18:13,8,40,15.1,16,Non,Non,1,20.0,0.94,40.5,Pluie,12 places,Oui,Oui,Oui,9809.46,5
+2024-10-07,Andavamamba – Ivato,14:00,15:00,21,30,8.1,15,Non,Non,1,70.0,0.54,21.7,Pluie,5 places,Oui,Non,Oui,32000.92,5
+2024-10-08,Ankorondrano – Itaosy,11:00,11:42,12,25,14.2,12,Oui,Non,5,48.0,1.18,38.1,Orage,9 places,Non,Oui,Oui,6316.13,1
+2024-10-09,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2024-10-10,Andavamamba – Ivato,08:00,08:40,13,40,14.4,15,Non,Non,1,32.5,0.96,38.6,Orage,9 places,Oui,Non,Oui,32155.19,5
+2024-10-11,Andavamamba – Ivato,14:00,14:52,17,25,15.1,12,Oui,Oui,3,68.0,1.26,40.5,Brouillard,9 places,Oui,Oui,Non,33530.26,4
+2024-10-12,Ambohijatovo – Anosizato,07:30,08:14,25,30,11.9,18,Oui,Oui,2,83.3,0.66,31.9,Brouillard,9 places,Non,Oui,Non,49153.38,5
+2024-10-01,Andavamamba – Ivato,16:45,17:38,34,40,8.3,17,Non,Oui,4,85.0,0.49,22.2,Soleil,7 places,Non,Oui,Non,22485.11,5
+2024-10-02,Andavamamba – Ivato,12:00,12:30,18,35,12.9,15,Non,Non,1,51.4,0.86,34.6,Brouillard,9 places,Non,Non,Non,9225.53,5
+2024-10-03,Andavamamba – Ivato,12:00,12:42,21,30,11.2,17,Oui,Non,1,70.0,0.66,30.0,Pluie,5 places,Non,Non,Non,10036.38,2
+2024-10-04,Andavamamba – Ivato,09:00,10:07,17,25,12.8,14,Non,Oui,4,68.0,0.91,34.3,Brouillard,9 places,Non,Non,Non,5995.56,4
+2024-10-05,Andavamamba – Ivato,20:00,21:03,36,40,15.9,20,Oui,Oui,4,90.0,0.8,42.6,Soleil,9 places,Oui,Non,Oui,25065.62,5
+2024-10-06,Ambohijatovo – Anosizato,05:30,06:19,21,25,13.9,12,Non,Non,1,84.0,1.16,37.3,Brouillard,9 places,Oui,Oui,Oui,9563.94,4
+2024-10-07,Analakely – Ankatso,12:45,14:09,17,30,11.7,19,Non,Non,1,56.7,0.62,31.4,Brouillard,5 places,Non,Non,Non,19562.46,3
+2024-10-08,Analakely – Ankatso,17:00,17:34,11,30,9.2,17,Non,Non,1,36.7,0.54,24.7,Soleil,5 places,Non,Non,Oui,44304.05,3
+2024-10-09,Andavamamba – Ivato,06:15,07:44,5,25,8.1,20,Non,Non,1,20.0,0.4,21.7,Soleil,5 places,Oui,Non,Non,49661.76,5
+2024-10-10,Mahamasina – 67Ha,13:30,14:46,18,25,8.3,20,Non,Oui,4,72.0,0.42,22.2,Pluie,7 places,Oui,Non,Non,33733.67,3
+2024-10-11,Mahamasina – 67Ha,11:30,12:10,22,25,12.1,10,Non,Non,0,88.0,1.21,32.4,Orage,7 places,Oui,Non,Oui,37879.27,5
+2024-10-12,Mahamasina – 67Ha,06:00,07:11,15,25,8.0,12,Oui,Non,1,60.0,0.67,21.4,Soleil,9 places,Oui,Non,Non,34921.03,4
+2024-10-13,Andavamamba – Ivato,20:00,21:08,31,40,8.8,20,Non,Oui,0,77.5,0.44,23.6,Vent fort,5 places,Non,Non,Oui,36610.92,5
+2024-10-14,Andavamamba – Ivato,17:00,17:48,15,25,13.2,18,Non,Oui,4,60.0,0.73,35.4,Vent fort,7 places,Non,Non,Non,19227.02,5
+2024-10-15,Mahamasina – 67Ha,11:45,12:54,25,35,8.5,18,Non,Non,0,71.4,0.47,22.8,Orage,7 places,Oui,Non,Oui,35746.16,4
+2024-10-16,Analakely – Ankatso,19:45,20:33,8,35,16.4,11,Oui,Non,3,22.9,1.49,44.0,Soleil,9 places,Oui,Non,Non,26759.55,2
+2024-10-17,Mahamasina – 67Ha,07:45,08:52,23,30,17.5,14,Oui,Non,2,76.7,1.25,46.9,Orage,7 places,Oui,Oui,Oui,40901.61,5
+2024-10-18,Mahamasina – 67Ha,18:30,19:12,22,30,15.0,18,Oui,Non,4,73.3,0.83,40.2,Brouillard,7 places,Non,Non,Oui,19690.76,2
+2024-10-19,Analakely – Ankatso,20:00,20:58,17,35,12.7,12,Non,Non,1,48.6,1.06,34.0,Orage,5 places,Non,Oui,Oui,16192.14,1
+2024-10-20,Mahamasina – 67Ha,11:15,12:33,5,30,16.2,14,Non,Non,0,16.7,1.16,43.4,Orage,9 places,Oui,Non,Non,34603.04,4
+2024-10-21,Andavamamba – Ivato,13:45,14:47,19,25,17.1,16,Non,Oui,2,76.0,1.07,45.8,Vent fort,5 places,Non,Non,Non,22891.75,2
+2024-10-22,Ankorondrano – Itaosy,19:30,20:22,23,30,11.4,17,Non,Non,0,76.7,0.67,30.6,Soleil,12 places,Non,Non,Non,28443.11,1
+2024-10-23,Ankorondrano – Itaosy,07:45,08:31,30,35,11.1,18,Oui,Non,5,85.7,0.62,29.7,Pluie,5 places,Non,Oui,Non,49870.6,2
+2024-10-24,Analakely – Ankatso,11:00,12:10,31,40,11.4,13,Non,Non,1,77.5,0.88,30.6,Vent fort,7 places,Non,Non,Oui,27121.75,4
+2024-10-25,Mahamasina – 67Ha,17:00,17:52,15,40,11.2,17,Non,Non,0,37.5,0.66,30.0,Brouillard,7 places,Non,Non,Non,12536.72,2
+2024-10-26,Analakely – Ankatso,09:00,09:46,16,25,13.8,12,Non,Non,1,64.0,1.15,37.0,Brouillard,7 places,Oui,Non,Non,32771.52,2
+2024-10-27,Analakely – Ankatso,20:15,21:34,24,25,11.5,15,Non,Non,1,96.0,0.77,30.8,Soleil,12 places,Oui,Non,Oui,22662.21,5
+2024-10-28,Andavamamba – Ivato,12:45,14:12,14,25,13.6,16,Non,Non,0,56.0,0.85,36.4,Vent fort,7 places,Oui,Oui,Oui,24601.25,2
+2024-10-29,Mahamasina – 67Ha,17:00,17:45,23,40,9.3,20,Non,Non,0,57.5,0.47,24.9,Vent fort,9 places,Oui,Non,Non,36025.92,5
+2024-10-30,Analakely – Ankatso,15:30,16:58,27,35,12.0,13,Non,Non,0,77.1,0.92,32.2,Brouillard,5 places,Oui,Non,Oui,49399.82,5
+2024-10-31,Ankorondrano – Itaosy,13:45,14:22,9,30,8.1,12,Non,Non,1,30.0,0.67,21.7,Brouillard,9 places,Oui,Non,Non,34136.36,4
+2024-11-01,Analakely – Ankatso,15:45,16:37,29,35,12.4,16,Non,Non,1,82.9,0.78,33.2,Brouillard,7 places,Non,Oui,Oui,5820.47,4
+2024-11-02,Mahamasina – 67Ha,06:00,07:11,15,25,8.0,12,Oui,Non,1,60.0,0.67,21.4,Soleil,9 places,Oui,Non,Non,34921.03,4
+2024-11-03,Mahamasina – 67Ha,18:45,20:11,7,35,8.3,14,Non,Oui,4,20.0,0.59,22.2,Orage,12 places,Non,Non,Non,35954.86,2
+2024-11-04,Mahamasina – 67Ha,18:15,18:50,15,30,17.3,13,Non,Non,1,50.0,1.33,46.4,Orage,9 places,Oui,Non,Non,46716.55,4
+2024-11-05,Andavamamba – Ivato,07:15,08:27,5,30,9.5,20,Non,Non,1,16.7,0.47,25.5,Brouillard,12 places,Non,Non,Non,14083.41,5
+2024-11-06,Mahamasina – 67Ha,08:00,09:08,15,35,8.5,15,Non,Oui,0,42.9,0.57,22.8,Brouillard,5 places,Oui,Non,Non,20275.26,5
+2024-11-07,Analakely – Ankatso,14:30,16:00,7,25,10.7,20,Non,Non,1,28.0,0.53,28.7,Soleil,12 places,Oui,Non,Oui,22969.22,1
+2024-11-08,Ankorondrano – Itaosy,16:30,17:56,22,40,9.9,13,Non,Non,1,55.0,0.76,26.5,Vent fort,9 places,Oui,Non,Oui,34305.48,5
+2024-11-09,Mahamasina – 67Ha,10:00,11:18,28,35,16.8,17,Non,Non,1,80.0,0.99,45.0,Brouillard,12 places,Oui,Oui,Oui,6348.81,1
+2024-11-10,Analakely – Ankatso,16:15,17:39,37,40,14.3,20,Non,Non,1,92.5,0.72,38.3,Soleil,12 places,Non,Oui,Non,27354.51,4
+2024-11-11,Mahamasina – 67Ha,11:00,11:39,19,35,15.7,11,Oui,Non,2,54.3,1.43,42.1,Soleil,5 places,Oui,Non,Oui,11675.44,2
+2024-11-01,Ambohijatovo – Anosizato,15:30,16:33,17,35,13.9,10,Non,Non,0,48.6,1.39,37.3,Soleil,7 places,Oui,Non,Non,49398.36,5
+2024-11-02,Ankorondrano – Itaosy,18:45,19:20,37,40,13.3,13,Non,Non,0,92.5,1.02,35.6,Soleil,7 places,Non,Oui,Non,15892.03,1
+2024-11-03,Analakely – Ankatso,12:45,14:10,8,40,12.5,18,Non,Non,0,20.0,0.69,33.5,Orage,5 places,Oui,Non,Oui,24389.94,2
+2024-11-04,Analakely – Ankatso,14:00,14:59,8,25,13.7,15,Non,Non,1,32.0,0.91,36.7,Vent fort,9 places,Non,Non,Non,19985.09,5
+2024-11-05,Ankorondrano – Itaosy,10:00,11:10,20,35,16.9,18,Non,Non,1,57.1,0.94,45.3,Pluie,5 places,Non,Oui,Non,12888.63,3
+2024-11-06,Analakely – Ankatso,15:45,17:11,7,40,8.9,12,Non,Oui,5,17.5,0.74,23.9,Vent fort,5 places,Non,Non,Oui,8052.67,3
+2024-11-07,Ambohijatovo – Anosizato,15:15,16:31,10,30,16.7,15,Non,Oui,3,33.3,1.11,44.8,Orage,5 places,Non,Non,Oui,14042.02,5
+2024-11-08,Analakely – Ankatso,08:15,09:31,26,30,17.6,19,Non,Oui,2,86.7,0.93,47.2,Orage,7 places,Non,Oui,Non,8953.99,5
+2024-11-09,Ambohijatovo – Anosizato,06:00,06:40,32,35,15.0,14,Non,Non,0,91.4,1.07,40.2,Pluie,12 places,Oui,Non,Oui,43447.33,4
+2024-11-10,Ankorondrano – Itaosy,06:30,07:22,30,40,17.0,17,Non,Non,0,75.0,1.0,45.6,Pluie,12 places,Non,Non,Oui,31682.79,5
+2024-11-11,Ankorondrano – Itaosy,08:15,09:41,13,40,11.2,16,Non,Non,0,32.5,0.7,30.0,Brouillard,7 places,Non,Non,Non,23420.03,3
+2024-11-12,Mahamasina – 67Ha,08:00,09:08,15,35,8.5,15,Non,Oui,0,42.9,0.57,22.8,Brouillard,5 places,Oui,Non,Non,20275.26,5
+2024-11-13,Mahamasina – 67Ha,18:15,19:41,19,40,16.0,17,Non,Oui,0,47.5,0.94,42.9,Brouillard,9 places,Non,Oui,Oui,13085.74,2
+2024-11-14,Analakely – Ankatso,15:00,15:31,9,35,13.8,17,Oui,Non,4,25.7,0.81,37.0,Pluie,12 places,Oui,Oui,Non,31107.76,3
+2024-11-15,Ambohijatovo – Anosizato,15:30,16:40,21,25,14.6,10,Non,Non,1,84.0,1.46,39.1,Orage,9 places,Oui,Non,Oui,29641.66,1
+2024-11-16,Analakely – Ankatso,09:00,10:24,9,35,17.3,17,Non,Non,1,25.7,1.02,46.4,Pluie,7 places,Non,Non,Non,41802.54,4
+2024-11-17,Analakely – Ankatso,13:00,14:22,16,25,10.7,18,Non,Non,0,64.0,0.59,28.7,Pluie,7 places,Oui,Oui,Oui,40844.18,4
+2024-11-18,Mahamasina – 67Ha,18:30,19:11,6,40,9.5,13,Non,Oui,2,15.0,0.73,25.5,Soleil,9 places,Non,Oui,Oui,17819.28,4
+2024-11-19,Mahamasina – 67Ha,15:30,16:17,19,30,12.4,10,Non,Non,1,63.3,1.24,33.2,Soleil,5 places,Non,Non,Oui,43850.01,3
+2024-11-20,Analakely – Ankatso,13:00,14:22,16,25,10.7,18,Non,Non,0,64.0,0.59,28.7,Pluie,7 places,Oui,Oui,Oui,40844.18,4
+2024-11-21,Andavamamba – Ivato,05:30,06:25,25,40,11.7,18,Non,Oui,3,62.5,0.65,31.4,Soleil,7 places,Oui,Non,Oui,30529.05,1
+2024-11-22,Analakely – Ankatso,09:30,10:26,14,35,8.6,20,Non,Non,0,40.0,0.43,23.0,Soleil,9 places,Oui,Non,Oui,25934.25,2
+2024-11-23,Ambohijatovo – Anosizato,10:15,11:27,37,40,9.1,17,Non,Non,0,92.5,0.54,24.4,Orage,5 places,Oui,Non,Oui,42299.75,4
+2024-11-24,Mahamasina – 67Ha,14:15,15:41,22,40,9.7,14,Non,Non,0,55.0,0.69,26.0,Pluie,7 places,Oui,Non,Oui,32072.53,5
+2024-11-25,Analakely – Ankatso,19:00,19:42,11,25,9.2,16,Non,Non,1,44.0,0.57,24.7,Orage,5 places,Oui,Non,Oui,25463.29,4
+2024-11-26,Analakely – Ankatso,10:45,11:23,14,30,9.6,18,Non,Non,1,46.7,0.53,25.7,Orage,5 places,Non,Non,Oui,38457.87,3
+2024-11-27,Ambohijatovo – Anosizato,14:00,14:39,18,30,9.2,11,Non,Oui,1,60.0,0.84,24.7,Brouillard,9 places,Oui,Oui,Oui,9010.6,5
+2024-11-28,Ambohijatovo – Anosizato,17:30,18:45,20,25,17.2,10,Non,Non,0,80.0,1.72,46.1,Vent fort,5 places,Oui,Non,Oui,39419.75,3
+2024-11-29,Ankorondrano – Itaosy,17:15,18:29,12,35,13.1,10,Non,Oui,2,34.3,1.31,35.1,Brouillard,7 places,Non,Non,Oui,36386.22,2
+2024-11-30,Ambohijatovo – Anosizato,11:00,12:02,20,35,15.0,19,Non,Non,1,57.1,0.79,40.2,Vent fort,12 places,Oui,Oui,Oui,29601.38,4
+2024-12-01,Andavamamba – Ivato,15:15,16:38,18,30,13.9,17,Non,Non,0,60.0,0.82,37.3,Brouillard,5 places,Oui,Non,Oui,38138.09,3
+2024-12-02,Ambohijatovo – Anosizato,20:45,22:04,14,40,17.7,16,Non,Oui,4,35.0,1.11,47.4,Orage,7 places,Non,Non,Oui,37133.91,5
+2024-12-03,Andavamamba – Ivato,09:15,10:00,15,40,9.5,10,Non,Non,1,37.5,0.95,25.5,Pluie,12 places,Non,Non,Oui,44072.26,1
+2024-12-04,Andavamamba – Ivato,13:45,14:33,39,40,10.1,10,Non,Non,1,97.5,1.01,27.1,Orage,12 places,Oui,Non,Oui,9721.86,5
+2024-12-05,Andavamamba – Ivato,20:45,22:12,25,40,17.4,14,Non,Non,1,62.5,1.24,46.6,Vent fort,7 places,Non,Oui,Oui,44789.29,3
+2024-12-06,Ankorondrano – Itaosy,18:15,19:09,15,35,11.6,13,Non,Non,1,42.9,0.89,31.1,Pluie,12 places,Non,Oui,Oui,29262.26,1
+2024-12-07,Mahamasina – 67Ha,14:00,15:21,29,35,14.5,14,Non,Oui,5,82.9,1.04,38.9,Brouillard,5 places,Non,Non,Non,11797.61,2
+2024-12-08,Andavamamba – Ivato,13:15,14:02,12,35,11.9,13,Non,Non,1,34.3,0.92,31.9,Vent fort,9 places,Non,Non,Oui,15517.04,2
+2024-12-09,Analakely – Ankatso,12:45,14:10,8,40,12.5,18,Non,Non,0,20.0,0.69,33.5,Orage,5 places,Oui,Non,Oui,24389.94,2
+2024-12-10,Ankorondrano – Itaosy,05:30,06:45,11,25,17.2,17,Oui,Non,5,44.0,1.01,46.1,Brouillard,7 places,Oui,Non,Non,46056.35,5
+2024-12-11,Andavamamba – Ivato,10:30,11:16,15,40,8.7,20,Non,Non,0,37.5,0.43,23.3,Orage,7 places,Non,Non,Oui,5222.3,4
+2024-12-12,Ankorondrano – Itaosy,20:00,21:11,15,40,14.9,20,Oui,Non,2,37.5,0.74,39.9,Vent fort,5 places,Non,Oui,Non,12234.2,4
+2024-12-01,Andavamamba – Ivato,13:45,14:57,6,35,15.5,16,Non,Non,1,17.1,0.97,41.5,Brouillard,5 places,Oui,Oui,Non,10484.87,4
+2024-12-02,Ankorondrano – Itaosy,07:45,09:11,21,30,10.4,10,Non,Non,1,70.0,1.04,27.9,Pluie,9 places,Non,Non,Non,33888.72,4
+2024-12-03,Analakely – Ankatso,15:30,16:58,27,35,12.0,13,Non,Non,0,77.1,0.92,32.2,Brouillard,5 places,Oui,Non,Oui,49399.82,5
+2024-12-04,Mahamasina – 67Ha,15:00,16:13,24,25,9.3,20,Oui,Non,0,96.0,0.47,24.9,Soleil,12 places,Non,Oui,Non,18966.29,5
+2024-12-05,Ambohijatovo – Anosizato,16:45,18:13,8,40,15.1,16,Non,Non,1,20.0,0.94,40.5,Pluie,12 places,Oui,Oui,Oui,9809.46,5
+2024-12-06,Ankorondrano – Itaosy,19:15,19:59,5,30,15.5,20,Non,Non,0,16.7,0.78,41.5,Vent fort,7 places,Non,Non,Non,14542.02,3
+2024-12-07,Andavamamba – Ivato,15:15,16:38,18,30,13.9,17,Non,Non,0,60.0,0.82,37.3,Brouillard,5 places,Oui,Non,Oui,38138.09,3
+2024-12-08,Ankorondrano – Itaosy,11:00,11:47,6,35,17.6,10,Non,Non,0,17.1,1.76,47.2,Orage,12 places,Oui,Non,Oui,9814.13,2
+2024-12-09,Mahamasina – 67Ha,13:30,14:46,18,25,8.3,20,Non,Oui,4,72.0,0.42,22.2,Pluie,7 places,Oui,Non,Non,33733.67,3
+2024-12-10,Andavamamba – Ivato,07:15,08:27,5,30,9.5,20,Non,Non,1,16.7,0.47,25.5,Brouillard,12 places,Non,Non,Non,14083.41,5
+2024-12-11,Andavamamba – Ivato,12:30,13:50,23,35,13.6,13,Non,Non,0,65.7,1.05,36.4,Brouillard,5 places,Oui,Non,Non,36281.5,5
+2024-12-12,Analakely – Ankatso,18:00,19:25,8,30,9.8,19,Non,Oui,5,26.7,0.52,26.3,Pluie,9 places,Non,Non,Oui,38734.33,1
+2024-12-13,Mahamasina – 67Ha,17:00,17:56,13,30,17.5,13,Non,Non,0,43.3,1.35,46.9,Vent fort,5 places,Non,Non,Oui,29760.19,3
+2024-12-14,Analakely – Ankatso,20:00,20:50,10,35,12.2,13,Oui,Non,2,28.6,0.94,32.7,Vent fort,12 places,Non,Non,Non,9684.93,2
+2024-12-15,Mahamasina – 67Ha,14:15,15:41,22,40,9.7,14,Non,Non,0,55.0,0.69,26.0,Pluie,7 places,Oui,Non,Oui,32072.53,5
+2024-12-16,Mahamasina – 67Ha,13:30,14:33,10,30,9.1,18,Non,Non,1,33.3,0.51,24.4,Soleil,7 places,Oui,Non,Non,42987.67,3
+2024-12-17,Analakely – Ankatso,05:15,06:38,13,25,10.4,10,Non,Non,1,52.0,1.04,27.9,Pluie,12 places,Oui,Non,Oui,32749.26,4
+2024-12-18,Ankorondrano – Itaosy,18:15,19:09,15,35,11.6,13,Non,Non,1,42.9,0.89,31.1,Pluie,12 places,Non,Oui,Oui,29262.26,1
+2024-12-19,Ankorondrano – Itaosy,16:15,17:44,30,30,15.0,11,Oui,Non,1,100.0,1.36,40.2,Soleil,7 places,Non,Non,Oui,24968.76,2
+2024-12-20,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2024-12-21,Andavamamba – Ivato,05:00,05:45,40,40,11.7,10,Oui,Non,1,100.0,1.17,31.4,Pluie,9 places,Oui,Non,Oui,5259.14,4
+2024-12-22,Ankorondrano – Itaosy,09:15,10:37,23,30,9.4,10,Non,Non,0,76.7,0.94,25.2,Orage,9 places,Oui,Non,Oui,18124.82,2
+2024-12-23,Ambohijatovo – Anosizato,16:30,17:08,27,40,12.9,10,Non,Oui,0,67.5,1.29,34.6,Soleil,7 places,Oui,Non,Oui,35041.7,3
+2024-12-24,Analakely – Ankatso,08:15,09:42,10,35,17.6,14,Non,Non,0,28.6,1.26,47.2,Brouillard,12 places,Oui,Oui,Non,22827.77,2
+2024-12-25,Ankorondrano – Itaosy,18:00,18:49,7,30,16.0,19,Non,Oui,4,23.3,0.84,42.9,Soleil,12 places,Non,Non,Oui,23609.71,4
+2024-12-26,Ambohijatovo – Anosizato,09:30,10:47,6,25,16.6,13,Non,Non,0,24.0,1.28,44.5,Orage,9 places,Non,Non,Non,18828.05,3
+2024-12-27,Analakely – Ankatso,05:15,06:01,12,25,9.0,14,Non,Non,1,48.0,0.64,24.1,Vent fort,7 places,Oui,Oui,Non,8248.93,5
+2024-12-28,Mahamasina – 67Ha,11:00,11:39,19,35,15.7,11,Oui,Non,2,54.3,1.43,42.1,Soleil,5 places,Oui,Non,Oui,11675.44,2
+2024-12-29,Ankorondrano – Itaosy,20:30,21:58,27,30,16.9,14,Non,Oui,0,90.0,1.21,45.3,Soleil,7 places,Oui,Non,Non,8605.17,5
+2024-12-30,Andavamamba – Ivato,07:45,09:12,20,30,13.2,16,Non,Non,0,66.7,0.82,35.4,Vent fort,5 places,Non,Non,Non,44072.21,4
+2024-12-31,Andavamamba – Ivato,06:15,06:54,26,40,9.0,10,Non,Non,1,65.0,0.9,24.1,Soleil,12 places,Non,Non,Oui,43015.25,5
+2025-01-01,Andavamamba – Ivato,09:45,10:30,27,30,10.9,11,Oui,Oui,2,90.0,0.99,29.2,Vent fort,9 places,Oui,Non,Non,47462.72,4
+2025-01-02,Analakely – Ankatso,18:15,19:13,23,30,15.1,18,Oui,Non,1,76.7,0.84,40.5,Orage,9 places,Non,Non,Non,12542.86,5
+2025-01-03,Andavamamba – Ivato,12:00,12:41,27,35,16.8,20,Non,Oui,5,77.1,0.84,45.0,Vent fort,12 places,Oui,Oui,Non,15689.49,2
+2025-01-04,Ankorondrano – Itaosy,19:00,19:51,12,30,16.4,19,Oui,Non,2,40.0,0.86,44.0,Soleil,7 places,Non,Non,Non,33961.0,1
+2025-01-05,Ambohijatovo – Anosizato,05:15,06:18,35,40,16.6,16,Oui,Oui,2,87.5,1.04,44.5,Vent fort,7 places,Oui,Non,Oui,48331.71,5
+2025-01-06,Ankorondrano – Itaosy,13:15,14:01,11,40,9.8,20,Non,Non,1,27.5,0.49,26.3,Vent fort,5 places,Non,Oui,Oui,23496.28,3
+2025-01-07,Ambohijatovo – Anosizato,07:30,08:14,25,30,11.9,18,Oui,Oui,2,83.3,0.66,31.9,Brouillard,9 places,Non,Oui,Non,49153.38,5
+2025-01-08,Ankorondrano – Itaosy,12:15,13:26,8,25,11.8,12,Non,Non,0,32.0,0.98,31.6,Soleil,12 places,Non,Oui,Non,44230.26,2
+2025-01-09,Andavamamba – Ivato,11:00,12:06,30,35,11.6,17,Non,Oui,1,85.7,0.68,31.1,Brouillard,12 places,Oui,Non,Oui,8573.87,1
+2025-01-10,Analakely – Ankatso,18:30,20:00,21,30,8.5,16,Oui,Oui,2,70.0,0.53,22.8,Brouillard,12 places,Oui,Non,Oui,47813.15,1
+2025-01-11,Ambohijatovo – Anosizato,16:00,16:41,27,40,17.5,20,Non,Non,0,67.5,0.88,46.9,Soleil,12 places,Oui,Non,Oui,36893.51,3
+2025-01-01,Andavamamba – Ivato,17:15,18:34,18,40,10.3,13,Oui,Non,1,45.0,0.79,27.6,Orage,7 places,Non,Non,Oui,35267.1,2
+2025-01-02,Ambohijatovo – Anosizato,08:45,09:46,20,25,12.4,10,Oui,Oui,1,80.0,1.24,33.2,Orage,7 places,Non,Non,Non,12639.11,1
+2025-01-03,Andavamamba – Ivato,14:00,15:03,16,25,16.8,14,Non,Non,1,64.0,1.2,45.0,Orage,12 places,Non,Non,Oui,23977.44,3
+2025-01-04,Ankorondrano – Itaosy,19:15,19:59,5,30,15.5,20,Non,Non,0,16.7,0.78,41.5,Vent fort,7 places,Non,Non,Non,14542.02,3
+2025-01-05,Ankorondrano – Itaosy,19:00,20:07,26,30,15.4,14,Non,Oui,4,86.7,1.1,41.3,Brouillard,9 places,Non,Non,Oui,7712.03,1
+2025-01-06,Ambohijatovo – Anosizato,10:45,11:16,17,40,12.3,12,Non,Oui,2,42.5,1.03,33.0,Soleil,9 places,Non,Non,Non,20165.14,3
+2025-01-07,Ambohijatovo – Anosizato,12:15,13:07,31,40,14.2,12,Oui,Non,3,77.5,1.18,38.1,Vent fort,9 places,Oui,Non,Non,36050.22,2
+2025-01-08,Analakely – Ankatso,05:15,06:38,13,25,10.4,10,Non,Non,1,52.0,1.04,27.9,Pluie,12 places,Oui,Non,Oui,32749.26,4
+2025-01-09,Andavamamba – Ivato,09:30,10:28,15,30,14.5,16,Oui,Non,4,50.0,0.91,38.9,Orage,5 places,Oui,Non,Oui,22090.36,5
+2025-01-10,Mahamasina – 67Ha,09:30,10:05,27,40,17.9,16,Non,Oui,2,67.5,1.12,48.0,Brouillard,5 places,Non,Non,Oui,22590.77,4
+2025-01-11,Ambohijatovo – Anosizato,09:00,10:22,18,30,17.1,14,Non,Non,0,60.0,1.22,45.8,Brouillard,9 places,Non,Non,Oui,5287.36,3
+2025-01-12,Ankorondrano – Itaosy,12:15,13:20,16,35,12.8,16,Non,Non,0,45.7,0.8,34.3,Brouillard,12 places,Non,Non,Non,14006.76,5
+2025-01-13,Ambohijatovo – Anosizato,20:00,21:27,33,40,8.6,12,Non,Oui,4,82.5,0.72,23.0,Orage,9 places,Oui,Oui,Non,6463.68,4
+2025-01-14,Analakely – Ankatso,13:00,14:22,16,25,10.7,18,Non,Non,0,64.0,0.59,28.7,Pluie,7 places,Oui,Oui,Oui,40844.18,4
+2025-01-15,Mahamasina – 67Ha,20:30,21:34,25,25,13.2,18,Oui,Non,3,100.0,0.73,35.4,Brouillard,7 places,Non,Non,Non,9350.44,3
+2025-01-16,Ambohijatovo – Anosizato,07:15,08:08,12,40,12.0,18,Oui,Non,2,30.0,0.67,32.2,Brouillard,7 places,Non,Oui,Oui,47788.86,4
+2025-01-17,Analakely – Ankatso,19:00,19:42,11,25,9.2,16,Non,Non,1,44.0,0.57,24.7,Orage,5 places,Oui,Non,Oui,25463.29,4
+2025-01-18,Ankorondrano – Itaosy,09:45,10:30,24,25,12.1,15,Non,Non,0,96.0,0.81,32.4,Brouillard,9 places,Non,Non,Non,12179.51,2
+2025-01-19,Andavamamba – Ivato,13:00,14:25,6,35,13.9,14,Non,Oui,5,17.1,0.99,37.3,Vent fort,7 places,Oui,Oui,Oui,26563.18,2
+2025-01-20,Ankorondrano – Itaosy,05:45,06:48,20,30,16.3,18,Non,Non,0,66.7,0.91,43.7,Soleil,9 places,Non,Oui,Non,10777.74,2
+2025-01-21,Ankorondrano – Itaosy,11:00,11:42,12,25,14.2,12,Oui,Non,5,48.0,1.18,38.1,Orage,9 places,Non,Oui,Oui,6316.13,1
+2025-01-22,Ankorondrano – Itaosy,07:00,07:44,25,30,17.7,15,Oui,Oui,2,83.3,1.18,47.4,Pluie,5 places,Non,Non,Non,40093.29,5
+2025-01-23,Ankorondrano – Itaosy,10:00,10:49,5,30,12.1,18,Non,Non,0,16.7,0.67,32.4,Soleil,12 places,Oui,Non,Non,48865.69,3
+2025-01-24,Andavamamba – Ivato,09:45,10:57,24,25,16.6,14,Non,Non,0,96.0,1.19,44.5,Vent fort,9 places,Oui,Oui,Non,28357.69,1
+2025-01-25,Mahamasina – 67Ha,11:30,12:08,25,30,16.7,13,Non,Non,0,83.3,1.28,44.8,Soleil,9 places,Non,Non,Oui,25266.69,3
+2025-01-26,Mahamasina – 67Ha,16:30,17:25,7,30,9.0,14,Non,Oui,1,23.3,0.64,24.1,Brouillard,9 places,Non,Non,Oui,12560.64,2
+2025-01-27,Andavamamba – Ivato,15:15,16:20,6,35,15.0,19,Non,Oui,5,17.1,0.79,40.2,Orage,12 places,Oui,Non,Oui,39691.48,3
+2025-01-28,Andavamamba – Ivato,09:15,10:44,32,35,12.2,10,Oui,Non,1,91.4,1.22,32.7,Soleil,7 places,Oui,Non,Oui,16595.73,1
+2025-01-29,Andavamamba – Ivato,14:00,14:50,30,30,15.9,17,Oui,Oui,5,100.0,0.94,42.6,Pluie,5 places,Non,Non,Non,17366.27,5
+2025-01-30,Andavamamba – Ivato,06:15,06:54,26,40,9.0,10,Non,Non,1,65.0,0.9,24.1,Soleil,12 places,Non,Non,Oui,43015.25,5
+2025-01-31,Andavamamba – Ivato,15:45,16:26,14,35,15.5,13,Non,Oui,5,40.0,1.19,41.5,Pluie,5 places,Oui,Oui,Oui,48623.55,3
+2025-02-01,Andavamamba – Ivato,10:45,11:31,18,25,10.9,11,Oui,Oui,4,72.0,0.99,29.2,Pluie,7 places,Oui,Non,Non,34782.76,4
+2025-02-02,Mahamasina – 67Ha,14:00,15:13,34,40,10.4,10,Oui,Oui,2,85.0,1.04,27.9,Soleil,5 places,Oui,Non,Oui,32941.2,2
+2025-02-03,Andavamamba – Ivato,16:45,17:38,34,40,8.3,17,Non,Oui,4,85.0,0.49,22.2,Soleil,7 places,Non,Oui,Non,22485.11,5
+2025-02-04,Ankorondrano – Itaosy,17:00,18:24,26,30,16.0,14,Non,Oui,0,86.7,1.14,42.9,Vent fort,9 places,Non,Non,Oui,47507.64,1
+2025-02-05,Ambohijatovo – Anosizato,05:15,06:13,40,40,15.0,14,Oui,Non,0,100.0,1.07,40.2,Brouillard,7 places,Oui,Non,Non,12971.74,4
+2025-02-06,Andavamamba – Ivato,11:00,11:43,28,30,14.4,17,Non,Non,0,93.3,0.85,38.6,Pluie,9 places,Non,Non,Oui,21165.5,2
+2025-02-07,Mahamasina – 67Ha,17:30,18:46,10,30,13.2,12,Non,Non,1,33.3,1.1,35.4,Vent fort,5 places,Oui,Non,Non,10972.21,4
+2025-02-08,Analakely – Ankatso,20:00,20:51,8,30,11.1,15,Oui,Oui,5,26.7,0.74,29.7,Orage,7 places,Non,Non,Oui,6063.74,1
+2025-02-09,Mahamasina – 67Ha,09:15,10:27,31,40,14.1,17,Non,Oui,1,77.5,0.83,37.8,Pluie,5 places,Non,Non,Non,38159.32,4
+2025-02-10,Analakely – Ankatso,15:45,17:14,18,40,13.4,11,Non,Oui,1,45.0,1.22,35.9,Pluie,5 places,Oui,Oui,Oui,34453.0,4
+2025-02-11,Analakely – Ankatso,07:15,08:44,6,25,13.2,11,Oui,Non,0,24.0,1.2,35.4,Vent fort,7 places,Non,Oui,Non,42017.64,5
+2025-02-01,Ankorondrano – Itaosy,05:15,05:58,5,35,14.8,19,Non,Non,1,14.3,0.78,39.7,Brouillard,9 places,Non,Oui,Oui,6106.41,5
+2025-02-02,Andavamamba – Ivato,07:45,08:43,10,25,10.6,11,Non,Oui,2,40.0,0.96,28.4,Brouillard,12 places,Oui,Non,Oui,29298.07,2
+2025-02-03,Ambohijatovo – Anosizato,17:45,18:42,12,35,14.6,20,Non,Non,0,34.3,0.73,39.1,Brouillard,12 places,Oui,Non,Oui,32355.73,4
+2025-02-04,Ankorondrano – Itaosy,15:30,16:53,24,25,13.6,14,Non,Oui,3,96.0,0.97,36.4,Brouillard,9 places,Non,Non,Oui,21796.33,4
+2025-02-05,Mahamasina – 67Ha,05:30,06:41,21,30,15.7,20,Non,Oui,4,70.0,0.78,42.1,Vent fort,5 places,Oui,Non,Non,46438.15,1
+2025-02-06,Analakely – Ankatso,05:15,06:01,12,25,9.0,14,Non,Non,1,48.0,0.64,24.1,Vent fort,7 places,Oui,Oui,Non,8248.93,5
+2025-02-07,Analakely – Ankatso,16:15,17:39,37,40,14.3,20,Non,Non,1,92.5,0.72,38.3,Soleil,12 places,Non,Oui,Non,27354.51,4
+2025-02-08,Analakely – Ankatso,17:15,17:49,17,35,12.0,18,Non,Oui,4,48.6,0.67,32.2,Brouillard,5 places,Non,Oui,Non,38421.79,3
+2025-02-09,Ambohijatovo – Anosizato,07:15,08:08,12,40,12.0,18,Oui,Non,2,30.0,0.67,32.2,Brouillard,7 places,Non,Oui,Oui,47788.86,4
+2025-02-10,Andavamamba – Ivato,14:00,15:00,21,30,8.1,15,Non,Non,1,70.0,0.54,21.7,Pluie,5 places,Oui,Non,Oui,32000.92,5
+2025-02-11,Ankorondrano – Itaosy,14:00,14:41,19,40,12.7,10,Non,Non,1,47.5,1.27,34.0,Vent fort,12 places,Oui,Non,Oui,16691.16,2
+2025-02-12,Mahamasina – 67Ha,20:30,21:14,6,25,16.0,18,Non,Oui,2,24.0,0.89,42.9,Orage,5 places,Non,Non,Oui,11858.72,2
+2025-02-13,Analakely – Ankatso,17:00,18:24,15,35,14.7,19,Non,Oui,3,42.9,0.77,39.4,Brouillard,5 places,Non,Non,Oui,41026.4,4
+2025-02-14,Analakely – Ankatso,15:45,17:10,10,25,13.0,15,Oui,Non,0,40.0,0.87,34.8,Pluie,7 places,Oui,Non,Non,44219.16,2
+2025-02-15,Mahamasina – 67Ha,17:00,17:52,15,40,11.2,17,Non,Non,0,37.5,0.66,30.0,Brouillard,7 places,Non,Non,Non,12536.72,2
+2025-02-16,Ankorondrano – Itaosy,16:30,17:36,36,40,16.3,19,Oui,Oui,1,90.0,0.86,43.7,Orage,5 places,Oui,Non,Oui,42161.75,1
+2025-02-17,Andavamamba – Ivato,18:45,20:00,29,35,9.0,17,Non,Non,0,82.9,0.53,24.1,Pluie,9 places,Non,Non,Oui,30515.73,1
+2025-02-18,Analakely – Ankatso,09:00,10:24,9,35,17.3,17,Non,Non,1,25.7,1.02,46.4,Pluie,7 places,Non,Non,Non,41802.54,4
+2025-02-19,Andavamamba – Ivato,18:00,18:35,18,25,14.1,11,Non,Non,1,72.0,1.28,37.8,Vent fort,7 places,Non,Non,Oui,36710.63,3
+2025-02-20,Mahamasina – 67Ha,11:45,13:15,17,40,16.8,13,Non,Non,1,42.5,1.29,45.0,Brouillard,12 places,Non,Oui,Oui,20160.31,5
+2025-02-21,Ankorondrano – Itaosy,09:45,10:39,31,40,12.8,20,Non,Non,1,77.5,0.64,34.3,Soleil,9 places,Non,Non,Non,13348.65,1
+2025-02-22,Analakely – Ankatso,17:45,18:51,26,30,12.0,13,Non,Non,1,86.7,0.92,32.2,Vent fort,12 places,Oui,Non,Oui,17268.08,1
+2025-02-23,Ankorondrano – Itaosy,09:15,10:37,23,30,9.4,10,Non,Non,0,76.7,0.94,25.2,Orage,9 places,Oui,Non,Oui,18124.82,2
+2025-02-24,Ankorondrano – Itaosy,15:15,16:31,26,35,8.4,12,Non,Oui,0,74.3,0.7,22.5,Orage,7 places,Oui,Non,Non,44183.91,4
+2025-02-25,Andavamamba – Ivato,12:00,12:42,21,30,11.2,17,Oui,Non,1,70.0,0.66,30.0,Pluie,5 places,Non,Non,Non,10036.38,2
+2025-02-26,Analakely – Ankatso,15:30,16:58,27,35,12.0,13,Non,Non,0,77.1,0.92,32.2,Brouillard,5 places,Oui,Non,Oui,49399.82,5
+2025-02-27,Mahamasina – 67Ha,14:00,15:21,29,35,14.5,14,Non,Oui,5,82.9,1.04,38.9,Brouillard,5 places,Non,Non,Non,11797.61,2
+2025-02-28,Ankorondrano – Itaosy,05:30,06:45,11,25,17.2,17,Oui,Non,5,44.0,1.01,46.1,Brouillard,7 places,Oui,Non,Non,46056.35,5
+2025-03-01,Andavamamba – Ivato,12:15,13:43,21,30,11.3,11,Non,Oui,5,70.0,1.03,30.3,Pluie,9 places,Oui,Non,Non,26864.23,1
+2025-03-02,Analakely – Ankatso,09:00,09:33,21,35,8.9,12,Non,Non,0,60.0,0.74,23.9,Brouillard,12 places,Non,Oui,Oui,13195.31,4
+2025-03-03,Andavamamba – Ivato,13:00,14:25,29,40,13.6,10,Non,Non,0,72.5,1.36,36.4,Brouillard,7 places,Oui,Non,Oui,15659.18,3
+2025-03-04,Ankorondrano – Itaosy,11:45,12:38,35,35,9.7,14,Non,Oui,0,100.0,0.69,26.0,Soleil,12 places,Non,Non,Oui,13634.03,3
+2025-03-05,Analakely – Ankatso,11:45,12:36,17,35,11.1,15,Non,Non,1,48.6,0.74,29.7,Pluie,12 places,Non,Non,Non,12363.07,4
+2025-03-06,Ankorondrano – Itaosy,19:15,20:25,28,40,13.7,17,Non,Non,1,70.0,0.81,36.7,Pluie,9 places,Oui,Non,Oui,10409.41,5
+2025-03-07,Mahamasina – 67Ha,20:30,21:14,6,25,16.0,18,Non,Oui,2,24.0,0.89,42.9,Orage,5 places,Non,Non,Oui,11858.72,2
+2025-03-08,Mahamasina – 67Ha,18:15,18:50,15,30,17.3,13,Non,Non,1,50.0,1.33,46.4,Orage,9 places,Oui,Non,Non,46716.55,4
+2025-03-09,Andavamamba – Ivato,14:00,14:50,30,30,15.9,17,Oui,Oui,5,100.0,0.94,42.6,Pluie,5 places,Non,Non,Non,17366.27,5
+2025-03-10,Ankorondrano – Itaosy,11:15,12:06,27,35,9.8,16,Oui,Non,0,77.1,0.61,26.3,Orage,7 places,Oui,Non,Oui,20778.21,4
+2025-03-11,Ambohijatovo – Anosizato,09:30,10:22,16,35,18.0,13,Non,Oui,1,45.7,1.38,48.2,Soleil,12 places,Oui,Oui,Non,15280.46,4
+2025-03-12,Analakely – Ankatso,20:30,21:18,15,25,16.6,17,Non,Oui,2,60.0,0.98,44.5,Brouillard,5 places,Non,Oui,Non,13810.01,2
+2025-03-13,Ankorondrano – Itaosy,20:30,21:52,20,40,12.1,18,Non,Non,0,50.0,0.67,32.4,Brouillard,9 places,Non,Non,Oui,6782.85,2
+2025-03-14,Ambohijatovo – Anosizato,12:30,13:15,7,40,11.6,18,Non,Oui,1,17.5,0.64,31.1,Soleil,7 places,Oui,Non,Non,27152.5,1
+2025-03-01,Ambohijatovo – Anosizato,20:30,21:37,22,30,14.2,16,Non,Non,1,73.3,0.89,38.1,Soleil,9 places,Oui,Non,Non,49606.52,4
+2025-03-02,Ambohijatovo – Anosizato,17:30,18:29,8,40,13.1,18,Non,Oui,4,20.0,0.73,35.1,Soleil,5 places,Non,Non,Oui,44193.61,4
+2025-03-03,Ambohijatovo – Anosizato,13:00,13:48,5,25,9.3,13,Non,Non,0,20.0,0.72,24.9,Pluie,7 places,Oui,Oui,Oui,13979.41,4
+2025-03-04,Andavamamba – Ivato,12:00,13:28,17,25,15.7,18,Non,Non,0,68.0,0.87,42.1,Pluie,12 places,Oui,Non,Oui,48913.94,4
+2025-03-05,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2025-03-06,Ambohijatovo – Anosizato,09:30,10:47,6,25,16.6,13,Non,Non,0,24.0,1.28,44.5,Orage,9 places,Non,Non,Non,18828.05,3
+2025-03-07,Mahamasina – 67Ha,06:15,07:07,15,40,17.4,11,Oui,Non,1,37.5,1.58,46.6,Soleil,7 places,Non,Non,Oui,18640.78,1
+2025-03-08,Analakely – Ankatso,17:30,18:17,12,25,10.1,20,Non,Non,1,48.0,0.51,27.1,Soleil,9 places,Oui,Oui,Non,14023.61,4
+2025-03-09,Ambohijatovo – Anosizato,07:15,08:18,17,30,8.7,16,Non,Non,0,56.7,0.54,23.3,Vent fort,7 places,Oui,Non,Non,5522.92,3
+2025-03-10,Ankorondrano – Itaosy,20:30,21:20,29,40,12.6,19,Non,Non,0,72.5,0.66,33.8,Brouillard,9 places,Non,Non,Non,27825.57,5
+2025-03-11,Ankorondrano – Itaosy,07:45,09:11,21,30,10.4,10,Non,Non,1,70.0,1.04,27.9,Pluie,9 places,Non,Non,Non,33888.72,4
+2025-03-12,Analakely – Ankatso,16:45,17:29,20,25,15.7,18,Non,Non,0,80.0,0.87,42.1,Pluie,7 places,Oui,Non,Oui,17138.73,5
+2025-03-13,Mahamasina – 67Ha,18:30,19:11,6,40,9.5,13,Non,Oui,2,15.0,0.73,25.5,Soleil,9 places,Non,Oui,Oui,17819.28,4
+2025-03-14,Ambohijatovo – Anosizato,05:15,06:18,35,40,16.6,16,Oui,Oui,2,87.5,1.04,44.5,Vent fort,7 places,Oui,Non,Oui,48331.71,5
+2025-03-15,Ankorondrano – Itaosy,19:45,20:23,33,35,16.5,14,Non,Non,0,94.3,1.18,44.2,Brouillard,9 places,Non,Non,Oui,19633.55,5
+2025-03-16,Ankorondrano – Itaosy,18:30,19:24,17,30,15.9,13,Oui,Non,0,56.7,1.22,42.6,Pluie,9 places,Non,Non,Oui,14753.29,3
+2025-03-17,Ankorondrano – Itaosy,18:15,19:26,8,35,16.3,20,Non,Non,0,22.9,0.82,43.7,Brouillard,7 places,Non,Non,Non,36168.17,5
+2025-03-18,Ambohijatovo – Anosizato,12:45,13:26,7,35,17.6,15,Non,Non,1,20.0,1.17,47.2,Orage,9 places,Oui,Non,Oui,26358.39,5
+2025-03-19,Analakely – Ankatso,15:30,16:58,27,35,12.0,13,Non,Non,0,77.1,0.92,32.2,Brouillard,5 places,Oui,Non,Oui,49399.82,5
+2025-03-20,Ambohijatovo – Anosizato,18:30,19:57,34,40,11.0,17,Non,Non,1,85.0,0.65,29.5,Soleil,7 places,Non,Non,Non,39302.83,3
+2025-03-21,Mahamasina – 67Ha,16:00,16:59,10,40,10.3,10,Non,Non,1,25.0,1.03,27.6,Soleil,7 places,Oui,Non,Oui,13143.96,4
+2025-03-22,Ambohijatovo – Anosizato,11:15,12:05,25,25,10.5,17,Non,Oui,2,100.0,0.62,28.1,Orage,7 places,Non,Non,Oui,37595.25,1
+2025-03-23,Mahamasina – 67Ha,08:15,09:30,21,25,12.9,11,Non,Non,0,84.0,1.17,34.6,Orage,7 places,Non,Oui,Non,33491.81,3
+2025-03-24,Mahamasina – 67Ha,20:45,21:15,8,35,16.2,14,Non,Oui,0,22.9,1.16,43.4,Soleil,5 places,Non,Non,Oui,41778.4,1
+2025-03-25,Ankorondrano – Itaosy,11:15,12:04,5,40,9.5,14,Oui,Non,4,12.5,0.68,25.5,Vent fort,5 places,Oui,Non,Oui,17457.25,3
+2025-03-26,Analakely – Ankatso,09:00,09:33,21,35,8.9,12,Non,Non,0,60.0,0.74,23.9,Brouillard,12 places,Non,Oui,Oui,13195.31,4
+2025-03-27,Analakely – Ankatso,13:00,14:03,24,35,17.0,11,Non,Non,1,68.6,1.55,45.6,Pluie,12 places,Oui,Non,Oui,9307.15,1
+2025-03-28,Mahamasina – 67Ha,19:00,20:10,13,30,13.3,14,Non,Oui,4,43.3,0.95,35.6,Soleil,5 places,Oui,Oui,Oui,48641.95,3
+2025-03-29,Ambohijatovo – Anosizato,11:00,12:02,20,35,15.0,19,Non,Non,1,57.1,0.79,40.2,Vent fort,12 places,Oui,Oui,Oui,29601.38,4
+2025-03-30,Analakely – Ankatso,17:45,19:01,14,30,10.8,14,Non,Non,1,46.7,0.77,28.9,Vent fort,12 places,Oui,Non,Oui,26597.25,5
+2025-03-31,Mahamasina – 67Ha,06:15,07:07,25,30,8.0,20,Non,Non,1,83.3,0.4,21.4,Soleil,12 places,Oui,Non,Non,18856.85,3
+2025-04-01,Analakely – Ankatso,11:15,12:06,8,25,12.7,14,Non,Non,0,32.0,0.91,34.0,Vent fort,9 places,Oui,Non,Non,47049.62,1
+2025-04-02,Andavamamba – Ivato,10:00,11:29,21,40,17.4,16,Oui,Oui,3,52.5,1.09,46.6,Vent fort,12 places,Oui,Non,Oui,10799.14,1
+2025-04-03,Ambohijatovo – Anosizato,13:00,13:48,5,25,9.3,13,Non,Non,0,20.0,0.72,24.9,Pluie,7 places,Oui,Oui,Oui,13979.41,4
+2025-04-04,Andavamamba – Ivato,19:15,19:56,5,40,17.6,12,Oui,Non,1,12.5,1.47,47.2,Brouillard,9 places,Oui,Oui,Non,14479.8,5
+2025-04-05,Ankorondrano – Itaosy,13:15,14:21,23,30,8.0,13,Non,Non,1,76.7,0.62,21.4,Vent fort,12 places,Non,Oui,Oui,29112.25,1
+2025-04-06,Ankorondrano – Itaosy,17:45,18:34,18,35,8.4,15,Non,Non,1,51.4,0.56,22.5,Pluie,5 places,Oui,Non,Non,42891.5,1
+2025-04-07,Mahamasina – 67Ha,16:45,17:32,6,25,13.8,14,Non,Oui,1,24.0,0.99,37.0,Pluie,5 places,Non,Non,Oui,24268.98,2
+2025-04-08,Andavamamba – Ivato,09:45,11:10,21,35,15.1,20,Non,Non,0,60.0,0.76,40.5,Orage,5 places,Non,Non,Non,44056.32,3
+2025-04-09,Mahamasina – 67Ha,07:45,09:01,20,30,11.3,13,Oui,Oui,5,66.7,0.87,30.3,Pluie,5 places,Oui,Non,Non,20356.15,4
+2025-04-10,Ambohijatovo – Anosizato,15:15,16:19,35,40,9.1,10,Oui,Non,0,87.5,0.91,24.4,Pluie,9 places,Oui,Non,Non,32877.07,1
+2025-04-11,Ankorondrano – Itaosy,18:00,18:49,7,30,16.0,19,Non,Oui,4,23.3,0.84,42.9,Soleil,12 places,Non,Non,Oui,23609.71,4
+2025-04-01,Andavamamba – Ivato,09:15,10:00,15,40,9.5,10,Non,Non,1,37.5,0.95,25.5,Pluie,12 places,Non,Non,Oui,44072.26,1
+2025-04-02,Analakely – Ankatso,07:15,08:44,6,25,13.2,11,Oui,Non,0,24.0,1.2,35.4,Vent fort,7 places,Non,Oui,Non,42017.64,5
+2025-04-03,Andavamamba – Ivato,12:00,13:28,17,25,15.7,18,Non,Non,0,68.0,0.87,42.1,Pluie,12 places,Oui,Non,Oui,48913.94,4
+2025-04-04,Mahamasina – 67Ha,20:45,22:08,7,25,8.2,18,Oui,Oui,0,28.0,0.46,22.0,Brouillard,12 places,Oui,Non,Oui,35610.27,1
+2025-04-05,Ankorondrano – Itaosy,06:45,07:20,28,40,17.0,17,Non,Non,1,70.0,1.0,45.6,Brouillard,12 places,Oui,Non,Non,8042.57,5
+2025-04-06,Andavamamba – Ivato,09:15,10:44,32,35,12.2,10,Oui,Non,1,91.4,1.22,32.7,Soleil,7 places,Oui,Non,Oui,16595.73,1
+2025-04-07,Ambohijatovo – Anosizato,16:00,17:13,18,40,16.3,20,Non,Oui,5,45.0,0.82,43.7,Brouillard,9 places,Oui,Non,Non,48334.64,2
+2025-04-08,Mahamasina – 67Ha,10:30,11:22,10,25,16.8,13,Non,Non,1,40.0,1.29,45.0,Soleil,5 places,Non,Non,Oui,10494.95,3
+2025-04-09,Mahamasina – 67Ha,06:15,07:07,25,30,8.0,20,Non,Non,1,83.3,0.4,21.4,Soleil,12 places,Oui,Non,Non,18856.85,3
+2025-04-10,Ankorondrano – Itaosy,19:45,20:15,13,30,16.4,12,Non,Non,1,43.3,1.37,44.0,Vent fort,5 places,Non,Oui,Non,20640.72,5
+2025-04-11,Mahamasina – 67Ha,17:30,18:46,10,30,13.2,12,Non,Non,1,33.3,1.1,35.4,Vent fort,5 places,Oui,Non,Non,10972.21,4
+2025-04-12,Ambohijatovo – Anosizato,10:15,11:05,20,30,16.0,16,Non,Non,0,66.7,1.0,42.9,Vent fort,9 places,Oui,Oui,Non,41269.66,2
+2025-04-13,Ankorondrano – Itaosy,09:45,10:39,31,40,12.8,20,Non,Non,1,77.5,0.64,34.3,Soleil,9 places,Non,Non,Non,13348.65,1
+2025-04-14,Analakely – Ankatso,10:45,11:23,14,30,9.6,18,Non,Non,1,46.7,0.53,25.7,Orage,5 places,Non,Non,Oui,38457.87,3
+2025-04-15,Mahamasina – 67Ha,07:30,08:37,28,35,9.6,17,Non,Oui,4,80.0,0.56,25.7,Soleil,12 places,Non,Non,Non,26900.1,3
+2025-04-16,Andavamamba – Ivato,07:00,08:19,11,40,12.5,18,Non,Oui,0,27.5,0.69,33.5,Vent fort,12 places,Non,Non,Non,36867.74,3
+2025-04-17,Andavamamba – Ivato,08:30,09:43,27,30,16.9,17,Oui,Non,0,90.0,0.99,45.3,Soleil,5 places,Oui,Oui,Non,14705.38,3
+2025-04-18,Ambohijatovo – Anosizato,08:45,09:46,20,25,12.4,10,Oui,Oui,1,80.0,1.24,33.2,Orage,7 places,Non,Non,Non,12639.11,1
+2025-04-19,Mahamasina – 67Ha,15:30,16:03,14,30,11.4,18,Non,Non,0,46.7,0.63,30.6,Pluie,7 places,Non,Non,Non,40123.65,5
+2025-04-20,Andavamamba – Ivato,13:00,14:25,6,35,13.9,14,Non,Oui,5,17.1,0.99,37.3,Vent fort,7 places,Oui,Oui,Oui,26563.18,2
+2025-04-21,Analakely – Ankatso,13:00,14:03,24,35,17.0,11,Non,Non,1,68.6,1.55,45.6,Pluie,12 places,Oui,Non,Oui,9307.15,1
+2025-04-22,Andavamamba – Ivato,14:00,15:10,26,30,16.5,12,Non,Oui,0,86.7,1.38,44.2,Brouillard,5 places,Non,Non,Oui,48430.34,5
+2025-04-23,Andavamamba – Ivato,19:45,20:28,6,25,15.5,16,Non,Oui,2,24.0,0.97,41.5,Orage,9 places,Oui,Oui,Non,45266.75,1
+2025-04-24,Ambohijatovo – Anosizato,15:30,16:48,27,35,8.9,10,Non,Non,1,77.1,0.89,23.9,Brouillard,12 places,Non,Non,Non,20080.35,3
+2025-04-25,Analakely – Ankatso,20:00,20:50,10,35,12.2,13,Oui,Non,2,28.6,0.94,32.7,Vent fort,12 places,Non,Non,Non,9684.93,2
+2025-04-26,Analakely – Ankatso,09:15,10:45,23,25,16.2,12,Non,Non,0,92.0,1.35,43.4,Pluie,12 places,Oui,Non,Oui,17296.68,5
+2025-04-27,Andavamamba – Ivato,07:45,09:12,20,30,13.2,16,Non,Non,0,66.7,0.82,35.4,Vent fort,5 places,Non,Non,Non,44072.21,4
+2025-04-28,Analakely – Ankatso,20:15,21:23,11,35,13.6,19,Non,Oui,5,31.4,0.72,36.4,Pluie,9 places,Oui,Non,Oui,31197.67,4
+2025-04-29,Mahamasina – 67Ha,13:15,14:28,8,35,18.0,13,Oui,Oui,1,22.9,1.38,48.2,Brouillard,5 places,Oui,Non,Non,20564.74,2
+2025-04-30,Ankorondrano – Itaosy,17:30,18:33,7,25,16.3,11,Non,Non,0,28.0,1.48,43.7,Pluie,12 places,Oui,Non,Non,34264.66,5
+2025-05-01,Ankorondrano – Itaosy,11:15,12:06,27,35,9.8,16,Oui,Non,0,77.1,0.61,26.3,Orage,7 places,Oui,Non,Oui,20778.21,4
+2025-05-02,Ankorondrano – Itaosy,08:00,08:34,26,40,9.4,15,Non,Non,0,65.0,0.63,25.2,Brouillard,7 places,Non,Non,Non,20974.83,2
+2025-05-03,Ambohijatovo – Anosizato,12:15,13:44,39,40,14.2,18,Oui,Non,2,97.5,0.79,38.1,Pluie,9 places,Oui,Non,Oui,41016.04,4
+2025-05-04,Mahamasina – 67Ha,16:30,17:15,23,25,8.6,20,Non,Non,0,92.0,0.43,23.0,Brouillard,5 places,Non,Non,Oui,44088.04,3
+2025-05-05,Mahamasina – 67Ha,17:30,18:46,10,30,13.2,12,Non,Non,1,33.3,1.1,35.4,Vent fort,5 places,Oui,Non,Non,10972.21,4
+2025-05-06,Andavamamba – Ivato,07:00,08:09,25,30,15.8,13,Non,Oui,2,83.3,1.22,42.3,Vent fort,7 places,Oui,Non,Non,17337.23,4
+2025-05-07,Ankorondrano – Itaosy,18:30,19:24,17,30,15.9,13,Oui,Non,0,56.7,1.22,42.6,Pluie,9 places,Non,Non,Oui,14753.29,3
+2025-05-08,Andavamamba – Ivato,11:15,12:07,23,25,12.1,20,Non,Oui,0,92.0,0.6,32.4,Vent fort,7 places,Non,Non,Non,44100.72,2
+2025-05-09,Analakely – Ankatso,10:15,11:05,32,35,17.1,14,Non,Non,1,91.4,1.22,45.8,Brouillard,5 places,Non,Non,Non,31188.71,2
+2025-05-10,Analakely – Ankatso,05:15,06:38,13,25,10.4,10,Non,Non,1,52.0,1.04,27.9,Pluie,12 places,Oui,Non,Oui,32749.26,4
+2025-05-11,Mahamasina – 67Ha,20:45,21:15,8,35,16.2,14,Non,Oui,0,22.9,1.16,43.4,Soleil,5 places,Non,Non,Oui,41778.4,1
+2025-05-12,Ankorondrano – Itaosy,12:45,14:01,25,25,10.5,17,Non,Oui,4,100.0,0.62,28.1,Vent fort,5 places,Oui,Non,Non,28902.63,5
+2025-05-01,Mahamasina – 67Ha,13:00,13:44,25,40,16.8,20,Non,Non,1,62.5,0.84,45.0,Vent fort,5 places,Non,Non,Non,39027.35,1
+2025-05-02,Analakely – Ankatso,07:15,07:52,11,25,17.8,14,Oui,Non,0,44.0,1.27,47.7,Brouillard,5 places,Non,Non,Non,32494.14,5
+2025-05-03,Ankorondrano – Itaosy,19:30,20:22,23,30,11.4,17,Non,Non,0,76.7,0.67,30.6,Soleil,12 places,Non,Non,Non,28443.11,1
+2025-05-04,Mahamasina – 67Ha,13:00,14:25,6,25,12.2,15,Non,Non,0,24.0,0.81,32.7,Brouillard,9 places,Non,Non,Oui,10278.87,5
+2025-05-05,Mahamasina – 67Ha,14:00,14:33,8,35,13.5,18,Non,Non,0,22.9,0.75,36.2,Soleil,7 places,Non,Non,Oui,47024.38,4
+2025-05-06,Ankorondrano – Itaosy,13:30,14:22,30,40,11.5,19,Non,Oui,3,75.0,0.61,30.8,Vent fort,5 places,Non,Non,Oui,38872.25,1
+2025-05-07,Analakely – Ankatso,15:30,16:58,27,35,12.0,13,Non,Non,0,77.1,0.92,32.2,Brouillard,5 places,Oui,Non,Oui,49399.82,5
+2025-05-08,Ankorondrano – Itaosy,07:00,07:51,21,35,12.6,18,Oui,Oui,0,60.0,0.7,33.8,Orage,9 places,Oui,Non,Non,18543.36,2
+2025-05-09,Mahamasina – 67Ha,08:45,09:28,12,30,14.7,11,Non,Oui,0,40.0,1.34,39.4,Pluie,12 places,Oui,Oui,Oui,33431.61,4
+2025-05-10,Ankorondrano – Itaosy,14:00,14:41,19,40,12.7,10,Non,Non,1,47.5,1.27,34.0,Vent fort,12 places,Oui,Non,Oui,16691.16,2
+2025-05-11,Andavamamba – Ivato,14:15,15:17,25,30,11.7,17,Non,Oui,3,83.3,0.69,31.4,Vent fort,7 places,Oui,Non,Non,37315.54,3
+2025-05-12,Andavamamba – Ivato,12:00,13:28,17,25,15.7,18,Non,Non,0,68.0,0.87,42.1,Pluie,12 places,Oui,Non,Oui,48913.94,4
+2025-05-13,Andavamamba – Ivato,14:00,14:50,30,30,15.9,17,Oui,Oui,5,100.0,0.94,42.6,Pluie,5 places,Non,Non,Non,17366.27,5
+2025-05-14,Mahamasina – 67Ha,10:45,11:59,22,25,16.7,20,Non,Oui,4,88.0,0.83,44.8,Vent fort,9 places,Non,Oui,Oui,15622.27,1
+2025-05-15,Analakely – Ankatso,15:45,17:14,18,40,13.4,11,Non,Oui,1,45.0,1.22,35.9,Pluie,5 places,Oui,Oui,Oui,34453.0,4
+2025-05-16,Mahamasina – 67Ha,05:45,06:57,33,40,13.3,15,Non,Non,1,82.5,0.89,35.6,Soleil,7 places,Non,Non,Non,16616.0,2
+2025-05-17,Mahamasina – 67Ha,18:30,19:51,27,30,11.2,13,Non,Non,1,90.0,0.86,30.0,Vent fort,7 places,Non,Oui,Non,21583.69,2
+2025-05-18,Mahamasina – 67Ha,17:00,17:56,13,30,17.5,13,Non,Non,0,43.3,1.35,46.9,Vent fort,5 places,Non,Non,Oui,29760.19,3
+2025-05-19,Analakely – Ankatso,08:30,09:55,17,30,13.3,16,Non,Non,0,56.7,0.83,35.6,Pluie,9 places,Non,Non,Oui,28632.35,1
+2025-05-20,Ankorondrano – Itaosy,12:15,13:26,8,25,11.8,12,Non,Non,0,32.0,0.98,31.6,Soleil,12 places,Non,Oui,Non,44230.26,2
+2025-05-21,Ambohijatovo – Anosizato,19:30,20:40,24,30,9.4,11,Non,Non,1,80.0,0.85,25.2,Orage,7 places,Oui,Non,Oui,16125.4,1
+2025-05-22,Ambohijatovo – Anosizato,15:30,16:43,22,25,11.3,16,Non,Oui,1,88.0,0.71,30.3,Orage,9 places,Oui,Oui,Non,7568.91,5
+2025-05-23,Andavamamba – Ivato,08:45,09:29,30,40,8.6,11,Non,Non,0,75.0,0.78,23.0,Vent fort,9 places,Non,Non,Oui,33760.4,2
+2025-05-24,Ambohijatovo – Anosizato,10:45,11:16,17,40,12.3,12,Non,Oui,2,42.5,1.03,33.0,Soleil,9 places,Non,Non,Non,20165.14,3
+2025-05-25,Ambohijatovo – Anosizato,13:00,13:48,5,25,9.3,13,Non,Non,0,20.0,0.72,24.9,Pluie,7 places,Oui,Oui,Oui,13979.41,4
+2025-05-26,Analakely – Ankatso,07:30,08:55,11,40,9.0,10,Non,Non,1,27.5,0.9,24.1,Pluie,5 places,Non,Oui,Non,33073.67,2
+2025-05-27,Ankorondrano – Itaosy,18:00,18:49,7,30,16.0,19,Non,Oui,4,23.3,0.84,42.9,Soleil,12 places,Non,Non,Oui,23609.71,4
+2025-05-28,Ambohijatovo – Anosizato,07:15,08:07,15,35,15.5,17,Non,Non,0,42.9,0.91,41.5,Brouillard,7 places,Non,Non,Non,41136.17,3
+2025-05-29,Ambohijatovo – Anosizato,06:00,07:24,9,30,8.2,16,Oui,Non,4,30.0,0.51,22.0,Pluie,5 places,Oui,Non,Oui,49736.27,2
+2025-05-30,Andavamamba – Ivato,13:30,14:09,5,40,9.5,12,Non,Non,1,12.5,0.79,25.5,Orage,5 places,Oui,Oui,Non,47831.53,3
+2025-05-31,Ankorondrano – Itaosy,17:15,18:07,21,35,13.1,15,Non,Non,0,60.0,0.87,35.1,Vent fort,5 places,Oui,Non,Non,36215.7,4
+2025-06-01,Ankorondrano – Itaosy,16:30,17:56,22,40,9.9,13,Non,Non,1,55.0,0.76,26.5,Vent fort,9 places,Oui,Non,Oui,34305.48,5
+2025-06-02,Analakely – Ankatso,15:45,17:08,24,25,16.9,12,Non,Non,0,96.0,1.41,45.3,Brouillard,12 places,Oui,Non,Non,27449.97,2
+2025-06-03,Mahamasina – 67Ha,12:30,13:57,11,35,14.9,18,Non,Non,1,31.4,0.83,39.9,Orage,7 places,Oui,Oui,Non,39246.08,1
+2025-06-04,Andavamamba – Ivato,11:00,11:43,28,30,14.4,17,Non,Non,0,93.3,0.85,38.6,Pluie,9 places,Non,Non,Oui,21165.5,2
+2025-06-05,Ambohijatovo – Anosizato,17:45,19:01,27,30,10.4,11,Non,Non,0,90.0,0.95,27.9,Orage,5 places,Oui,Oui,Non,15199.54,2
+2025-06-06,Ankorondrano – Itaosy,12:45,14:01,25,25,10.5,17,Non,Oui,4,100.0,0.62,28.1,Vent fort,5 places,Oui,Non,Non,28902.63,5
+2025-06-07,Andavamamba – Ivato,07:00,08:19,11,40,12.5,18,Non,Oui,0,27.5,0.69,33.5,Vent fort,12 places,Non,Non,Non,36867.74,3
+2025-06-08,Analakely – Ankatso,09:00,10:29,16,30,9.9,16,Non,Non,1,53.3,0.62,26.5,Pluie,5 places,Oui,Non,Non,24737.69,3
+2025-06-09,Ankorondrano – Itaosy,17:15,18:07,21,35,13.1,15,Non,Non,0,60.0,0.87,35.1,Vent fort,5 places,Oui,Non,Non,36215.7,4
+2025-06-10,Ambohijatovo – Anosizato,17:15,18:32,16,35,14.5,11,Oui,Non,1,45.7,1.32,38.9,Orage,5 places,Non,Non,Oui,6870.78,2
+2025-06-11,Mahamasina – 67Ha,12:45,13:45,33,40,13.9,20,Non,Non,1,82.5,0.7,37.3,Soleil,9 places,Oui,Non,Non,19606.36,2
+2025-06-01,Mahamasina – 67Ha,11:00,11:39,19,35,15.7,11,Oui,Non,2,54.3,1.43,42.1,Soleil,5 places,Oui,Non,Oui,11675.44,2
+2025-06-02,Andavamamba – Ivato,17:15,18:34,18,40,10.3,13,Oui,Non,1,45.0,0.79,27.6,Orage,7 places,Non,Non,Oui,35267.1,2
+2025-06-03,Andavamamba – Ivato,07:15,08:14,24,25,10.8,12,Oui,Non,3,96.0,0.9,28.9,Soleil,9 places,Oui,Non,Oui,41077.76,2
+2025-06-04,Andavamamba – Ivato,19:45,20:28,6,25,15.5,16,Non,Oui,2,24.0,0.97,41.5,Orage,9 places,Oui,Oui,Non,45266.75,1
+2025-06-05,Mahamasina – 67Ha,18:30,19:51,27,30,11.2,13,Non,Non,1,90.0,0.86,30.0,Vent fort,7 places,Non,Oui,Non,21583.69,2
+2025-06-06,Ambohijatovo – Anosizato,16:45,18:13,8,40,15.1,16,Non,Non,1,20.0,0.94,40.5,Pluie,12 places,Oui,Oui,Oui,9809.46,5
+2025-06-07,Andavamamba – Ivato,11:45,12:41,9,30,11.0,13,Non,Oui,2,30.0,0.85,29.5,Orage,7 places,Non,Non,Oui,28688.12,1
+2025-06-08,Mahamasina – 67Ha,14:15,15:41,22,40,9.7,14,Non,Non,0,55.0,0.69,26.0,Pluie,7 places,Oui,Non,Oui,32072.53,5
+2025-06-09,Mahamasina – 67Ha,17:00,17:45,23,40,9.3,20,Non,Non,0,57.5,0.47,24.9,Vent fort,9 places,Oui,Non,Non,36025.92,5
+2025-06-10,Ankorondrano – Itaosy,11:45,12:49,14,30,11.6,15,Non,Non,0,46.7,0.77,31.1,Soleil,5 places,Non,Non,Non,35039.75,1
+2025-06-11,Analakely – Ankatso,07:15,08:44,6,25,13.2,11,Oui,Non,0,24.0,1.2,35.4,Vent fort,7 places,Non,Oui,Non,42017.64,5
+2025-06-12,Analakely – Ankatso,17:00,17:35,11,30,10.5,16,Non,Non,0,36.7,0.66,28.1,Brouillard,9 places,Oui,Non,Non,35443.1,3
+2025-06-13,Ambohijatovo – Anosizato,07:30,08:14,25,30,11.9,18,Oui,Oui,2,83.3,0.66,31.9,Brouillard,9 places,Non,Oui,Non,49153.38,5
+2025-06-14,Ankorondrano – Itaosy,13:45,14:22,9,30,8.1,12,Non,Non,1,30.0,0.67,21.7,Brouillard,9 places,Oui,Non,Non,34136.36,4
+2025-06-15,Andavamamba – Ivato,05:00,05:44,21,25,15.4,14,Non,Non,0,84.0,1.1,41.3,Soleil,12 places,Non,Non,Non,36907.72,5
+2025-06-16,Analakely – Ankatso,05:00,06:20,8,40,9.5,11,Non,Non,1,20.0,0.86,25.5,Pluie,7 places,Non,Non,Non,25312.42,2
+2025-06-17,Mahamasina – 67Ha,05:30,06:29,39,40,11.7,10,Non,Oui,0,97.5,1.17,31.4,Brouillard,5 places,Non,Non,Oui,9705.55,4
+2025-06-18,Mahamasina – 67Ha,14:30,15:17,17,30,13.0,20,Non,Non,0,56.7,0.65,34.8,Orage,12 places,Non,Oui,Oui,30184.19,5
+2025-06-19,Mahamasina – 67Ha,05:30,06:41,21,30,15.7,20,Non,Oui,4,70.0,0.78,42.1,Vent fort,5 places,Oui,Non,Non,46438.15,1
+2025-06-20,Andavamamba – Ivato,13:30,14:58,17,30,15.2,16,Non,Non,0,56.7,0.95,40.7,Vent fort,7 places,Oui,Non,Oui,46892.69,2
+2025-06-21,Andavamamba – Ivato,14:15,15:25,13,25,10.9,14,Non,Oui,0,52.0,0.78,29.2,Pluie,7 places,Non,Non,Non,40536.43,3
+2025-06-22,Ankorondrano – Itaosy,06:30,07:22,30,40,17.0,17,Non,Non,0,75.0,1.0,45.6,Pluie,12 places,Non,Non,Oui,31682.79,5
+2025-06-23,Mahamasina – 67Ha,08:15,09:30,21,25,12.9,11,Non,Non,0,84.0,1.17,34.6,Orage,7 places,Non,Oui,Non,33491.81,3
+2025-06-24,Analakely – Ankatso,17:45,18:59,14,25,14.7,16,Non,Non,1,56.0,0.92,39.4,Soleil,7 places,Non,Non,Non,44066.4,1
+2025-06-25,Mahamasina – 67Ha,05:30,06:29,39,40,11.7,10,Non,Oui,0,97.5,1.17,31.4,Brouillard,5 places,Non,Non,Oui,9705.55,4
+2025-06-26,Analakely – Ankatso,20:15,21:34,24,25,11.5,15,Non,Non,1,96.0,0.77,30.8,Soleil,12 places,Oui,Non,Oui,22662.21,5
+2025-06-27,Mahamasina – 67Ha,07:45,08:52,23,30,17.5,14,Oui,Non,2,76.7,1.25,46.9,Orage,7 places,Oui,Oui,Oui,40901.61,5
+2025-06-28,Andavamamba – Ivato,07:15,08:27,5,30,9.5,20,Non,Non,1,16.7,0.47,25.5,Brouillard,12 places,Non,Non,Non,14083.41,5
+2025-06-29,Analakely – Ankatso,13:30,14:16,12,35,11.8,12,Oui,Non,4,34.3,0.98,31.6,Orage,7 places,Non,Oui,Oui,35748.29,1
+2025-06-30,Ambohijatovo – Anosizato,11:15,12:20,8,40,17.9,13,Non,Non,1,20.0,1.38,48.0,Orage,9 places,Oui,Non,Non,29300.54,1
+2025-07-01,Ambohijatovo – Anosizato,17:30,18:29,8,40,13.1,18,Non,Oui,4,20.0,0.73,35.1,Soleil,5 places,Non,Non,Oui,44193.61,4
+2025-07-02,Analakely – Ankatso,15:45,17:14,18,40,13.4,11,Non,Oui,1,45.0,1.22,35.9,Pluie,5 places,Oui,Oui,Oui,34453.0,4
+2025-07-03,Analakely – Ankatso,05:15,06:38,13,25,10.4,10,Non,Non,1,52.0,1.04,27.9,Pluie,12 places,Oui,Non,Oui,32749.26,4
+2025-07-04,Mahamasina – 67Ha,17:30,18:34,34,40,10.0,19,Oui,Oui,4,85.0,0.53,26.8,Orage,12 places,Non,Non,Oui,37291.9,4
+2025-07-05,Ambohijatovo – Anosizato,07:15,08:07,15,35,15.5,17,Non,Non,0,42.9,0.91,41.5,Brouillard,7 places,Non,Non,Non,41136.17,3
+2025-07-06,Ambohijatovo – Anosizato,09:00,10:05,23,25,8.4,19,Oui,Oui,0,92.0,0.44,22.5,Orage,5 places,Non,Non,Non,46715.04,4
+2025-07-07,Mahamasina – 67Ha,18:45,20:11,7,35,8.3,14,Non,Oui,4,20.0,0.59,22.2,Orage,12 places,Non,Non,Non,35954.86,2
+2025-07-08,Ambohijatovo – Anosizato,05:00,05:31,25,25,14.4,12,Non,Oui,0,100.0,1.2,38.6,Pluie,9 places,Oui,Non,Non,10920.55,1
+2025-07-09,Andavamamba – Ivato,14:30,15:15,16,25,14.3,18,Oui,Oui,1,64.0,0.79,38.3,Soleil,5 places,Oui,Non,Non,7169.54,2
+2025-07-10,Andavamamba – Ivato,09:45,10:58,12,40,8.1,19,Oui,Non,3,30.0,0.43,21.7,Pluie,12 places,Non,Non,Non,22861.55,1
+2025-07-11,Analakely – Ankatso,11:45,12:20,17,30,9.0,13,Non,Non,1,56.7,0.69,24.1,Brouillard,7 places,Non,Non,Oui,35069.58,4
+2025-07-12,Ambohijatovo – Anosizato,12:45,13:22,7,30,10.6,16,Non,Non,1,23.3,0.66,28.4,Soleil,12 places,Oui,Non,Non,27418.81,3
+2025-07-01,Mahamasina – 67Ha,19:15,20:14,5,25,15.3,14,Non,Non,1,20.0,1.09,41.0,Soleil,7 places,Non,Non,Oui,14864.63,2
+2025-07-02,Ambohijatovo – Anosizato,19:00,20:17,25,40,17.3,14,Non,Oui,1,62.5,1.24,46.4,Orage,5 places,Oui,Non,Oui,31655.76,2
+2025-07-03,Analakely – Ankatso,07:15,08:27,33,40,15.3,12,Oui,Non,5,82.5,1.28,41.0,Vent fort,9 places,Non,Non,Non,45411.37,3
+2025-07-04,Analakely – Ankatso,15:00,15:31,9,35,13.8,17,Oui,Non,4,25.7,0.81,37.0,Pluie,12 places,Oui,Oui,Non,31107.76,3
+2025-07-05,Analakely – Ankatso,15:45,17:10,10,25,13.0,15,Oui,Non,0,40.0,0.87,34.8,Pluie,7 places,Oui,Non,Non,44219.16,2
+2025-07-06,Andavamamba – Ivato,08:00,08:40,13,40,14.4,15,Non,Non,1,32.5,0.96,38.6,Orage,9 places,Oui,Non,Oui,32155.19,5
+2025-07-07,Ambohijatovo – Anosizato,06:00,07:02,22,40,9.0,17,Non,Oui,3,55.0,0.53,24.1,Brouillard,7 places,Non,Non,Non,40795.25,1
+2025-07-08,Analakely – Ankatso,10:45,11:23,14,30,9.6,18,Non,Non,1,46.7,0.53,25.7,Orage,5 places,Non,Non,Oui,38457.87,3
+2025-07-09,Andavamamba – Ivato,07:45,08:43,10,25,10.6,11,Non,Oui,2,40.0,0.96,28.4,Brouillard,12 places,Oui,Non,Oui,29298.07,2
+2025-07-10,Andavamamba – Ivato,08:45,09:29,30,40,8.6,11,Non,Non,0,75.0,0.78,23.0,Vent fort,9 places,Non,Non,Oui,33760.4,2
+2025-07-11,Analakely – Ankatso,08:30,09:55,17,30,13.3,16,Non,Non,0,56.7,0.83,35.6,Pluie,9 places,Non,Non,Oui,28632.35,1
+2025-07-12,Analakely – Ankatso,09:15,10:45,23,25,16.2,12,Non,Non,0,92.0,1.35,43.4,Pluie,12 places,Oui,Non,Oui,17296.68,5
+2025-07-13,Analakely – Ankatso,17:30,19:00,24,30,15.0,10,Non,Oui,2,80.0,1.5,40.2,Orage,7 places,Oui,Oui,Oui,37990.09,1
+2025-07-14,Ankorondrano – Itaosy,05:00,06:07,16,35,11.5,18,Non,Non,1,45.7,0.64,30.8,Pluie,5 places,Oui,Oui,Non,39121.84,1
+2025-07-15,Mahamasina – 67Ha,07:30,08:37,28,35,9.6,17,Non,Oui,4,80.0,0.56,25.7,Soleil,12 places,Non,Non,Non,26900.1,3
+2025-07-16,Andavamamba – Ivato,16:45,17:18,34,40,15.3,15,Non,Non,1,85.0,1.02,41.0,Soleil,12 places,Oui,Oui,Oui,43896.12,3
+2025-07-17,Ambohijatovo – Anosizato,06:00,06:40,32,35,15.0,14,Non,Non,0,91.4,1.07,40.2,Pluie,12 places,Oui,Non,Oui,43447.33,4
+2025-07-18,Ankorondrano – Itaosy,12:15,12:51,28,35,10.7,15,Non,Oui,4,80.0,0.71,28.7,Soleil,5 places,Oui,Non,Oui,15263.59,5
+2025-07-19,Analakely – Ankatso,17:30,18:41,24,25,12.6,20,Non,Non,0,96.0,0.63,33.8,Brouillard,9 places,Oui,Non,Oui,23194.34,4
+2025-07-20,Andavamamba – Ivato,12:15,13:43,21,30,11.3,11,Non,Oui,5,70.0,1.03,30.3,Pluie,9 places,Oui,Non,Non,26864.23,1
+2025-07-21,Ambohijatovo – Anosizato,06:00,07:02,22,40,9.0,17,Non,Oui,3,55.0,0.53,24.1,Brouillard,7 places,Non,Non,Non,40795.25,1
+2025-07-22,Ambohijatovo – Anosizato,20:00,21:28,11,25,16.5,10,Non,Oui,2,44.0,1.65,44.2,Vent fort,12 places,Non,Non,Non,29991.36,1
+2025-07-23,Mahamasina – 67Ha,14:00,15:04,11,35,10.9,13,Non,Oui,3,31.4,0.84,29.2,Brouillard,7 places,Non,Non,Oui,43825.87,2
+2025-07-24,Andavamamba – Ivato,09:45,10:58,12,40,8.1,19,Oui,Non,3,30.0,0.43,21.7,Pluie,12 places,Non,Non,Non,22861.55,1
+2025-07-25,Mahamasina – 67Ha,16:45,17:32,6,25,13.8,14,Non,Oui,1,24.0,0.99,37.0,Pluie,5 places,Non,Non,Oui,24268.98,2
+2025-07-26,Mahamasina – 67Ha,18:15,18:50,15,30,17.3,13,Non,Non,1,50.0,1.33,46.4,Orage,9 places,Oui,Non,Non,46716.55,4
+2025-07-27,Andavamamba – Ivato,17:00,17:48,15,25,13.2,18,Non,Oui,4,60.0,0.73,35.4,Vent fort,7 places,Non,Non,Non,19227.02,5
+2025-07-28,Andavamamba – Ivato,14:30,15:15,16,25,14.3,18,Oui,Oui,1,64.0,0.79,38.3,Soleil,5 places,Oui,Non,Non,7169.54,2
+2025-07-29,Analakely – Ankatso,11:45,12:20,17,30,9.0,13,Non,Non,1,56.7,0.69,24.1,Brouillard,7 places,Non,Non,Oui,35069.58,4
+2025-07-30,Analakely – Ankatso,13:45,14:28,13,25,16.9,13,Non,Non,0,52.0,1.3,45.3,Orage,9 places,Non,Non,Non,7889.4,4
+2025-07-31,Ankorondrano – Itaosy,17:15,18:25,22,30,10.3,15,Non,Non,1,73.3,0.69,27.6,Pluie,5 places,Non,Non,Oui,6421.38,4
+2025-08-01,Analakely – Ankatso,12:45,14:10,8,40,12.5,18,Non,Non,0,20.0,0.69,33.5,Orage,5 places,Oui,Non,Oui,24389.94,2
+2025-08-02,Andavamamba – Ivato,14:45,15:15,15,35,13.4,19,Non,Oui,0,42.9,0.71,35.9,Orage,7 places,Oui,Oui,Oui,49444.23,4
+2025-08-03,Ambohijatovo – Anosizato,17:45,19:01,27,30,10.4,11,Non,Non,0,90.0,0.95,27.9,Orage,5 places,Oui,Oui,Non,15199.54,2
+2025-08-04,Ambohijatovo – Anosizato,07:15,08:18,17,30,8.7,16,Non,Non,0,56.7,0.54,23.3,Vent fort,7 places,Oui,Non,Non,5522.92,3
+2025-08-05,Ambohijatovo – Anosizato,07:00,08:20,8,30,15.1,19,Non,Non,1,26.7,0.79,40.5,Brouillard,12 places,Non,Oui,Non,34871.2,1
+2025-08-06,Ambohijatovo – Anosizato,20:45,22:04,14,40,17.7,16,Non,Oui,4,35.0,1.11,47.4,Orage,7 places,Non,Non,Oui,37133.91,5
+2025-08-07,Ambohijatovo – Anosizato,05:00,05:31,25,25,14.4,12,Non,Oui,0,100.0,1.2,38.6,Pluie,9 places,Oui,Non,Non,10920.55,1
+2025-08-08,Ambohijatovo – Anosizato,11:00,12:02,20,35,15.0,19,Non,Non,1,57.1,0.79,40.2,Vent fort,12 places,Oui,Oui,Oui,29601.38,4
+2025-08-09,Ankorondrano – Itaosy,13:15,13:58,14,25,11.8,10,Non,Non,0,56.0,1.18,31.6,Pluie,7 places,Oui,Non,Non,23310.86,2
+2025-08-10,Ambohijatovo – Anosizato,16:00,17:13,18,40,16.3,20,Non,Oui,5,45.0,0.82,43.7,Brouillard,9 places,Oui,Non,Non,48334.64,2
+2025-08-11,Ankorondrano – Itaosy,19:30,20:22,23,30,11.4,17,Non,Non,0,76.7,0.67,30.6,Soleil,12 places,Non,Non,Non,28443.11,1
+2025-08-01,Ankorondrano – Itaosy,13:15,14:22,7,25,16.7,20,Non,Oui,4,28.0,0.83,44.8,Pluie,5 places,Oui,Oui,Oui,27836.05,2
+2025-08-02,Analakely – Ankatso,12:45,14:09,17,30,11.7,19,Non,Non,1,56.7,0.62,31.4,Brouillard,5 places,Non,Non,Non,19562.46,3
+2025-08-03,Andavamamba – Ivato,12:45,14:13,7,40,14.4,12,Non,Non,0,17.5,1.2,38.6,Soleil,5 places,Oui,Non,Oui,36804.97,4
+2025-08-04,Andavamamba – Ivato,09:45,10:58,12,40,8.1,19,Oui,Non,3,30.0,0.43,21.7,Pluie,12 places,Non,Non,Non,22861.55,1
+2025-08-05,Mahamasina – 67Ha,06:00,07:11,15,25,8.0,12,Oui,Non,1,60.0,0.67,21.4,Soleil,9 places,Oui,Non,Non,34921.03,4
+2025-08-06,Mahamasina – 67Ha,11:45,13:15,17,40,16.8,13,Non,Non,1,42.5,1.29,45.0,Brouillard,12 places,Non,Oui,Oui,20160.31,5
+2025-08-07,Analakely – Ankatso,11:00,12:10,31,40,11.4,13,Non,Non,1,77.5,0.88,30.6,Vent fort,7 places,Non,Non,Oui,27121.75,4
+2025-08-08,Ankorondrano – Itaosy,18:45,19:20,37,40,13.3,13,Non,Non,0,92.5,1.02,35.6,Soleil,7 places,Non,Oui,Non,15892.03,1
+2025-08-09,Ambohijatovo – Anosizato,13:15,14:07,28,30,17.6,19,Non,Non,1,93.3,0.93,47.2,Brouillard,7 places,Oui,Non,Non,7058.39,1
+2025-08-10,Analakely – Ankatso,09:00,10:26,27,40,12.7,20,Oui,Oui,0,67.5,0.64,34.0,Soleil,5 places,Non,Non,Oui,6650.21,4
+2025-08-11,Analakely – Ankatso,17:30,18:46,27,40,11.5,15,Oui,Non,5,67.5,0.77,30.8,Vent fort,12 places,Non,Non,Non,22723.9,1
+2025-08-12,Andavamamba – Ivato,15:45,17:09,9,35,15.7,10,Non,Non,0,25.7,1.57,42.1,Orage,9 places,Non,Non,Oui,38230.21,2
+2025-08-13,Analakely – Ankatso,08:30,09:55,17,30,13.3,16,Non,Non,0,56.7,0.83,35.6,Pluie,9 places,Non,Non,Oui,28632.35,1
+2025-08-14,Ambohijatovo – Anosizato,16:00,17:28,24,25,16.6,19,Non,Oui,4,96.0,0.87,44.5,Brouillard,5 places,Oui,Non,Non,31040.39,4
+2025-08-15,Andavamamba – Ivato,09:45,10:30,27,30,10.9,11,Oui,Oui,2,90.0,0.99,29.2,Vent fort,9 places,Oui,Non,Non,47462.72,4
+2025-08-16,Mahamasina – 67Ha,11:30,12:15,13,25,16.5,17,Oui,Non,3,52.0,0.97,44.2,Vent fort,5 places,Oui,Non,Non,31397.38,4
+2025-08-17,Andavamamba – Ivato,14:00,14:50,30,30,15.9,17,Oui,Oui,5,100.0,0.94,42.6,Pluie,5 places,Non,Non,Non,17366.27,5
+2025-08-18,Andavamamba – Ivato,10:30,11:42,14,30,15.2,19,Non,Non,0,46.7,0.8,40.7,Pluie,12 places,Non,Non,Oui,24147.2,3
+2025-08-19,Mahamasina – 67Ha,11:45,13:15,17,40,16.8,13,Non,Non,1,42.5,1.29,45.0,Brouillard,12 places,Non,Oui,Oui,20160.31,5
+2025-08-20,Andavamamba – Ivato,07:15,08:14,24,25,10.8,12,Oui,Non,3,96.0,0.9,28.9,Soleil,9 places,Oui,Non,Oui,41077.76,2
+2025-08-21,Analakely – Ankatso,18:15,19:13,23,30,15.1,18,Oui,Non,1,76.7,0.84,40.5,Orage,9 places,Non,Non,Non,12542.86,5
+2025-08-22,Ankorondrano – Itaosy,13:15,14:22,7,25,16.7,20,Non,Oui,4,28.0,0.83,44.8,Pluie,5 places,Oui,Oui,Oui,27836.05,2
+2025-08-23,Mahamasina – 67Ha,17:00,17:52,15,40,11.2,17,Non,Non,0,37.5,0.66,30.0,Brouillard,7 places,Non,Non,Non,12536.72,2
+2025-08-24,Andavamamba – Ivato,05:45,06:45,6,30,9.0,15,Non,Non,1,20.0,0.6,24.1,Orage,12 places,Oui,Non,Non,16554.95,3
+2025-08-25,Mahamasina – 67Ha,07:45,08:52,23,30,17.5,14,Oui,Non,2,76.7,1.25,46.9,Orage,7 places,Oui,Oui,Oui,40901.61,5
+2025-08-26,Mahamasina – 67Ha,15:00,15:39,11,40,9.4,15,Non,Non,0,27.5,0.63,25.2,Pluie,5 places,Non,Non,Oui,29357.0,3
+2025-08-27,Ambohijatovo – Anosizato,08:45,09:46,20,25,12.4,10,Oui,Oui,1,80.0,1.24,33.2,Orage,7 places,Non,Non,Non,12639.11,1
+2025-08-28,Andavamamba – Ivato,13:45,14:45,23,40,12.8,19,Non,Non,0,57.5,0.67,34.3,Vent fort,12 places,Non,Non,Oui,48093.14,5
+2025-08-29,Andavamamba – Ivato,08:00,09:11,25,30,8.9,18,Non,Non,0,83.3,0.49,23.9,Soleil,5 places,Oui,Non,Oui,42793.76,2
+2025-08-30,Andavamamba – Ivato,14:15,15:17,25,30,11.7,17,Non,Oui,3,83.3,0.69,31.4,Vent fort,7 places,Oui,Non,Non,37315.54,3
+2025-08-31,Mahamasina – 67Ha,07:30,08:37,28,35,9.6,17,Non,Oui,4,80.0,0.56,25.7,Soleil,12 places,Non,Non,Non,26900.1,3
+2025-09-01,Ankorondrano – Itaosy,13:15,13:58,14,25,11.8,10,Non,Non,0,56.0,1.18,31.6,Pluie,7 places,Oui,Non,Non,23310.86,2
+2025-09-02,Ambohijatovo – Anosizato,07:15,08:08,12,40,12.0,18,Oui,Non,2,30.0,0.67,32.2,Brouillard,7 places,Non,Oui,Oui,47788.86,4
+2025-09-03,Ankorondrano – Itaosy,12:15,12:51,28,35,10.7,15,Non,Oui,4,80.0,0.71,28.7,Soleil,5 places,Oui,Non,Oui,15263.59,5
+2025-09-04,Andavamamba – Ivato,11:45,12:41,9,30,11.0,13,Non,Oui,2,30.0,0.85,29.5,Orage,7 places,Non,Non,Oui,28688.12,1
+2025-09-05,Ambohijatovo – Anosizato,07:00,08:20,8,30,15.1,19,Non,Non,1,26.7,0.79,40.5,Brouillard,12 places,Non,Oui,Non,34871.2,1
+2025-09-06,Ankorondrano – Itaosy,07:45,09:11,21,30,10.4,10,Non,Non,1,70.0,1.04,27.9,Pluie,9 places,Non,Non,Non,33888.72,4
+2025-09-07,Mahamasina – 67Ha,19:15,20:42,27,35,14.5,14,Non,Oui,1,77.1,1.04,38.9,Brouillard,5 places,Oui,Non,Non,25191.21,5
+2025-09-08,Mahamasina – 67Ha,11:15,12:33,5,30,16.2,14,Non,Non,0,16.7,1.16,43.4,Orage,9 places,Oui,Non,Non,34603.04,4
+2025-09-09,Andavamamba – Ivato,10:30,11:42,14,30,15.2,19,Non,Non,0,46.7,0.8,40.7,Pluie,12 places,Non,Non,Oui,24147.2,3
+2025-09-10,Ankorondrano – Itaosy,12:15,13:26,8,25,11.8,12,Non,Non,0,32.0,0.98,31.6,Soleil,12 places,Non,Oui,Non,44230.26,2
+2025-09-11,Mahamasina – 67Ha,11:15,12:33,5,30,16.2,14,Non,Non,0,16.7,1.16,43.4,Orage,9 places,Oui,Non,Non,34603.04,4
+2025-09-01,Ambohijatovo – Anosizato,13:15,13:56,19,40,16.4,18,Oui,Oui,5,47.5,0.91,44.0,Pluie,5 places,Oui,Non,Oui,20823.02,2
+2025-09-02,Andavamamba – Ivato,10:30,11:50,13,30,9.3,12,Non,Oui,1,43.3,0.78,24.9,Soleil,9 places,Oui,Non,Oui,29358.34,1
+2025-09-03,Analakely – Ankatso,16:45,17:29,20,25,15.7,18,Non,Non,0,80.0,0.87,42.1,Pluie,7 places,Oui,Non,Oui,17138.73,5
+2025-09-04,Ankorondrano – Itaosy,08:45,09:54,5,40,12.4,11,Non,Oui,2,12.5,1.13,33.2,Soleil,9 places,Non,Non,Oui,47147.26,4
+2025-09-05,Ambohijatovo – Anosizato,12:30,13:34,24,25,17.2,15,Non,Non,1,96.0,1.15,46.1,Brouillard,5 places,Non,Non,Non,40766.43,1
+2025-09-06,Ankorondrano – Itaosy,18:00,18:49,7,30,16.0,19,Non,Oui,4,23.3,0.84,42.9,Soleil,12 places,Non,Non,Oui,23609.71,4
+2025-09-07,Ankorondrano – Itaosy,05:45,06:48,20,30,16.3,18,Non,Non,0,66.7,0.91,43.7,Soleil,9 places,Non,Oui,Non,10777.74,2
+2025-09-08,Analakely – Ankatso,11:00,12:10,31,40,11.4,13,Non,Non,1,77.5,0.88,30.6,Vent fort,7 places,Non,Non,Oui,27121.75,4
+2025-09-09,Mahamasina – 67Ha,09:15,10:31,7,30,15.0,17,Non,Oui,3,23.3,0.88,40.2,Pluie,12 places,Oui,Non,Non,35126.91,2
+2025-09-10,Andavamamba – Ivato,18:00,18:35,18,25,14.1,11,Non,Non,1,72.0,1.28,37.8,Vent fort,7 places,Non,Non,Oui,36710.63,3
+2025-09-11,Analakely – Ankatso,20:00,20:50,10,35,12.2,13,Oui,Non,2,28.6,0.94,32.7,Vent fort,12 places,Non,Non,Non,9684.93,2
+2025-09-12,Ambohijatovo – Anosizato,06:00,07:02,22,40,9.0,17,Non,Oui,3,55.0,0.53,24.1,Brouillard,7 places,Non,Non,Non,40795.25,1
+2025-09-13,Analakely – Ankatso,16:15,17:39,37,40,14.3,20,Non,Non,1,92.5,0.72,38.3,Soleil,12 places,Non,Oui,Non,27354.51,4
+2025-09-14,Ambohijatovo – Anosizato,17:15,18:32,16,35,14.5,11,Oui,Non,1,45.7,1.32,38.9,Orage,5 places,Non,Non,Oui,6870.78,2
+2025-09-15,Andavamamba – Ivato,13:00,14:25,29,40,13.6,10,Non,Non,0,72.5,1.36,36.4,Brouillard,7 places,Oui,Non,Oui,15659.18,3
+2025-09-16,Ambohijatovo – Anosizato,06:00,06:40,32,35,15.0,14,Non,Non,0,91.4,1.07,40.2,Pluie,12 places,Oui,Non,Oui,43447.33,4
+2025-09-17,Ambohijatovo – Anosizato,09:45,11:09,17,25,14.6,11,Non,Non,1,68.0,1.33,39.1,Brouillard,7 places,Non,Oui,Non,33420.21,4
+2025-09-18,Andavamamba – Ivato,07:45,09:12,20,30,13.2,16,Non,Non,0,66.7,0.82,35.4,Vent fort,5 places,Non,Non,Non,44072.21,4
+2025-09-19,Ankorondrano – Itaosy,18:45,19:50,22,35,10.4,19,Non,Non,1,62.9,0.55,27.9,Soleil,9 places,Non,Non,Oui,26668.51,1
+2025-09-20,Ambohijatovo – Anosizato,05:15,06:18,35,40,16.6,16,Oui,Oui,2,87.5,1.04,44.5,Vent fort,7 places,Oui,Non,Oui,48331.71,5
+2025-09-21,Ankorondrano – Itaosy,19:15,20:25,28,40,13.7,17,Non,Non,1,70.0,0.81,36.7,Pluie,9 places,Oui,Non,Oui,10409.41,5
+2025-09-22,Ankorondrano – Itaosy,17:15,18:07,21,35,13.1,15,Non,Non,0,60.0,0.87,35.1,Vent fort,5 places,Oui,Non,Non,36215.7,4
+2025-09-23,Ankorondrano – Itaosy,08:00,08:34,26,40,9.4,15,Non,Non,0,65.0,0.63,25.2,Brouillard,7 places,Non,Non,Non,20974.83,2
+2025-09-24,Mahamasina – 67Ha,05:30,06:29,39,40,11.7,10,Non,Oui,0,97.5,1.17,31.4,Brouillard,5 places,Non,Non,Oui,9705.55,4
+2025-09-25,Andavamamba – Ivato,09:15,10:12,7,40,15.4,16,Non,Non,1,17.5,0.96,41.3,Soleil,5 places,Non,Oui,Non,28166.78,2
+2025-09-26,Analakely – Ankatso,08:15,09:42,10,35,17.6,14,Non,Non,0,28.6,1.26,47.2,Brouillard,12 places,Oui,Oui,Non,22827.77,2
+2025-09-27,Ambohijatovo – Anosizato,12:30,13:34,24,25,17.2,15,Non,Non,1,96.0,1.15,46.1,Brouillard,5 places,Non,Non,Non,40766.43,1
+2025-09-28,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2025-09-29,Mahamasina – 67Ha,16:00,16:59,10,40,10.3,10,Non,Non,1,25.0,1.03,27.6,Soleil,7 places,Oui,Non,Oui,13143.96,4
+2025-09-30,Ambohijatovo – Anosizato,20:30,21:39,17,25,10.9,20,Oui,Oui,0,68.0,0.55,29.2,Brouillard,12 places,Non,Non,Oui,15956.7,5
+2025-10-01,Ankorondrano – Itaosy,20:30,21:24,6,30,9.8,10,Non,Non,1,20.0,0.98,26.3,Brouillard,9 places,Oui,Non,Non,9612.94,5
+2025-10-02,Ambohijatovo – Anosizato,07:30,08:14,25,30,11.9,18,Oui,Oui,2,83.3,0.66,31.9,Brouillard,9 places,Non,Oui,Non,49153.38,5
+2025-10-03,Andavamamba – Ivato,20:00,21:03,36,40,15.9,20,Oui,Oui,4,90.0,0.8,42.6,Soleil,9 places,Oui,Non,Oui,25065.62,5
+2025-10-04,Ankorondrano – Itaosy,08:15,09:41,13,40,11.2,16,Non,Non,0,32.5,0.7,30.0,Brouillard,7 places,Non,Non,Non,23420.03,3
+2025-10-05,Mahamasina – 67Ha,20:30,21:14,6,25,16.0,18,Non,Oui,2,24.0,0.89,42.9,Orage,5 places,Non,Non,Oui,11858.72,2
+2025-10-06,Andavamamba – Ivato,07:30,08:23,14,35,10.1,14,Non,Non,0,40.0,0.72,27.1,Vent fort,5 places,Oui,Non,Oui,6953.56,5
+2025-10-07,Andavamamba – Ivato,10:30,11:02,33,35,13.4,16,Non,Non,1,94.3,0.84,35.9,Soleil,9 places,Non,Oui,Non,48568.7,5
+2025-10-08,Mahamasina – 67Ha,09:15,10:27,31,40,14.1,17,Non,Oui,1,77.5,0.83,37.8,Pluie,5 places,Non,Non,Non,38159.32,4
+2025-10-09,Ankorondrano – Itaosy,13:30,14:01,31,35,9.5,17,Non,Non,1,88.6,0.56,25.5,Brouillard,12 places,Non,Oui,Oui,20384.25,3
+2025-10-10,Analakely – Ankatso,15:45,17:08,24,25,16.9,12,Non,Non,0,96.0,1.41,45.3,Brouillard,12 places,Oui,Non,Non,27449.97,2
+2025-10-11,Analakely – Ankatso,17:00,18:24,15,35,14.7,19,Non,Oui,3,42.9,0.77,39.4,Brouillard,5 places,Non,Non,Oui,41026.4,4
+2025-10-12,Analakely – Ankatso,12:45,14:10,8,40,12.5,18,Non,Non,0,20.0,0.69,33.5,Orage,5 places,Oui,Non,Oui,24389.94,2
+2025-10-01,Ambohijatovo – Anosizato,10:45,11:20,34,35,10.0,15,Non,Non,0,97.1,0.67,26.8,Vent fort,5 places,Oui,Oui,Oui,26622.81,2
+2025-10-02,Analakely – Ankatso,13:00,14:22,16,25,10.7,18,Non,Non,0,64.0,0.59,28.7,Pluie,7 places,Oui,Oui,Oui,40844.18,4
+2025-10-03,Analakely – Ankatso,15:15,16:00,17,25,16.9,19,Non,Non,1,68.0,0.89,45.3,Brouillard,5 places,Non,Non,Oui,25348.96,1
+2025-10-04,Andavamamba – Ivato,11:15,12:07,23,25,12.1,20,Non,Oui,0,92.0,0.6,32.4,Vent fort,7 places,Non,Non,Non,44100.72,2
+2025-10-05,Andavamamba – Ivato,17:00,17:48,15,25,13.2,18,Non,Oui,4,60.0,0.73,35.4,Vent fort,7 places,Non,Non,Non,19227.02,5
+2025-10-06,Mahamasina – 67Ha,15:00,16:13,24,25,9.3,20,Oui,Non,0,96.0,0.47,24.9,Soleil,12 places,Non,Oui,Non,18966.29,5
+2025-10-07,Andavamamba – Ivato,07:00,08:19,11,40,12.5,18,Non,Oui,0,27.5,0.69,33.5,Vent fort,12 places,Non,Non,Non,36867.74,3
+2025-10-08,Mahamasina – 67Ha,17:00,17:56,13,30,17.5,13,Non,Non,0,43.3,1.35,46.9,Vent fort,5 places,Non,Non,Oui,29760.19,3
+2025-10-09,Mahamasina – 67Ha,08:30,09:47,17,25,15.8,12,Non,Non,0,68.0,1.32,42.3,Soleil,9 places,Non,Non,Non,32319.23,1
+2025-10-10,Analakely – Ankatso,11:45,12:20,17,30,9.0,13,Non,Non,1,56.7,0.69,24.1,Brouillard,7 places,Non,Non,Oui,35069.58,4
+2025-10-11,Ankorondrano – Itaosy,19:45,20:23,33,35,16.5,14,Non,Non,0,94.3,1.18,44.2,Brouillard,9 places,Non,Non,Oui,19633.55,5
+2025-10-12,Ambohijatovo – Anosizato,11:15,12:20,8,40,17.9,13,Non,Non,1,20.0,1.38,48.0,Orage,9 places,Oui,Non,Non,29300.54,1
+2025-10-13,Analakely – Ankatso,19:30,20:52,13,30,14.2,15,Non,Non,1,43.3,0.95,38.1,Pluie,7 places,Non,Non,Non,44533.2,5
+2025-10-14,Analakely – Ankatso,07:00,08:05,24,40,8.3,12,Oui,Non,5,60.0,0.69,22.2,Pluie,7 places,Non,Non,Oui,26998.1,3
+2025-10-15,Ankorondrano – Itaosy,14:30,15:54,22,40,14.6,13,Non,Non,1,55.0,1.12,39.1,Vent fort,9 places,Oui,Non,Non,35304.46,4
+2025-10-16,Ankorondrano – Itaosy,07:00,07:51,21,35,12.6,18,Oui,Oui,0,60.0,0.7,33.8,Orage,9 places,Oui,Non,Non,18543.36,2
+2025-10-17,Analakely – Ankatso,19:00,19:42,11,25,9.2,16,Non,Non,1,44.0,0.57,24.7,Orage,5 places,Oui,Non,Oui,25463.29,4
+2025-10-18,Analakely – Ankatso,08:15,09:31,26,30,17.6,19,Non,Oui,2,86.7,0.93,47.2,Orage,7 places,Non,Oui,Non,8953.99,5
+2025-10-19,Andavamamba – Ivato,20:15,20:48,37,40,17.9,19,Non,Oui,0,92.5,0.94,48.0,Orage,9 places,Non,Non,Oui,8854.62,5
+2025-10-20,Analakely – Ankatso,11:45,12:36,17,35,11.1,15,Non,Non,1,48.6,0.74,29.7,Pluie,12 places,Non,Non,Non,12363.07,4
+2025-10-21,Mahamasina – 67Ha,12:45,13:22,6,25,15.7,10,Non,Non,1,24.0,1.57,42.1,Soleil,12 places,Non,Oui,Oui,35650.3,4
+2025-10-22,Andavamamba – Ivato,10:30,11:41,32,35,16.6,18,Non,Non,0,91.4,0.92,44.5,Brouillard,9 places,Oui,Oui,Non,12516.89,4
+2025-10-23,Ambohijatovo – Anosizato,05:30,06:19,21,25,13.9,12,Non,Non,1,84.0,1.16,37.3,Brouillard,9 places,Oui,Oui,Oui,9563.94,4
+2025-10-24,Ankorondrano – Itaosy,05:30,06:45,11,25,17.2,17,Oui,Non,5,44.0,1.01,46.1,Brouillard,7 places,Oui,Non,Non,46056.35,5
+2025-10-25,Analakely – Ankatso,11:00,12:10,31,40,11.4,13,Non,Non,1,77.5,0.88,30.6,Vent fort,7 places,Non,Non,Oui,27121.75,4
+2025-10-26,Analakely – Ankatso,18:30,19:49,12,40,17.3,12,Non,Non,0,30.0,1.44,46.4,Orage,5 places,Oui,Non,Oui,41863.5,1
+2025-10-27,Ambohijatovo – Anosizato,11:15,12:20,8,40,17.9,13,Non,Non,1,20.0,1.38,48.0,Orage,9 places,Oui,Non,Non,29300.54,1
+2025-10-28,Andavamamba – Ivato,07:45,08:50,8,35,9.9,11,Non,Non,0,22.9,0.9,26.5,Orage,5 places,Oui,Non,Non,45906.46,2
+2025-10-29,Ambohijatovo – Anosizato,13:00,13:33,5,40,13.0,10,Non,Non,0,12.5,1.3,34.8,Soleil,7 places,Non,Non,Oui,45238.59,4
+2025-10-30,Andavamamba – Ivato,15:30,17:00,5,30,17.1,11,Non,Non,1,16.7,1.55,45.8,Orage,12 places,Oui,Oui,Oui,34641.85,2
+2025-10-31,Analakely – Ankatso,14:00,14:59,8,25,13.7,15,Non,Non,1,32.0,0.91,36.7,Vent fort,9 places,Non,Non,Non,19985.09,5
+2025-11-01,Ankorondrano – Itaosy,12:00,12:50,21,30,14.9,18,Non,Non,1,70.0,0.83,39.9,Orage,12 places,Non,Non,Non,28201.82,5
+2025-11-02,Ankorondrano – Itaosy,14:00,14:53,31,40,9.9,11,Non,Non,1,77.5,0.9,26.5,Vent fort,5 places,Oui,Oui,Oui,8307.35,2
+2025-11-03,Ankorondrano – Itaosy,11:00,11:42,12,25,14.2,12,Oui,Non,5,48.0,1.18,38.1,Orage,9 places,Non,Oui,Oui,6316.13,1
+2025-11-04,Andavamamba – Ivato,16:45,17:33,26,35,10.2,12,Non,Non,1,74.3,0.85,27.3,Brouillard,7 places,Oui,Non,Oui,24178.16,5
+2025-11-05,Ambohijatovo – Anosizato,15:15,16:31,10,30,16.7,15,Non,Oui,3,33.3,1.11,44.8,Orage,5 places,Non,Non,Oui,14042.02,5
+2025-11-06,Ambohijatovo – Anosizato,05:15,06:18,35,40,16.6,16,Oui,Oui,2,87.5,1.04,44.5,Vent fort,7 places,Oui,Non,Oui,48331.71,5
+2025-11-07,Analakely – Ankatso,05:15,06:38,13,25,10.4,10,Non,Non,1,52.0,1.04,27.9,Pluie,12 places,Oui,Non,Oui,32749.26,4
+2025-11-08,Ankorondrano – Itaosy,12:15,13:26,8,25,11.8,12,Non,Non,0,32.0,0.98,31.6,Soleil,12 places,Non,Oui,Non,44230.26,2
+2025-11-09,Analakely – Ankatso,13:45,14:38,14,30,17.5,14,Non,Non,1,46.7,1.25,46.9,Pluie,5 places,Non,Non,Non,44639.18,2
+2025-11-10,Ankorondrano – Itaosy,19:45,20:15,13,30,16.4,12,Non,Non,1,43.3,1.37,44.0,Vent fort,5 places,Non,Oui,Non,20640.72,5
+2025-11-11,Ambohijatovo – Anosizato,15:45,17:15,32,35,10.2,13,Non,Oui,5,91.4,0.78,27.3,Vent fort,7 places,Non,Non,Non,33061.36,1
+2025-11-01,Analakely – Ankatso,05:15,06:01,12,25,9.0,14,Non,Non,1,48.0,0.64,24.1,Vent fort,7 places,Oui,Oui,Non,8248.93,5
+2025-11-02,Ankorondrano – Itaosy,14:00,14:53,31,40,9.9,11,Non,Non,1,77.5,0.9,26.5,Vent fort,5 places,Oui,Oui,Oui,8307.35,2
+2025-11-03,Analakely – Ankatso,12:45,14:09,17,30,11.7,19,Non,Non,1,56.7,0.62,31.4,Brouillard,5 places,Non,Non,Non,19562.46,3
+2025-11-04,Ambohijatovo – Anosizato,06:00,06:40,32,35,15.0,14,Non,Non,0,91.4,1.07,40.2,Pluie,12 places,Oui,Non,Oui,43447.33,4
+2025-11-05,Ambohijatovo – Anosizato,11:00,12:02,20,35,15.0,19,Non,Non,1,57.1,0.79,40.2,Vent fort,12 places,Oui,Oui,Oui,29601.38,4
+2025-11-06,Ankorondrano – Itaosy,11:00,11:47,6,35,17.6,10,Non,Non,0,17.1,1.76,47.2,Orage,12 places,Oui,Non,Oui,9814.13,2
+2025-11-07,Andavamamba – Ivato,13:45,14:45,23,40,12.8,19,Non,Non,0,57.5,0.67,34.3,Vent fort,12 places,Non,Non,Oui,48093.14,5
+2025-11-08,Andavamamba – Ivato,14:00,15:00,21,30,8.1,15,Non,Non,1,70.0,0.54,21.7,Pluie,5 places,Oui,Non,Oui,32000.92,5
+2025-11-09,Ankorondrano – Itaosy,05:00,06:07,16,35,11.5,18,Non,Non,1,45.7,0.64,30.8,Pluie,5 places,Oui,Oui,Non,39121.84,1
+2025-11-10,Ankorondrano – Itaosy,09:15,10:03,24,35,11.1,11,Oui,Non,4,68.6,1.01,29.7,Soleil,5 places,Oui,Non,Oui,31340.95,1
+2025-11-11,Analakely – Ankatso,19:45,20:33,8,35,16.4,11,Oui,Non,3,22.9,1.49,44.0,Soleil,9 places,Oui,Non,Non,26759.55,2
+2025-11-12,Analakely – Ankatso,17:30,18:46,27,40,11.5,15,Oui,Non,5,67.5,0.77,30.8,Vent fort,12 places,Non,Non,Non,22723.9,1
+2025-11-13,Mahamasina – 67Ha,20:45,21:15,8,35,16.2,14,Non,Oui,0,22.9,1.16,43.4,Soleil,5 places,Non,Non,Oui,41778.4,1
+2025-11-14,Analakely – Ankatso,17:45,18:59,14,25,14.7,16,Non,Non,1,56.0,0.92,39.4,Soleil,7 places,Non,Non,Non,44066.4,1
+2025-11-15,Ambohijatovo – Anosizato,15:30,16:33,17,35,13.9,10,Non,Non,0,48.6,1.39,37.3,Soleil,7 places,Oui,Non,Non,49398.36,5
+2025-11-16,Andavamamba – Ivato,15:45,17:09,9,35,15.7,10,Non,Non,0,25.7,1.57,42.1,Orage,9 places,Non,Non,Oui,38230.21,2
+2025-11-17,Analakely – Ankatso,17:45,19:01,14,30,10.8,14,Non,Non,1,46.7,0.77,28.9,Vent fort,12 places,Oui,Non,Oui,26597.25,5
+2025-11-18,Ambohijatovo – Anosizato,13:00,13:48,5,25,9.3,13,Non,Non,0,20.0,0.72,24.9,Pluie,7 places,Oui,Oui,Oui,13979.41,4
+2025-11-19,Andavamamba – Ivato,16:45,17:33,26,35,10.2,12,Non,Non,1,74.3,0.85,27.3,Brouillard,7 places,Oui,Non,Oui,24178.16,5
+2025-11-20,Analakely – Ankatso,15:45,16:37,29,35,12.4,16,Non,Non,1,82.9,0.78,33.2,Brouillard,7 places,Non,Oui,Oui,5820.47,4
+2025-11-21,Ankorondrano – Itaosy,20:30,21:20,29,40,12.6,19,Non,Non,0,72.5,0.66,33.8,Brouillard,9 places,Non,Non,Non,27825.57,5
+2025-11-22,Mahamasina – 67Ha,14:00,15:21,29,35,14.5,14,Non,Oui,5,82.9,1.04,38.9,Brouillard,5 places,Non,Non,Non,11797.61,2
+2025-11-23,Andavamamba – Ivato,08:00,09:11,25,30,8.9,18,Non,Non,0,83.3,0.49,23.9,Soleil,5 places,Oui,Non,Oui,42793.76,2
+2025-11-24,Mahamasina – 67Ha,19:15,20:14,5,25,15.3,14,Non,Non,1,20.0,1.09,41.0,Soleil,7 places,Non,Non,Oui,14864.63,2
+2025-11-25,Ankorondrano – Itaosy,14:30,15:30,8,25,8.0,16,Oui,Non,3,32.0,0.5,21.4,Pluie,5 places,Non,Non,Oui,17339.68,4
+2025-11-26,Ankorondrano – Itaosy,17:15,18:29,12,35,13.1,10,Non,Oui,2,34.3,1.31,35.1,Brouillard,7 places,Non,Non,Oui,36386.22,2
+2025-11-27,Ambohijatovo – Anosizato,13:15,13:56,19,40,16.4,18,Oui,Oui,5,47.5,0.91,44.0,Pluie,5 places,Oui,Non,Oui,20823.02,2
+2025-11-28,Mahamasina – 67Ha,13:00,13:44,25,40,16.8,20,Non,Non,1,62.5,0.84,45.0,Vent fort,5 places,Non,Non,Non,39027.35,1
+2025-11-29,Andavamamba – Ivato,15:45,16:26,14,35,15.5,13,Non,Oui,5,40.0,1.19,41.5,Pluie,5 places,Oui,Oui,Oui,48623.55,3
+2025-11-30,Ankorondrano – Itaosy,12:15,12:51,28,35,10.7,15,Non,Oui,4,80.0,0.71,28.7,Soleil,5 places,Oui,Non,Oui,15263.59,5
+2025-12-01,Andavamamba – Ivato,05:30,06:05,14,30,12.5,17,Non,Non,0,46.7,0.74,33.5,Vent fort,7 places,Non,Non,Oui,15558.89,1
+2025-12-02,Ankorondrano – Itaosy,20:30,21:58,27,30,16.9,14,Non,Oui,0,90.0,1.21,45.3,Soleil,7 places,Oui,Non,Non,8605.17,5
+2025-12-03,Ambohijatovo – Anosizato,10:15,11:05,20,30,16.0,16,Non,Non,0,66.7,1.0,42.9,Vent fort,9 places,Oui,Oui,Non,41269.66,2
+2025-12-04,Ankorondrano – Itaosy,13:15,14:21,23,30,8.0,13,Non,Non,1,76.7,0.62,21.4,Vent fort,12 places,Non,Oui,Oui,29112.25,1
+2025-12-05,Mahamasina – 67Ha,09:00,09:54,19,35,9.8,15,Non,Oui,1,54.3,0.65,26.3,Soleil,9 places,Oui,Non,Oui,7338.71,3
+2025-12-06,Ankorondrano – Itaosy,12:45,14:01,25,25,10.5,17,Non,Oui,4,100.0,0.62,28.1,Vent fort,5 places,Oui,Non,Non,28902.63,5
+2025-12-07,Ankorondrano – Itaosy,09:15,10:37,23,30,9.4,10,Non,Non,0,76.7,0.94,25.2,Orage,9 places,Oui,Non,Oui,18124.82,2
+2025-12-08,Mahamasina – 67Ha,15:30,16:03,14,30,11.4,18,Non,Non,0,46.7,0.63,30.6,Pluie,7 places,Non,Non,Non,40123.65,5
+2025-12-09,Ankorondrano – Itaosy,12:45,14:01,25,25,10.5,17,Non,Oui,4,100.0,0.62,28.1,Vent fort,5 places,Oui,Non,Non,28902.63,5
+2025-12-10,Ambohijatovo – Anosizato,16:00,17:28,24,25,16.6,19,Non,Oui,4,96.0,0.87,44.5,Brouillard,5 places,Oui,Non,Non,31040.39,4
+2025-12-11,Ambohijatovo – Anosizato,10:00,11:21,30,35,11.8,15,Non,Oui,3,85.7,0.79,31.6,Pluie,5 places,Non,Non,Oui,48972.84,2
+2025-12-12,Ankorondrano – Itaosy,11:30,12:47,11,25,11.6,10,Non,Oui,2,44.0,1.16,31.1,Pluie,9 places,Non,Non,Oui,48807.0,1
+2025-12-01,Ambohijatovo – Anosizato,19:45,20:28,32,40,16.1,17,Non,Non,0,80.0,0.95,43.1,Orage,12 places,Non,Non,Oui,37212.12,1
+2025-12-02,Andavamamba – Ivato,17:15,17:56,12,35,15.5,17,Non,Non,1,34.3,0.91,41.5,Soleil,5 places,Non,Oui,Non,39806.29,4
+2025-12-03,Analakely – Ankatso,08:15,09:42,10,35,17.6,14,Non,Non,0,28.6,1.26,47.2,Brouillard,12 places,Oui,Oui,Non,22827.77,2
+2025-12-04,Mahamasina – 67Ha,13:15,13:54,40,40,16.3,20,Non,Non,1,100.0,0.82,43.7,Pluie,9 places,Non,Non,Oui,19595.02,4
+2025-12-05,Ankorondrano – Itaosy,17:15,18:05,6,25,16.4,17,Non,Non,0,24.0,0.96,44.0,Brouillard,5 places,Oui,Non,Oui,49450.35,1
+2025-12-06,Ambohijatovo – Anosizato,07:00,08:20,8,30,15.1,19,Non,Non,1,26.7,0.79,40.5,Brouillard,12 places,Non,Oui,Non,34871.2,1
+2025-12-07,Ankorondrano – Itaosy,06:45,08:08,21,30,17.0,10,Oui,Non,1,70.0,1.7,45.6,Pluie,9 places,Non,Non,Oui,14262.85,1
+2025-12-08,Mahamasina – 67Ha,19:15,20:42,27,35,14.5,14,Non,Oui,1,77.1,1.04,38.9,Brouillard,5 places,Oui,Non,Non,25191.21,5
+2025-12-09,Ankorondrano – Itaosy,11:45,12:49,14,30,11.6,15,Non,Non,0,46.7,0.77,31.1,Soleil,5 places,Non,Non,Non,35039.75,1
+2025-12-10,Ankorondrano – Itaosy,19:00,19:51,12,30,16.4,19,Oui,Non,2,40.0,0.86,44.0,Soleil,7 places,Non,Non,Non,33961.0,1
+2025-12-11,Analakely – Ankatso,05:00,06:20,8,40,9.5,11,Non,Non,1,20.0,0.86,25.5,Pluie,7 places,Non,Non,Non,25312.42,2
+2025-12-12,Ambohijatovo – Anosizato,18:30,19:57,34,40,11.0,17,Non,Non,1,85.0,0.65,29.5,Soleil,7 places,Non,Non,Non,39302.83,3
+2025-12-13,Andavamamba – Ivato,11:00,12:06,30,35,11.6,17,Non,Oui,1,85.7,0.68,31.1,Brouillard,12 places,Oui,Non,Oui,8573.87,1
+2025-12-14,Andavamamba – Ivato,12:00,13:28,17,25,15.7,18,Non,Non,0,68.0,0.87,42.1,Pluie,12 places,Oui,Non,Oui,48913.94,4
+2025-12-15,Ambohijatovo – Anosizato,11:15,12:20,8,40,17.9,13,Non,Non,1,20.0,1.38,48.0,Orage,9 places,Oui,Non,Non,29300.54,1
+2025-12-16,Mahamasina – 67Ha,15:00,15:39,11,40,9.4,15,Non,Non,0,27.5,0.63,25.2,Pluie,5 places,Non,Non,Oui,29357.0,3
+2025-12-17,Andavamamba – Ivato,11:00,12:06,30,35,11.6,17,Non,Oui,1,85.7,0.68,31.1,Brouillard,12 places,Oui,Non,Oui,8573.87,1
+2025-12-18,Analakely – Ankatso,17:45,18:51,26,30,12.0,13,Non,Non,1,86.7,0.92,32.2,Vent fort,12 places,Oui,Non,Oui,17268.08,1
+2025-12-19,Andavamamba – Ivato,10:30,11:02,33,35,13.4,16,Non,Non,1,94.3,0.84,35.9,Soleil,9 places,Non,Oui,Non,48568.7,5
+2025-12-20,Analakely – Ankatso,15:15,16:27,26,40,17.8,17,Non,Oui,0,65.0,1.05,47.7,Orage,9 places,Oui,Oui,Oui,21696.74,5
+2025-12-21,Analakely – Ankatso,15:45,17:14,18,40,13.4,11,Non,Oui,1,45.0,1.22,35.9,Pluie,5 places,Oui,Oui,Oui,34453.0,4
+2025-12-22,Ankorondrano – Itaosy,09:45,10:39,31,40,12.8,20,Non,Non,1,77.5,0.64,34.3,Soleil,9 places,Non,Non,Non,13348.65,1
+2025-12-23,Mahamasina – 67Ha,16:30,17:25,7,30,9.0,14,Non,Oui,1,23.3,0.64,24.1,Brouillard,9 places,Non,Non,Oui,12560.64,2
+2025-12-24,Analakely – Ankatso,20:15,21:34,24,25,11.5,15,Non,Non,1,96.0,0.77,30.8,Soleil,12 places,Oui,Non,Oui,22662.21,5
+2025-12-25,Analakely – Ankatso,20:15,21:34,24,25,11.5,15,Non,Non,1,96.0,0.77,30.8,Soleil,12 places,Oui,Non,Oui,22662.21,5
+2025-12-26,Mahamasina – 67Ha,19:15,20:14,5,25,15.3,14,Non,Non,1,20.0,1.09,41.0,Soleil,7 places,Non,Non,Oui,14864.63,2
+2025-12-27,Ambohijatovo – Anosizato,05:15,06:13,40,40,15.0,14,Oui,Non,0,100.0,1.07,40.2,Brouillard,7 places,Oui,Non,Non,12971.74,4
+2025-12-28,Ankorondrano – Itaosy,12:45,14:01,25,25,10.5,17,Non,Oui,4,100.0,0.62,28.1,Vent fort,5 places,Oui,Non,Non,28902.63,5
+2025-12-29,Ambohijatovo – Anosizato,17:00,17:43,23,25,17.3,17,Oui,Non,3,92.0,1.02,46.4,Pluie,5 places,Non,Non,Non,36296.02,5
+2025-12-30,Ankorondrano – Itaosy,08:00,08:34,26,40,9.4,15,Non,Non,0,65.0,0.63,25.2,Brouillard,7 places,Non,Non,Non,20974.83,2
+2025-12-31,Analakely – Ankatso,18:30,19:49,12,40,17.3,12,Non,Non,0,30.0,1.44,46.4,Orage,5 places,Oui,Non,Oui,41863.5,1
+2026-01-01,Andavamamba – Ivato,10:45,11:31,18,25,10.9,11,Oui,Oui,4,72.0,0.99,29.2,Pluie,7 places,Oui,Non,Non,34782.76,4
+2026-01-02,Ankorondrano – Itaosy,12:15,13:20,16,35,12.8,16,Non,Non,0,45.7,0.8,34.3,Brouillard,12 places,Non,Non,Non,14006.76,5
+2026-01-03,Andavamamba – Ivato,14:00,15:00,21,30,8.1,15,Non,Non,1,70.0,0.54,21.7,Pluie,5 places,Oui,Non,Oui,32000.92,5
+2026-01-04,Mahamasina – 67Ha,06:15,07:07,15,40,17.4,11,Oui,Non,1,37.5,1.58,46.6,Soleil,7 places,Non,Non,Oui,18640.78,1
+2026-01-05,Andavamamba – Ivato,09:15,10:44,32,35,12.2,10,Oui,Non,1,91.4,1.22,32.7,Soleil,7 places,Oui,Non,Oui,16595.73,1
+2026-01-06,Analakely – Ankatso,14:00,14:59,8,25,13.7,15,Non,Non,1,32.0,0.91,36.7,Vent fort,9 places,Non,Non,Non,19985.09,5
+2026-01-07,Ankorondrano – Itaosy,07:00,07:51,21,35,12.6,18,Oui,Oui,0,60.0,0.7,33.8,Orage,9 places,Oui,Non,Non,18543.36,2
+2026-01-08,Ankorondrano – Itaosy,13:30,14:22,30,40,11.5,19,Non,Oui,3,75.0,0.61,30.8,Vent fort,5 places,Non,Non,Oui,38872.25,1
+2026-01-09,Andavamamba – Ivato,16:45,17:18,34,40,15.3,15,Non,Non,1,85.0,1.02,41.0,Soleil,12 places,Oui,Oui,Oui,43896.12,3
+2026-01-10,Ambohijatovo – Anosizato,05:30,06:19,21,25,13.9,12,Non,Non,1,84.0,1.16,37.3,Brouillard,9 places,Oui,Oui,Oui,9563.94,4
+2026-01-11,Analakely – Ankatso,07:15,08:44,6,25,13.2,11,Oui,Non,0,24.0,1.2,35.4,Vent fort,7 places,Non,Oui,Non,42017.64,5

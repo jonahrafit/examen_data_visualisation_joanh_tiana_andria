@@ -1,158 +1,119 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<title>Radar Chart - Analyse des pannes par météo</title>
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<style>
-  body { font-family: Arial, sans-serif; margin: 30px; }
-  .axis line, .axis circle {
-    stroke: #999;
-    stroke-width: 1px;
-    fill: none;
-  }
-  .area {
-    fill: steelblue;
-    fill-opacity: 0.5;
-  }
-  .axis-label {
-    font-size: 12px;
-    font-weight: bold;
-    fill: #333;
-  }
-  .tooltip {
-    position: absolute;
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 4px 8px;
-    font-size: 12px;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-</style>
+  <meta charset="UTF-8">
+  <title>Pannes par mois et periode 2024</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 30px; }
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 13px;
+      pointer-events: none;
+      opacity: 0;
+    }
+    .bar:hover { fill-opacity: 1; }
+  </style>
 </head>
 <body>
 
-<h2>Radar Chart - Analyse des pannes par météo</h2>
-<svg width="600" height="600"></svg>
-
-<div class="tooltip" id="tooltip"></div>
+<h2>Nombre de pannes par mois et par periode en 2024</h2>
+<svg width="960" height="500"></svg>
+<div class="tooltip"></div>
 
 <script>
-const svg = d3.select("svg"),
-      width = +svg.attr("width"),
-      height = +svg.attr("height"),
-      margin = 60,
-      radius = Math.min(width, height) / 2 - margin;
+  const parseDate = d3.timeParse("%Y-%m-%d");
+  const formatMonth = d3.timeFormat("%b");
 
-const g = svg.append("g")
-  .attr("transform", `translate(${width/2},${height/2})`);
+  const tooltip = d3.select(".tooltip");
 
-const tooltip = d3.select("#tooltip");
-
-d3.csv("transmada_data_500_with_date.csv").then(data => {
-  const pannesParMeteo = d3.rollups(
-    data,
-    v => v.filter(d => d.Panne === "Oui").length,
-    d => d.Météo
-  );
-
-  const categories = pannesParMeteo.map(d => d[0]);
-  const values = pannesParMeteo.map(d => d[1]);
-  const maxValue = d3.max(values);
-
-  const angleSlice = (2 * Math.PI) / categories.length;
-
-  // Echelle radiale (distance du centre)
-  const rScale = d3.scaleLinear()
-    .range([0, radius])
-    .domain([0, maxValue]);
-
-  // Axe circulaire concentriques
-  const levels = 5;
-  for(let level = 1; level <= levels; level++) {
-    const rLevel = radius / levels * level;
-    g.append("circle")
-      .attr("r", rLevel)
-      .attr("fill", "none")
-      .attr("stroke", "#CDCDCD")
-      .attr("stroke-dasharray", "2,2");
-    
-    // Label de l’échelle
-    g.append("text")
-      .attr("x", 4)
-      .attr("y", -rLevel)
-      .attr("font-size", "10px")
-      .attr("fill", "#777")
-      .text(Math.round(maxValue * level / levels));
-  }
-
-  // Axes radiaux (lignes)
-  const axis = g.selectAll(".axis")
-    .data(categories)
-    .enter()
-    .append("g")
-    .attr("class", "axis");
-
-  axis.append("line")
-    .attr("x1", 0)
-    .attr("y1", 0)
-    .attr("x2", (d,i) => rScale(maxValue * 1.1) * Math.cos(angleSlice * i - Math.PI/2))
-    .attr("y2", (d,i) => rScale(maxValue * 1.1) * Math.sin(angleSlice * i - Math.PI/2))
-    .attr("stroke", "grey")
-    .attr("stroke-width", "1px");
-
-  axis.append("text")
-    .attr("class", "axis-label")
-    .attr("x", (d,i) => rScale(maxValue * 1.2) * Math.cos(angleSlice * i - Math.PI/2))
-    .attr("y", (d,i) => rScale(maxValue * 1.2) * Math.sin(angleSlice * i - Math.PI/2))
-    .attr("text-anchor", "middle")
-    .attr("dy", "0.35em")
-    .text(d => d);
-
-  // Préparer les points pour la zone
-  const radarLine = d3.lineRadial()
-    .radius(d => rScale(d.value))
-    .angle((d,i) => i * angleSlice)
-    .curve(d3.curveLinearClosed);
-
-  const radarData = pannesParMeteo.map((d,i) => ({axis: d[0], value: d[1]}));
-
-  // Dessiner la zone radar
-  g.append("path")
-    .datum(radarData)
-    .attr("class", "area")
-    .attr("d", radarLine)
-    .attr("fill", "steelblue")
-    .attr("fill-opacity", 0.5)
-    .attr("stroke", "steelblue")
-    .attr("stroke-width", 2);
-
-  // Dessiner les points et tooltip
-  g.selectAll(".radarCircle")
-    .data(radarData)
-    .enter()
-    .append("circle")
-    .attr("class", "radarCircle")
-    .attr("r", 5)
-    .attr("cx", (d,i) => rScale(d.value) * Math.cos(angleSlice * i - Math.PI/2))
-    .attr("cy", (d,i) => rScale(d.value) * Math.sin(angleSlice * i - Math.PI/2))
-    .attr("fill", "steelblue")
-    .attr("stroke", "#fff")
-    .attr("stroke-width", 2)
-    .on("mouseover", function(event, d) {
-      tooltip.style("opacity", 1)
-             .html(`<strong>${d.axis}</strong><br/>Pannes: ${d.value}`)
-             .style("left", (event.pageX + 10) + "px")
-             .style("top", (event.pageY - 28) + "px");
-      d3.select(this).attr("r", 8);
-    })
-    .on("mouseout", function() {
-      tooltip.style("opacity", 0);
-      d3.select(this).attr("r", 5);
+  d3.csv("transmada_data_1000_with_date.csv").then(data => {
+    // Nettoyage
+    data.forEach(d => {
+      d.Date = parseDate(d.Date);
+      d.Mois = formatMonth(d.Date);
+      d.Panne = d.Panne.trim() === "Oui" ? 1 : 0;
     });
-});
+
+    // Déterminer tous les mois et types de météo présents
+    const mois = Array.from(new Set(data.map(d => d.Mois))).sort((a, b) =>
+      new Date("2024-" + a + "-01") - new Date("2024-" + b + "-01")
+    );
+    const meteos = Array.from(new Set(data.map(d => d.Météo)));
+
+    // Agrégation : { mois, meteo1: x, meteo2: y, ... }
+    const groupedData = mois.map(m => {
+      const result = { mois: m };
+      meteos.forEach(meteo => {
+        result[meteo] = data.filter(d => d.Mois === m && d.Météo === meteo && d.Panne === 1).length;
+      });
+      return result;
+    });
+
+    // Construction du graphique groupé
+    const svg = d3.select("svg");
+    const margin = {top: 40, right: 20, bottom: 50, left: 50};
+    const width = +svg.attr("width") - margin.left - margin.right;
+    const height = +svg.attr("height") - margin.top - margin.bottom;
+    const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+    const x0 = d3.scaleBand().domain(mois).range([0, width]).padding(0.2);
+    const x1 = d3.scaleBand().domain(meteos).range([0, x0.bandwidth()]).padding(0.05);
+    const y = d3.scaleLinear()
+      .domain([0, d3.max(groupedData, d => d3.max(meteos, k => d[k])) + 1])
+      .range([height, 0])
+      .nice();
+
+    const color = d3.scaleOrdinal().domain(meteos).range(d3.schemeSet2);
+
+    // Axes
+    g.append("g")
+      .attr("transform", `translate(0,${height})`)
+      .call(d3.axisBottom(x0));
+    g.append("g").call(d3.axisLeft(y));
+
+    // Barres
+    g.selectAll("g.mois")
+      .data(groupedData)
+      .join("g")
+        .attr("class", "mois")
+        .attr("transform", d => `translate(${x0(d.mois)},0)`)
+      .selectAll("rect")
+      .data(d => meteos.map(m => ({ key: m, value: d[m], mois: d.mois })))
+      .join("rect")
+        .attr("x", d => x1(d.key))
+        .attr("y", d => y(d.value))
+        .attr("width", x1.bandwidth())
+        .attr("height", d => height - y(d.value))
+        .attr("fill", d => color(d.key))
+        .attr("class", "bar")
+        .on("mousemove", (event, d) => {
+          tooltip.style("opacity", 1)
+            .style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 30) + "px")
+            .html(`<strong>${d.mois}</strong><br/>Météo : ${d.key}<br/>Pannes : ${d.value}`);
+        })
+        .on("mouseout", () => tooltip.style("opacity", 0));
+
+    // Légende
+    const legend = svg.append("g")
+      .attr("transform", `translate(${width - 100}, 10)`);
+
+    meteos.forEach((meteo, i) => {
+      const row = legend.append("g").attr("transform", `translate(0,${i * 20})`);
+      row.append("rect")
+        .attr("width", 15).attr("height", 15)
+        .attr("fill", color(meteo));
+      row.append("text")
+        .attr("x", 20).attr("y", 12)
+        .text(meteo)
+        .style("font-size", "13px");
+    });
+  });
 </script>
 
 </body>
